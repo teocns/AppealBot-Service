@@ -8,13 +8,10 @@ from proxy_handler import Proxy,ProxyHandler
 
 # Recap Background Service
 proxyHandler = ProxyHandler()
+print('Starting FORM_SUBMIT_SERVICE. Total proxies = {}'.format(proxyHandler.total_proxies))
+
 while True:
-	
-	
 	# Start by Fetching Instagram Accounts
-
-	print('Looking for Instagram account(s) that seek for form submit...')
-
 	appeal_info = req('get_appeal_process')
 
 
@@ -62,7 +59,9 @@ while True:
 				'status': 'unknown'
 			})
 			print(f"[{appeal_info['ig_account_username']}] Failed submitting form")
-	
+		if not proxy:
+			print ('Sleeping 60 seconds because no proxy is avaialble.')
+			sleep(60) 
 	
 
 
