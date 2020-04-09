@@ -10,7 +10,7 @@ from time import sleep
 import random
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 from proxy_chrome import proxy_chrome
-from pyvirtualdisplay import Display
+
 
 
 class FormOne:
