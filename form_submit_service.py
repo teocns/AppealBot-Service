@@ -19,7 +19,8 @@ while True:
 
 
 	if not appeal_info:
-		print("No appeal info found")
+		print("No appeal info found, sleeping 10 seconds")
+		sleep(10)
 	
 	else:
 		proxy = proxyHandler.getProxy()
