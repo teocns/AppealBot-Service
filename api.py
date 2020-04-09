@@ -20,12 +20,12 @@ def req(action,data = {}):
         )
         #print(res.text);
     except:
-        log(f'[REQUEST] Failed to send respones with action {action}. Respone={res.text}')
+        log(f'[REQUEST] Failed to send respones with action {action}. Respone=\n{res.text}\n')
         return
     try:
         return json.loads(res.text)
     except:
-        log(f'[PARSE REQ JSON] Failed loading JSON response ({res.text})')
+        log(f'[PARSE REQ JSON] Failed loading JSON response (\n{res.text}\n)\n')
         
 def log(text):
     with open('log.txt','a') as file:
