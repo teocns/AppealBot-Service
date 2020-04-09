@@ -35,9 +35,6 @@ class Browser:
 		options.headless = True
 		options.add_argument('--no-sandbox')
 		options.add_argument('--disable-dev-shm-usage')
-
-		options.add_experimental_option('excludeSwitches', ['enable-logging'])
-
 		self.driver = webdriver.Chrome(
 			options=options
 		)
@@ -77,6 +74,10 @@ while True:
 	print(f"Assigning {new_pwd} for {email['email']}")
 	if (email):
 		with Xvfb() as xvfb:
+			browser= Browser()
+			browser.driver.get('https://google.it')
+			print ('success')
+			exit()
 			with Browser() as browser:
 				browser.driver.get('https://mail.ru/')
 				element = browser.driver.find_element_by_id('mailbox:login')
