@@ -28,7 +28,7 @@ CHANGE_PASS_LLINK = 'https://mail.ru/'
 
 class Browser:
 	
-
+	driver = None
 	def __init__(self):
 
 		options = Options()
@@ -41,7 +41,7 @@ class Browser:
 		self.driver = webdriver.Chrome(
 			options=options
 		)
-		self.driver.set_window_size(1920, 1080)
+		
 
 	def __enter__(self):
 		return self.driver
