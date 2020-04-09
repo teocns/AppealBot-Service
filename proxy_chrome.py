@@ -79,10 +79,10 @@ def proxy_chrome(PROXY_HOST,PROXY_PORT,PROXY_USER,PROXY_PASS):
     co.add_argument('--disable-infobars')
     co.add_experimental_option("excludeSwitches",["ignore-certificate-errors"])
     #location of chromedriver, please change it according to your project.
-    chromedriver = os.getcwd()+r'\chromedriver.exe'
+    
     co.add_extension(pluginfile)
     #co.add_argument("--window-size=%s" % "1,1")
     co.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(chromedriver,chrome_options=co)
+    driver = webdriver.Chrome(chrome_options=co)
     #return the driver with added proxy configuration.
     return driver
