@@ -12,7 +12,6 @@ import argparse
 from io import BytesIO
 import base64
 import pprint
-import pymysql.cursors
 
 import requests
 from requests.auth import HTTPBasicAuth

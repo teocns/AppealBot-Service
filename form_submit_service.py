@@ -1,15 +1,12 @@
 import time
-import pymysql
-
 from time import sleep
-
 from form_one import FormOne
 from constants import Constants
 
 from api import req
 from proxy_handler import Proxy,ProxyHandler
-# Recap Background Service
 
+# Recap Background Service
 proxyHandler = ProxyHandler()
 while True:
 	
