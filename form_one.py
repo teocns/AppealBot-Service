@@ -21,7 +21,7 @@ class FormOne:
 		options.headless = True
 		driver = None
 		
-		if proxy:
+		if False:
 			driver = proxy_chrome(proxy.ip, proxy.port,
 								  proxy.user, proxy.password)
 		else:
