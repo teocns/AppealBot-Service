@@ -27,7 +27,7 @@ CHANGE_PASS_LLINK = 'https://mail.ru/'
 
 
 class Browser:
-	executable_path = 'chromedriver.exe'
+	
 
 	def __init__(self):
 
@@ -39,7 +39,6 @@ class Browser:
 		options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 		self.driver = webdriver.Chrome(
-			executable_path=Browser.executable_path,
 			options=options
 		)
 		self.driver.set_window_size(1920, 1080)
