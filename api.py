@@ -1,7 +1,7 @@
 import requests
 import json
 
-REQUEST_ENDPOINT = "http://localhost/api/backend.php"
+REQUEST_ENDPOINT = "http://appealbot.net/api/backend.php"
 
 token = "kasdjhnkas89432ur8jfsakdlnxczvnjfdsahn"
 
