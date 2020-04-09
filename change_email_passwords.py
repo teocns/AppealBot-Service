@@ -22,6 +22,7 @@ from selenium.webdriver.chrome.options import Options
 import string
 import random
 import json
+from xvfbwrapper import Xvfb
 CHANGE_PASS_LLINK = 'https://mail.ru/'
 
 
@@ -31,8 +32,10 @@ class Browser:
 	def __init__(self):
 
 		options = Options()
-		options.add_argument('--headless')
-		options.add_argument('--auto-open-devtools-for-tabs')
+		options.headless = True
+		options.add_argument('--no-sandbox')
+		options.add_argument('--disable-dev-shm-usage')
+
 		options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 		self.driver = webdriver.Chrome(
@@ -74,84 +77,87 @@ while True:
 
 	print(f"Assigning {new_pwd} for {email['email']}")
 	if (email):
-		browser = Browser()
+		with Xvfb() as xvfb:
+			with Browser() as browser:
+				browser.driver.get('https://mail.ru/')
+				element = browser.driver.find_element_by_id('mailbox:login')
+				sleep(5)
+				element.send_keys(email['email'])
+				browser.driver.find_element_by_id(
+					'mailbox:submit').click()
+				sleep(1)
+				browser.driver.find_element_by_id(
+					'mailbox:password').send_keys(email['old_email_password'])
+				sleep(1)
+				browser.driver.find_element_by_id(
+					'mailbox:submit').click()
+				sleep(5)
 
-		browser.driver.get('https://mail.ru/')
-		element = browser.driver.find_element_by_id('mailbox:login')
-		sleep(5)
-		element.send_keys(email['email'])
-		browser.driver.find_element_by_id(
-			'mailbox:submit').click()
-		sleep(1)
-		browser.driver.find_element_by_id(
-			'mailbox:password').send_keys(email['old_email_password'])
-		sleep(1)
-		browser.driver.find_element_by_id(
-			'mailbox:submit').click()
-		sleep(5)
+				# Check to see if there's any captcha
+				ele_captcha = browser.driver.find_elements_by_css_selector(
+					".b-captcha img")
+				if len(ele_captcha) > 0:
+					print('solving captcha')
 
-		# Check to see if there's any captcha
-		ele_captcha = browser.driver.find_elements_by_css_selector(
-			".b-captcha img")
-		if len(ele_captcha) > 0:
-			print('solving captcha')
+					pic_url = browser.driver.execute_script("""
+					var ele = document.querySelector('.b-captcha img');
+					return ele.getAttribute('src')
+					""", ele_captcha[0])
+					# open tab
+					browser.driver.execute_script(
+						f"window.open('https:{pic_url}');")
+					browser.driver.switch_to.window(
+						browser.driver.window_handles[1])
+					base64img = browser.driver.execute_script("""
+											var c = document.createElement('canvas');
+			var ctx = c.getContext('2d');
+			var img = document.querySelector('img');
+			c.height=img.naturalHeight;
+			c.width=img.naturalWidth;
+			ctx.drawImage(img, 0, 0,img.naturalWidth, img.naturalHeight);
+			var base64String = c.toDataURL().substring(22);
+			return base64String;
+										""")
+					browser.driver.close()
+					browser.driver.switch_to.window(
+						browser.driver.window_handles[0])
+					imgdata = base64.b64decode(base64img)
+					filename = 'captcha.jpg'  # I assume you have a way of picking unique filenames
+					with open(filename, 'wb') as f:
+						f.write(imgdata)
+					text = solveCaptcha()
+					print(f'Captcha text: {text}')
+					# Find captcha input button
+					browser.driver.find_element_by_css_selector(
+						'input.b-input.b-input_captcha').send_keys(text)
+					sleep(1)
+					browser.driver.find_element_by_css_selector(
+						'form.js-form button[type="submit"]').click()
+					sleep(5)
 
-			pic_url = browser.driver.execute_script("""
-			var ele = document.querySelector('.b-captcha img');
-			return ele.getAttribute('src')
-			""", ele_captcha[0])
-			# open tab
-			browser.driver.execute_script(f"window.open('https:{pic_url}');")
-			browser.driver.switch_to.window(browser.driver.window_handles[1])
-			base64img = browser.driver.execute_script("""
-									var c = document.createElement('canvas');
-	var ctx = c.getContext('2d');
-	var img = document.querySelector('img');
-	c.height=img.naturalHeight;
-	c.width=img.naturalWidth;
-	ctx.drawImage(img, 0, 0,img.naturalWidth, img.naturalHeight);
-	var base64String = c.toDataURL().substring(22);
-	return base64String;
-								 """)
-			browser.driver.close()
-			browser.driver.switch_to.window(browser.driver.window_handles[0])
-			imgdata = base64.b64decode(base64img)
-			filename = 'captcha.jpg'  # I assume you have a way of picking unique filenames
-			with open(filename, 'wb') as f:
-				f.write(imgdata)
-			text = solveCaptcha()
-			print(f'Captcha text: {text}')
-			# Find captcha input button
-			browser.driver.find_element_by_css_selector(
-				'input.b-input.b-input_captcha').send_keys(text)
-			sleep(1)
-			browser.driver.find_element_by_css_selector(
-				'form.js-form button[type="submit"]').click()
-			sleep(5)
+				browser.driver.get(
+					'https://e.mail.ru/settings/security?changepass&afterReload=1')
+				sleep(5)
 
-		browser.driver.get(
-			'https://e.mail.ru/settings/security?changepass&afterReload=1')
-		sleep(5)
-
-		browser.driver.find_element_by_css_selector(
-			'[data-test-id="old-password-input"]').send_keys(email['old_email_password'])
-		sleep(1)
-		browser.driver.find_element_by_css_selector(
-			'[data-test-id="new-password-input"]').send_keys(new_pwd)
-		sleep(1)
-		browser.driver.find_element_by_css_selector(
-			'[data-test-id="repeat-password-input"]').send_keys(new_pwd)
-		sleep(1)
-		browser.driver.find_element_by_css_selector(
-			'[data-test-id="password-change-submit"]').click()
-		sleep(3)
-		req("confirm_reset_email_password",
-			{
-				'email': email['id'],
-				'password': new_pwd
-			}
-			)
-		browser.driver.quit()
+				browser.driver.find_element_by_css_selector(
+					'[data-test-id="old-password-input"]').send_keys(email['old_email_password'])
+				sleep(1)
+				browser.driver.find_element_by_css_selector(
+					'[data-test-id="new-password-input"]').send_keys(new_pwd)
+				sleep(1)
+				browser.driver.find_element_by_css_selector(
+					'[data-test-id="repeat-password-input"]').send_keys(new_pwd)
+				sleep(1)
+				browser.driver.find_element_by_css_selector(
+					'[data-test-id="password-change-submit"]').click()
+				sleep(3)
+				req("confirm_reset_email_password",
+					{
+						'email': email['id'],
+						'password': new_pwd
+					}
+					)
+				browser.driver.quit()
 	else:
 		print('Finished!!')
 		break
