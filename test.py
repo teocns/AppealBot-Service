@@ -1,5 +1,6 @@
 import requests
 from api import req
+from time import time
 
 
 email = b"Salve,\n\nTi ringraziamo per averci contattato. Prima di poterti fornire assistenza, dobbiamo verificare che tu sia il titolare dell'account. \n\nTi preghiamo di rispondere a questa e-mail allegando una tua foto in cui reggi il codice scritto a mano riportato di seguito.\n\n80867\n\nAssicurati che la foto che invii:\n\n- mostri il codice sopra riportato scritto su un foglio di carta e seguito dal tuo nome completo e dal tuo nome utente;\n- mostri le tue mani che reggono il foglio e il tuo viso per intero;\n- sia ben illuminata, non sia troppo piccola, scura o sfocata;\n- sia allegata alla tua risposta come file JPEG.\n\nTieni presente che anche se questo account non comprende foto tue o viene usato per rappresentare qualcun altro o qualcos'altro, non potremo fornirti assistenza finch\xc3\xa9 non riceviamo una foto che soddisfi questi requisiti.\n\nGrazie,\nIl team di Instagram\n\n"
