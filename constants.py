@@ -20,7 +20,8 @@ class Constants:
 		 b'Please attach a photo of yourself holding a hand-written copy of the code below',
 		 b'Please reply to this email and attach a photo of yourself holding a hand-written copy of the code below',
 		 b'ein Foto von dir bei, auf dem du ein Blatt Papier mit dem handschriftlich vermerkten, nachfolgenden Code',
-		 b'Ti preghiamo di rispondere a questa e-mail allegando una tua foto in cui reggi il codice scritto a mano riportato di seguito'
+		 b'Ti preghiamo di rispondere a questa e-mail allegando una tua foto in cui reggi il codice scritto a mano riportato di seguito',
+		 b'crit sur une feuille de papier propre, suivi de votre nom'
 		 ],
 
 		'ACCOUNT_REACTIVATED':
