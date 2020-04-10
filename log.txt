@@ -1,7 +1,22 @@
 [PARSE REQ JSON] Failed loading JSON response (
 <br />
-<b>Warning</b>:  require_once(/var/www/html/api/../classes/backend-service.php): failed to open stream: No such file or directory in <b>/var/www/html/api/backend.php</b> on line <b>25</b><br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/classes/plan-activation.php</b> on line <b>18</b><br />
 <br />
-<b>Fatal error</b>:  require_once(): Failed opening required '/var/www/html/api/../classes/backend-service.php' (include_path='.:/usr/share/php') in <b>/var/www/html/api/backend.php</b> on line <b>25</b><br />
+<b>Fatal error</b>:  Uncaught Error: Typed property PlanActivation::$expiry must not be accessed before initialization in /var/www/html/classes/plan-activation.php:55
+Stack trace:
+#0 /var/www/html/api/backend.php(206): PlanActivation::VerifyAll()
+#1 {main}
+  thrown in <b>/var/www/html/classes/plan-activation.php</b> on line <b>55</b><br />
+
+)
+[PARSE REQ JSON] Failed loading JSON response (
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/classes/plan-activation.php</b> on line <b>18</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Typed property PlanActivation::$expiry must not be accessed before initialization in /var/www/html/classes/plan-activation.php:55
+Stack trace:
+#0 /var/www/html/api/backend.php(206): PlanActivation::VerifyAll()
+#1 {main}
+  thrown in <b>/var/www/html/classes/plan-activation.php</b> on line <b>55</b><br />
 
 )
