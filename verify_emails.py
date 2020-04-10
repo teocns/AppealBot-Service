@@ -58,17 +58,16 @@ while True:
 			requests.post(
 				url='http://appealbot.net/admin/verify-appeal-emails',
 				data={
-					'email':email['email'],
-					'is_bad':0
+					'email': email['email'],
+					'is_bad': 0
 				}
 			)
 		except:
-	  		requests.post(
+			requests.post(
 				url='http://appealbot.net/admin/verify-appeal-emails',
 				data={
-					'email':email['email'],
-					'is_bad':1
+					'email': email['email'],
+					'is_bad': 1
 				}
 			)
 			print('ERROR')
-
