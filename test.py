@@ -11,7 +11,7 @@ current_email_data = {
     'time_received':int(time.time()) + 132994949,
     'body': str(email),
     'status': 'CODE_RECEIVED',
-    'message_id': email['message_id'],
+    'message_id': '<e1521839071e3154dec0cd153f3353c1@2d4a6334d2f2bb73c1c106ccaf5b5e83c5a47abe274260dadc6a33286199d452>',
     'from': str('Facebook <instagram++aazqggbkbltwbj@support.facebook.com>'),
     'code': '80867',
     'subject': str('My Instagram Account Was Deactivated'),
@@ -19,5 +19,4 @@ current_email_data = {
 }
 
 result = req('register_email_received',data = current_email_data)
-
-print (result['message'])
+print (str(result['message']))

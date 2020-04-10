@@ -45,7 +45,7 @@ while True:
         print(f"[{prttime()}] Requesting to store email ({email['status']}) for {data['ig_account_username']}")
         result = req('register_email_received',data = current_email_data)
         if result['delete_email']:
-            print(f"Deleting email {email['index']} as per backend request")
+            print (result['message'])
             mail_box.dele(email['index']+1)
             
             
