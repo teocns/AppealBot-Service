@@ -3,6 +3,10 @@ from time import sleep
 from helpers import prttime
 while True:
     sleep(1)
-    print(prttime())
-    req('subscription_service');
+    
+    data = req('subscription_service');
+    if data:
+        print(prttime() + data['message'])
+    else:
+        print(prttime() + " No accounts found")
     
