@@ -1,44 +1,7 @@
-[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response (<br />
-<b>Fatal error</b>:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and (status = ? or status = ? ) and is_completed = 0
-
-            order by readi' at line 2 query: select * from appeal_process  
-
-            and (status = ? or status = ? ) and is_completed = 0
-
-            order by reading_service_fetch asc, started asc limit 1 in C:\xampp\htdocs\db\MysqliDb.php:1997
-Stack trace:
-#0 C:\xampp\htdocs\db\MysqliDb.php(559): MysqliDb-&gt;_prepareQuery()
-#1 C:\xampp\htdocs\db\MysqliDb.php(594): MysqliDb-&gt;rawQuery('select * from a...', Array)
-#2 C:\xampp\htdocs\api\backend.php(90): MysqliDb-&gt;rawQueryOne('select * from a...', Array)
-#3 {main}
-  thrown in <b>C:\xampp\htdocs\db\MysqliDb.php</b> on line <b>1997</b><br />
-)[PARSE REQ JSON] Failed loading JSON response (<br />
-<b>Fatal error</b>:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and (status = ? or status = ? ) and is_completed = 0
-
-            order by readi' at line 2 query: select * from appeal_process  
-
-            and (status = ? or status = ? ) and is_completed = 0
-
-            order by reading_service_fetch asc, started asc limit 1 in C:\xampp\htdocs\db\MysqliDb.php:1997
-Stack trace:
-#0 C:\xampp\htdocs\db\MysqliDb.php(559): MysqliDb-&gt;_prepareQuery()
-#1 C:\xampp\htdocs\db\MysqliDb.php(594): MysqliDb-&gt;rawQuery('select * from a...', Array)
-#2 C:\xampp\htdocs\api\backend.php(90): MysqliDb-&gt;rawQueryOne('select * from a...', Array)
-#3 {main}
-  thrown in <b>C:\xampp\htdocs\db\MysqliDb.php</b> on line <b>1997</b><br />
-)[PARSE REQ JSON] Failed loading JSON response (<br />
-<b>Warning</b>:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in <b>C:\xampp\htdocs\db\MysqliDb.php</b> on line <b>567</b><br />
-null)[PARSE REQ JSON] Failed loading JSON response (<br />
-<b>Warning</b>:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in <b>C:\xampp\htdocs\db\MysqliDb.php</b> on line <b>567</b><br />
-null)[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response ()[PARSE REQ JSON] Failed loading JSON response (
-<br />
-<b>Notice</b>:  Trying to get property 'facebook_id' of non-object in <b>/var/www/html/classes/appeal-process.php</b> on line <b>249</b><br />
-<br />
-<b>Notice</b>:  Trying to get property 'started' of non-object in <b>/var/www/html/classes/appeal-process.php</b> on line <b>266</b><br />
-{"delete_email":true}
-)
 [PARSE REQ JSON] Failed loading JSON response (
 <br />
-<b>Notice</b>:  Undefined variable: facebook_id_to_look_for in <b>/var/www/html/classes/appeal-process.php</b> on line <b>256</b><br />
-{"delete_email":true,"message":"No appeal process found"}
+<b>Warning</b>:  require_once(/var/www/html/api/../classes/backend-service.php): failed to open stream: No such file or directory in <b>/var/www/html/api/backend.php</b> on line <b>25</b><br />
+<br />
+<b>Fatal error</b>:  require_once(): Failed opening required '/var/www/html/api/../classes/backend-service.php' (include_path='.:/usr/share/php') in <b>/var/www/html/api/backend.php</b> on line <b>25</b><br />
+
 )
