@@ -13,7 +13,6 @@ last_id_fetched = 0 # useful to skip last id on next iterations
 from helpers import prttime
 
 while True:
-    
     data = req('get_for_reading_service')
     #print(data)
     try:
