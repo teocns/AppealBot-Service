@@ -7,8 +7,6 @@ import time
 import datetime
 import calendar
 
-
-from database import Database
 from email.header import decode_header
 from constants import Constants
 
