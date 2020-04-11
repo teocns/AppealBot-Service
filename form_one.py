@@ -18,12 +18,12 @@ class FormOne:
 	def submit(username, fullname, email, proxy):
 
 		options = Options()
-		options.headless = False
+		options.headless = True
 		options.add_argument('--no-sandbox')
 		options.add_argument('--disable-dev-shm-usage')
 		driver = None
 		with Xvfb() as xvfb:
-			if False:
+			if proxy:
 				driver = proxy_chrome(proxy.ip, proxy.port,
 										proxy.user, proxy.password)
 			else:
