@@ -20,7 +20,6 @@ class FormOne:
 		options = Options()
 		options.headless = True
 		options.add_argument('--no-sandbox')
-		options.add_argument('--no-sandbox')
 		options.add_argument('--disable-dev-shm-usage')
 		driver = None
 		with Xvfb() as xvfb:
@@ -76,12 +75,12 @@ class FormOne:
 			except:
 				try:
 					driver.find_element(
-						By.XPATH, "//div[contains(text(),'Instagram Account is active')]")
+						By.XPATH, "//div[contains(text(),'username or short-link you provided does not belong to an inactive')]")
 					result = "is_active"
 				except:
 					try:
 						driver.find_element(
-							By.XPATH, "//div[contains(text(),'Incorrect Instagram input')]")
+							By.XPATH, "//div[contains(text(),'you provided is not a User. Please provide a valid User')]")
 						result = "is_inexistent"
 					except:
 						result = False

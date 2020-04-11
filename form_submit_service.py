@@ -22,12 +22,12 @@ while True:
 	else:
 		proxy = proxyHandler.getProxy()
 		if proxy:
-			print(f"[{appeal_info['ig_account_username']}] Submitting appeal with proxy {proxy.ip}:{proxy.port}...")
+			print(f"[{{appeal_info['ig_account_username']}}] Submitting appeal with proxy {proxy.ip}:{proxy.port}...")
 		else:
-			print(f"[{appeal_info['ig_account_username']}] Submitting appeal without proxy...")
+			print(f"[{{appeal_info['ig_account_username']}}] Submitting appeal without proxy...")
 		# Send FORM ONE
 		result = FormOne().submit(
-			appeal_info['ig_account_username'], 
+			{appeal_info['ig_account_username']}, 
    			appeal_info['full_name'],
       		appeal_info['email'],
 			proxy
@@ -40,25 +40,25 @@ while True:
 				'status': 'form_submitted'
 			})
 			print(
-				f"[{prttime()}] appeal_info['ig_account_username'] / Form submitted SUCCESSFULLY")
+				f"[{prttime()}] {appeal_info['ig_account_username']} / Form submitted SUCCESSFULLY")
 		elif result == 'is_active':
 			req('register_appeal_status', data={
 				'appeal_process_id': appeal_info['id'],
 				'status': 'is_already_active'
 			})
-			print(f"[{prttime()}] / appeal_info['ig_account_username'] is ALREADY ACTIVE")
+			print(f"[{prttime()}] / {appeal_info['ig_account_username']} is ALREADY ACTIVE")
 		elif result == 'is_inexistent':
 			req('register_appeal_status', data={
 				'appeal_process_id': appeal_info['id'],
 				'status': 'is_inexistent'
 			})
-			print(f"[{prttime()}] / appeal_info['ig_account_username'] is INEXISTENT")
+			print(f"[{prttime()}] / {appeal_info['ig_account_username']} is INEXISTENT")
 		else:
 			req('register_appeal_status', data={
 				'appeal_process_id': appeal_info['id'],
 				'status': 'unknown'
 			})
-			print(f"[{prttime()}] / appeal_info['ig_account_username'] Failed submitting form")
+			print(f"[{prttime()}] / {appeal_info['ig_account_username']} Failed submitting form")
 		if not proxy:
 			print ('Sleeping 60 seconds because no proxy is avaialble.')
 			sleep(60) 	
