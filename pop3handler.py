@@ -43,31 +43,33 @@ class pop3handler:
 		emails_found = []
 
 		for i in range(num_messages):
+			try:
+				raw_email = b"\n".join(mail_box.retr(i+1)[1])
+				parsed_email = email.message_from_bytes(raw_email)
 
-			raw_email = b"\n".join(mail_box.retr(i+1)[1])
-			parsed_email = email.message_from_bytes(raw_email)
+				e_subject = decode_header(parsed_email['Subject'])
+				e_from = decode_header(parsed_email['From'])
+				e_to = decode_header(parsed_email['To'])
+				e_date = decode_header(parsed_email['Date'])
+				e_id = decode_header(parsed_email['Message-ID'])[0][0]
+				subject_output = ""
+				# Mon, 5 Nov 2018 07:47:15 -0800
+				d = datetime.datetime.strptime(
+					e_date[0][0], "%a, %d %b %Y %H:%M:%S %z")
+				e_timestamp = calendar.timegm(d.utctimetuple())
 
-			e_subject = decode_header(parsed_email['Subject'])
-			e_from = decode_header(parsed_email['From'])
-			e_to = decode_header(parsed_email['To'])
-			e_date = decode_header(parsed_email['Date'])
-			e_id = decode_header(parsed_email['Message-ID'])[0][0]
-			subject_output = ""
-			# Mon, 5 Nov 2018 07:47:15 -0800
-			d = datetime.datetime.strptime(
-				e_date[0][0], "%a, %d %b %Y %H:%M:%S %z")
-			e_timestamp = calendar.timegm(d.utctimetuple())
+				if e_subject[0][1] != None:
+					subject_output = e_subject[0][0].decode(e_subject[0][1])
+				else:
+					subject_output = e_subject[0][0]
 
-			if e_subject[0][1] != None:
-				subject_output = e_subject[0][0].decode(e_subject[0][1])
-			else:
-				subject_output = e_subject[0][0]
-
-			if e_from[0][1] != None:
-				from_output = e_from[0][0].decode(e_from[0][1])
-			else:
-				from_output = e_from[0][0]
-			
+				if e_from[0][1] != None:
+					from_output = e_from[0][0].decode(e_from[0][1])
+				else:
+					from_output = e_from[0][0]
+			except:
+				print('Failed decoding email. Skipping')
+				continue
 			if not 'facebook' in from_output:
 				#print ('Deleting non-facebook email')
 				mail_box.dele(i+1)
