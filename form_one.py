@@ -69,18 +69,18 @@ class FormOne:
 			result = False
 			try:
 				driver.find_element(
-					By.XPATH, "//p[contains(text(),'currently have any known issues to report.')]")
+					By.XPATH, "//*[contains(text(),'currently have any known issues to report.')]")
 				time.sleep(2)
 				result = True
 			except:
 				try:
 					driver.find_element(
-						By.XPATH, "//div[contains(text(),'username or short-link you provided does not belong to an inactive')]")
+						By.XPATH, "//*[contains(text(),'username or short-link you provided does not belong to an inactive')]")
 					result = "is_active"
 				except:
 					try:
 						driver.find_element(
-							By.XPATH, "//div[contains(text(),'you provided is not a User. Please provide a valid User')]")
+							By.XPATH, "//*[contains(text(),'you provided is not a User. Please provide a valid User')]")
 						result = "is_inexistent"
 					except:
 						result = False
