@@ -22,9 +22,9 @@ while True:
 	else:
 		proxy = proxyHandler.getProxy()
 		if proxy:
-			print(f"[{{appeal_info['ig_account_username']}}] Submitting appeal with proxy {proxy.ip}:{proxy.port}...")
+			print(f"[{appeal_info['ig_account_username']}] Submitting appeal with proxy {proxy.ip}:{proxy.port}...")
 		else:
-			print(f"[{{appeal_info['ig_account_username']}}] Submitting appeal without proxy...")
+			print(f"[{appeal_info['ig_account_username']}] Submitting appeal without proxy...")
 		# Send FORM ONE
 		result = FormOne().submit(
 			{appeal_info['ig_account_username']}, 
