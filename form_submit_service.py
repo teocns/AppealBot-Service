@@ -27,7 +27,7 @@ while True:
 			print(f"[{appeal_info['ig_account_username']}] Submitting appeal without proxy...")
 		# Send FORM ONE
 		result = FormOne().submit(
-			{appeal_info['ig_account_username']}, 
+			appeal_info['ig_account_username'], 
    			appeal_info['full_name'],
       		appeal_info['email'],
 			proxy
@@ -44,7 +44,7 @@ while True:
 		elif result == 'is_active':
 			req('register_appeal_status', data={
 				'appeal_process_id': appeal_info['id'],
-				'status': 'is_already_active'
+				'status': 'is_active'
 			})
 			print(f"[{prttime()}] / {appeal_info['ig_account_username']} is ALREADY ACTIVE")
 		elif result == 'is_inexistent':

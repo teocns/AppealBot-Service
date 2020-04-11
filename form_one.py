@@ -18,14 +18,14 @@ class FormOne:
 	def submit(username, fullname, email, proxy):
 
 		options = Options()
-		options.headless = True
+		options.headless = False
 		options.add_argument('--no-sandbox')
 		options.add_argument('--disable-dev-shm-usage')
 		driver = None
 		with Xvfb() as xvfb:
 			if False:
 				driver = proxy_chrome(proxy.ip, proxy.port,
-									  proxy.user, proxy.password)
+										proxy.user, proxy.password)
 			else:
 				driver = webdriver.Chrome(options=options)
 
@@ -51,11 +51,11 @@ class FormOne:
 			e_button = driver.find_elements(
 				By.XPATH, "//form[@action='/ajax/help/contact/submit/page']//button")
 
-			e_fullname.send_keys(fullname)
+			e_fullname.send_keys(str(fullname))
 			time.sleep(1)
-			e_username.send_keys(username)
+			e_username.send_keys(str(username))
 			time.sleep(1)
-			e_email.send_keys(email)
+			e_email.send_keys(str(email))
 			time.sleep(1)
 			e_country.send_keys('United States')
 			time.sleep(1)
@@ -88,3 +88,4 @@ class FormOne:
 			driver.close()
 			driver.quit()
 			return result
+
