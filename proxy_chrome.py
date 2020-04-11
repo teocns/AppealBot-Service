@@ -79,7 +79,6 @@ def proxy_chrome(PROXY_HOST,PROXY_PORT,PROXY_USER,PROXY_PASS):
     co.add_argument('--disable-infobars')
     co.add_argument('--no-sandbox')
     co.add_argument('--disable-dev-shm-usage')
-    co.headless = True
     co.add_experimental_option("excludeSwitches",["ignore-certificate-errors"])
     #location of chromedriver, please change it according to your project.
     
