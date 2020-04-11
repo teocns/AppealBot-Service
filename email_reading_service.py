@@ -23,7 +23,7 @@ while True:
         continue
     
     # This status is in FORM SUBMITTED status and seeks for email read. Let's search for the email sent by Facebook
-    print (f"[{prttime()}] Checking emails for {data['ig_account_username']} / {data['email']}")
+    print (f"[{prttime()}] Checking emails for {data['ig_account_username']} / {data['email']} (SENDER AP {data['appeal_process_id']})")
     
     
     
