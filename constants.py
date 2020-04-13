@@ -19,6 +19,7 @@ class Constants:
 		[b'\x87\xe0\xb8\xa5\xe0\xb9\x88\xe0\xb8\xb2\xe0\xb8\x87\xe0\xb8\x99\xe0\xb8\xb5\xe0\xb9\x89',
 		 b'Please attach a photo of yourself holding a hand-written copy of the code below',
 		 b'Please reply to this email and attach a photo of yourself holding a hand-written copy of the code below',
+		 b'reply to this email and attach a photo of yourself holding'
 		 b'ein Foto von dir bei, auf dem du ein Blatt Papier mit dem handschriftlich vermerkten, nachfolgenden Code',
 		 b'Ti preghiamo di rispondere a questa e-mail allegando una tua foto in cui reggi il codice scritto a mano riportato di seguito',
 		 b'crit sur une feuille de papier propre, suivi de votre nom',
