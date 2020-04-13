@@ -33,7 +33,7 @@ while True:
             'appeal_process_id':  data['id'],
             'time_fetched': int(time.time()),
             'time_received':email['timestamp'],
-            'body': str(email['body']).decode('utf-8'),
+            'body': email['body'].decode('utf-8'),
             'status': email['status'],
             'message_id': email['message_id'],
             'from': str(email['from']),
