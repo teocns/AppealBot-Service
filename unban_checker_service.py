@@ -48,7 +48,6 @@ while True:
 		cur_proxy_index = 0
 	cur_proxy = proxy_cookie_pairs[cur_proxy_index]
 	afs = req('get_for_unban_checker_service')
-
 	if (afs):
 		print(f"Checking {afs['username']} with proxy {cur_proxy['proxy_ip_port']}..")
 		username = afs['username']
