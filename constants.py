@@ -38,7 +38,7 @@ class Constants:
 		[b"Your account has been disabled for not following the Instagram Community Guidelines and we won't be able to reactivate it",
 		 b'If you think your account was disabled by mistake, you can let us know from within the app',
 		 b"We disable Instagram accounts that don't follow our Terms of Use",
-		 b"e’ve determined that you're ineligible to use Instagram"
+		 b"determined that you're ineligible to use Instagram"
    
 		],
 
