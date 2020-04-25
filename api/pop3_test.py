@@ -42,8 +42,8 @@ def pop3_test(email_ru, password):
 
 		num_messages = len(mail_box.list()[1])
 		mail_box.quit()
-		return True
+		return '{"resolved":true}'
 	except:
-		return False
+		return '{"resolved":false}'
 
 print ( pop3_test(args.email,args.password) )
