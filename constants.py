@@ -29,7 +29,9 @@ class Constants:
 		'ACCOUNT_REACTIVATED':
 		[	b'Your account has been reactivated, and you should be able to access it now',
 		  b'ponovo aktiviran, pa biste mu sada trebali',
-		  b'investigated your report and it looks like this is no longer an issue'],
+		  b'investigated your report and it looks like this is no longer an issue',
+		b'account has been reactivated'
+    ],
 
 		'PROBLEM_LOGGING_IN':
 		[	b"It looks like you're having a problem logging in"],
