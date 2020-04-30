@@ -1,7 +1,7 @@
 import requests
 import json
 
-REQUEST_ENDPOINT = "https://appealbot.net/api/backend.php"
+REQUEST_ENDPOINT = "https://beta.appealbot.net/api/backend.php"
 
 token = "kasdjhnkas89432ur8jfsakdlnxczvnjfdsahn"
 
@@ -20,12 +20,12 @@ def req(action,data = {}):
         )
         #print(res.text);
     except:
-        log(f'[REQUEST] Failed to send respones with action {action}. Respone=\n{res.text}\n')
+        print(f'Server didnt respond')
         return
     try:
         return json.loads(res.text)
     except:
-        log(f'[PARSE REQ JSON] Failed loading JSON response (\n{res.text}\n)\n')
+        print(f'Server responded with non valid json')
         
 def log(text):
     with open('log.txt','a') as file:

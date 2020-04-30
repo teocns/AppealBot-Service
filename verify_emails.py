@@ -4,11 +4,11 @@ import pprint
 import email
 import poplib
 import re
-
+from time import sleep
 import time
 import datetime
 import calendar
-
+from api import req
 
 from email.header import decode_header
 
@@ -22,52 +22,45 @@ from email.mime.multipart import MIMEMultipart
 
 class pop3handler:
 
-	def __init__(self, email_ru, password):
+    def __init__(self, email_ru, password, pop_server):
 
-		SRV = "pop.mail.ru"
-		PORT = 995
+        SRV = pop_server
+        PORT = 995
 
-		USER = email_ru
-		PASSWORD = password
+        USER = email_ru
+        PASSWORD = password
 
-		mail_box = poplib.POP3_SSL(SRV, PORT)
+        mail_box = poplib.POP3_SSL(SRV, PORT)
 
-		mail_box.user(USER)
-		mail_box.pass_(PASSWORD)
-		num_messages = None
+        mail_box.user(USER)
+        mail_box.pass_(PASSWORD)
+        num_messages = None
 
-		num_messages = None
+        num_messages = None
 
-		num_messages = len(mail_box.list()[1])
-		mail_box.quit()
+        num_messages = len(mail_box.list()[1])
+        mail_box.quit()
 
 
 while True:
-	data = requests.get(
-		url='http://appealbot.net/admin/verify-appeal-emails'
-	).text
-
-	if data:
-		email = json.loads(data)
-		try:
-			print(f"Verifying {email['email']}")
-			pwd = email['password']
-			pop3handler(email['email'], pwd)
-			txt = 'OK'
-			print(txt)
-			requests.post(
-				url='http://appealbot.net/admin/verify-appeal-emails',
-				data={
-					'email': email['email'],
-					'is_bad': 0
-				}
-			)
-		except:
-			requests.post(
-				url='http://appealbot.net/admin/verify-appeal-emails',
-				data={
-					'email': email['email'],
-					'is_bad': 1
-				}
-			)
-			print('ERROR')
+    data = req('email_verification_fetch')
+    
+    if data:
+        try:
+            print(f"Verifying {data['email']}")
+            pwd = data['password']
+            pop_server = data['pop_server']
+            pop3handler(data['email'], pwd, pop_server)
+            
+            print('OK')
+            req('email_verification_feedback',{
+                    'email_id': data['id'],
+                    'resolved': True
+			})
+        except:
+            req('email_verification_feedback',{
+                    'email_id': data['id'],
+                    'resolved': False
+			})
+            print('ERROR')
+    sleep(10)
