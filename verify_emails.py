@@ -47,7 +47,7 @@ while True:
     
     if data:
         try:
-            print(f"Verifying {data['email']}")
+            print("Verifying"+data['email'])
             pwd = data['password']
             pop_server = data['pop_server']
             pop3handler(data['email'], pwd, pop_server)
