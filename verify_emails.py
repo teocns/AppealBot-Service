@@ -19,7 +19,7 @@ from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-
+from helpers import prttime
 
 class pop3handler:
 
@@ -48,12 +48,10 @@ while True:
     
     if data:
         try:
-            print("Verifying"+data['email'])
+            print(f"[{prttime()}] Verifying"+data['email'])
             pwd = data['password']
             pop_server = data['pop_server']
             pop3handler(data['email'], pwd, pop_server)
-            
-            print('OK')
             req('email_verification_feedback',{
                     'email_id': data['id'],
                     'resolved': True
@@ -63,5 +61,4 @@ while True:
                     'email_id': data['id'],
                     'resolved': False
 			})
-            print('ERROR')
     sleep(10)
