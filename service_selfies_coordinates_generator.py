@@ -14,9 +14,11 @@ SLASH = str( '\\' if os.name == 'nt' else '/' )
 sys.path.insert(0, '/var/AI/darknet/')
 import darknet
 
-darknet.performDetect()
 
-exit()
+
+exit(
+    darknet.performDetect('/var/appealbot/selfies/9-2000-1821-2973-1493-3293-2215-2219-2580-70.jpg')
+)
 while 1:
     
     data = req('get_service_selfies_coordinates_generator')
