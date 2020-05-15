@@ -38,7 +38,7 @@ while 1:
                 detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
                 confidence = str(int(detection[1])) + "%"
                 print (f"Found with confidence: {confidence}")
-                realBoxCoordinates = getAccurateBox({
+                realBoxCoordinates = getAccurateBox(save_location,{
                     "center_x":detection[2][0],
                     "center_y":detection[2][1],
                     "width":detection[2][2],
