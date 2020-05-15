@@ -11,7 +11,8 @@ SLASH = str( '\\' if os.name == 'nt' else '/' )
 
 # Load darknet 
 
-sys.path.insert(0, '/var/AI/darknet/darknet.py')
+sys.path.insert(0, '/var/AI/darknet/darknet')
+from darknet import performDetect
 
 performDetect()
 
