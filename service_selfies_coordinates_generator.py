@@ -50,7 +50,7 @@ while 1:
                 })
                 coordStr = ""
                 for c in realBoxCoordinates:
-                    coordStr = coordStr + str(c[0]) + "-" + str(c[1])
+                    coordStr = coordStr + str(c[0]) + "-" + str(c[1]) + "-"
                 coordStr = coordStr[0:(len(coordStr)-1)]
                 print (f"Found with confidence: {confidence}; Coords: {coordStr}")
                 req('set_service_selfies_coordinates_generator',{
