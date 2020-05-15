@@ -1,9 +1,7 @@
 import requests
 import json
 
-REQUEST_ENDPOINT = "https://betaapi.appealbot.net/api/backend"
-
-token = "sadsaX+asdsd09i0fs9dmk43jm1ki2432187uf8das778+fsjaifjdsjifsadjkidfa_nhasdfjnvzcxnldkasfj8ru23498saknhjdsak"
+REQUEST_ENDPOINT = "https://beta.appealbot.net/api/backend"
 
 def req(action,data = {}):
     
@@ -17,7 +15,7 @@ def req(action,data = {}):
             url=REQUEST_ENDPOINT,
             json= postdata,
             headers={
-                "X-Token":token
+                "Authorization":"Basic aW10aGViZXN0YnJvOjEyM0FwcGVhbGJvdCo="
             }
         )
         #print(res.text);
