@@ -48,15 +48,7 @@ while 1:
                     "width":detection[2][2],
                     "height":detection[2][3]
                 })
-                exit([
-                    {
-                    "center_x":detection[2][0],
-                    "center_y":detection[2][1],
-                    "width":detection[2][2],
-                    "height":detection[2][3]
-                    },
-                    realBoxCoordinates
-                ])
+                
                 coordStr = ""
                 for c in realBoxCoordinates:
                     coordStr = coordStr + str(c[0]) + "-" + str(c[1]) + "-"
