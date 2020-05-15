@@ -35,7 +35,7 @@ while 1:
                 print ("Not found")
             else:
                 # Get detection with highest confidence ( bruh )
-                detection = sorted(detections,lambda x: x[1], reverse = True)[0]
+                detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
                 confidence = str(int(detection[1])) + "%"
                 print (f"Found with confidence: {confidence}")
                 realBoxCoordinates = getAccurateBox({
