@@ -41,7 +41,7 @@ while 1:
                 # Get detection with highest confidence ( bruh )
                 detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
                 confidence = str(int(detection[1]*100)) + "%"
-                print (f"Found with confidence: {confidence}")
+                
                 realBoxCoordinates = getAccurateBox(save_location,{
                     "center_x":detection[2][0],
                     "center_y":detection[2][1],
@@ -51,7 +51,8 @@ while 1:
                 coordStr = ""
                 for c in realBoxCoordinates:
                     coordStr = coordStr + str(c[0]) + "-" + str(c[1])
-                coordStr = coordStr[0:-(len(coordStr)-1)]
+                coordStr = coordStr[0:(len(coordStr)-1)]
+                print (f"Found with confidence: {confidence}; Coords: {coordStr}")
                 req('set_service_selfies_coordinates_generator',{
                     'selfie_id': selfie['id'],
                     'coordinates': coordStr
