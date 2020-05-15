@@ -23,7 +23,8 @@ class Constants:
 		 b'ein Foto von dir bei, auf dem du ein Blatt Papier mit dem handschriftlich vermerkten, nachfolgenden Code',
 		 b'Ti preghiamo di rispondere a questa e-mail allegando una tua foto in cui reggi il codice scritto a mano riportato di seguito',
 		 b'crit sur une feuille de papier propre, suivi de votre nom',
-		 b'n duke mbajtur nj' #albanian fags
+		 b'n duke mbajtur nj', #albanian fags
+		 b'https://help.instagram.com/contact/606967319425038/'
 		 ],
 
 		'ACCOUNT_REACTIVATED':

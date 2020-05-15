@@ -10,8 +10,9 @@ from time import sleep
 import random
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 from proxy_chrome import proxy_chrome
-from xvfbwrapper import Xvfb
-
+#from xvfbwrapper import Xvfb
+def Xvfb():
+    return False
 
 class FormOne:
 	@staticmethod

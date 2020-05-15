@@ -1,0 +1,2762 @@
+[
+{
+ "frame_id":1, 
+ "filename":"C:\AI\darknet_better\data\test_after\001e59b1-31d9-49fb-9bac-8e3294681ea7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491509, "center_y":0.620567, "width":0.410997, "height":0.231742}, "confidence":0.888921}
+ ] 
+}, 
+{
+ "frame_id":2, 
+ "filename":"C:\AI\darknet_better\data\test_after\00842311-8d5b-4aaa-92d0-756f133a1619.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.453819, "center_y":0.725616, "width":0.767683, "height":0.410465}, "confidence":0.900768}
+ ] 
+}, 
+{
+ "frame_id":3, 
+ "filename":"C:\AI\darknet_better\data\test_after\009553b3-0629-4342-892b-7d6544fd175c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.539866, "center_y":0.710040, "width":0.728950, "height":0.396802}, "confidence":0.946143}
+ ] 
+}, 
+{
+ "frame_id":4, 
+ "filename":"C:\AI\darknet_better\data\test_after\00e3ce98-6aa3-4dfd-aa95-f4568b5b5c27.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.467405, "center_y":0.678413, "width":0.564619, "height":0.450385}, "confidence":0.420717}
+ ] 
+}, 
+{
+ "frame_id":5, 
+ "filename":"C:\AI\darknet_better\data\test_after\00ee6c56-dd68-4eb3-896d-0f72d94e7eb6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.537883, "center_y":0.714951, "width":0.580018, "height":0.515191}, "confidence":0.867774}
+ ] 
+}, 
+{
+ "frame_id":6, 
+ "filename":"C:\AI\darknet_better\data\test_after\00f45d94-ebcb-4da2-8bc2-b51cef6765c2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.409159, "center_y":0.648012, "width":0.472518, "height":0.475710}, "confidence":0.881478}
+ ] 
+}, 
+{
+ "frame_id":7, 
+ "filename":"C:\AI\darknet_better\data\test_after\01572861-d0b8-4d22-a943-860f0785beca.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.510419, "center_y":0.719491, "width":0.680817, "height":0.317061}, "confidence":0.892438}
+ ] 
+}, 
+{
+ "frame_id":8, 
+ "filename":"C:\AI\darknet_better\data\test_after\01655b48-e30b-49a0-b4a2-b6a8520b0051.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.502486, "center_y":0.709545, "width":0.441430, "height":0.240457}, "confidence":0.967678}, 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.808151, "center_y":0.453493, "width":0.234275, "height":0.481578}, "confidence":0.257623}
+ ] 
+}, 
+{
+ "frame_id":9, 
+ "filename":"C:\AI\darknet_better\data\test_after\0191d249-354a-4e2b-9104-883d652de9a1.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.450747, "center_y":0.784148, "width":0.565536, "height":0.355738}, "confidence":0.726907}
+ ] 
+}, 
+{
+ "frame_id":10, 
+ "filename":"C:\AI\darknet_better\data\test_after\01deb08d-0a5a-4a9a-97cf-3c0b9c0dfc58.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.506056, "center_y":0.536855, "width":0.484020, "height":0.851562}, "confidence":0.524552}
+ ] 
+}, 
+{
+ "frame_id":11, 
+ "filename":"C:\AI\darknet_better\data\test_after\0260a7e9-fbe6-45ce-81c7-43a0662f5de9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.446664, "center_y":0.700256, "width":0.521063, "height":0.578260}, "confidence":0.638848}
+ ] 
+}, 
+{
+ "frame_id":12, 
+ "filename":"C:\AI\darknet_better\data\test_after\0261e16f-3e41-4101-9faf-d38f6fc3b7d0.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.495236, "center_y":0.617040, "width":0.353202, "height":0.277430}, "confidence":0.976396}
+ ] 
+}, 
+{
+ "frame_id":13, 
+ "filename":"C:\AI\darknet_better\data\test_after\0270279c-ff81-42ca-89e9-f0113ad08531.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.519015, "center_y":0.489785, "width":0.365269, "height":0.352002}, "confidence":0.768362}
+ ] 
+}, 
+{
+ "frame_id":14, 
+ "filename":"C:\AI\darknet_better\data\test_after\02b3f06a-4ebf-4d20-bd60-38ba17560954.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.540902, "center_y":0.569003, "width":0.637763, "height":0.884362}, "confidence":0.289019}
+ ] 
+}, 
+{
+ "frame_id":15, 
+ "filename":"C:\AI\darknet_better\data\test_after\02ba86b7-5d9d-4c27-9741-fb7faa5504a6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.539615, "center_y":0.805511, "width":0.961505, "height":0.185338}, "confidence":0.355915}
+ ] 
+}, 
+{
+ "frame_id":16, 
+ "filename":"C:\AI\darknet_better\data\test_after\02dd62bc-aa81-4634-8093-38f833c661bd.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.453802, "center_y":0.676832, "width":0.405998, "height":0.423788}, "confidence":0.684179}
+ ] 
+}, 
+{
+ "frame_id":17, 
+ "filename":"C:\AI\darknet_better\data\test_after\02eb1245-3284-420f-ad24-2c9028da3d33.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.703870, "center_y":0.588825, "width":0.568893, "height":0.606261}, "confidence":0.446806}
+ ] 
+}, 
+{
+ "frame_id":18, 
+ "filename":"C:\AI\darknet_better\data\test_after\03066432-1020-4768-850a-936ce0da0355.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.563921, "center_y":0.753002, "width":0.682944, "height":0.247781}, "confidence":0.881637}
+ ] 
+}, 
+{
+ "frame_id":19, 
+ "filename":"C:\AI\darknet_better\data\test_after\031e1917-3079-411e-801f-8cfdea802404.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.506450, "center_y":0.753645, "width":0.545109, "height":0.466748}, "confidence":0.961828}
+ ] 
+}, 
+{
+ "frame_id":20, 
+ "filename":"C:\AI\darknet_better\data\test_after\032b5495-e2f8-4dba-a206-930ffe57be56.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":21, 
+ "filename":"C:\AI\darknet_better\data\test_after\035e272f-d793-48b2-be1f-eea6be1d3c3e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.563419, "center_y":0.665858, "width":0.541827, "height":0.530937}, "confidence":0.653682}
+ ] 
+}, 
+{
+ "frame_id":22, 
+ "filename":"C:\AI\darknet_better\data\test_after\03602a0c-50c3-4c43-a546-8f718ab094e4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.518032, "center_y":0.723129, "width":0.580276, "height":0.101996}, "confidence":0.669028}
+ ] 
+}, 
+{
+ "frame_id":23, 
+ "filename":"C:\AI\darknet_better\data\test_after\0363c834-f434-4eb2-9dc5-7820d5e38e78.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.500800, "center_y":0.520124, "width":0.670719, "height":0.338562}, "confidence":0.606161}
+ ] 
+}, 
+{
+ "frame_id":24, 
+ "filename":"C:\AI\darknet_better\data\test_after\037d0eea-658f-4e6c-a4d1-d646288be183.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.539553, "center_y":0.671106, "width":0.395621, "height":0.403932}, "confidence":0.680780}
+ ] 
+}, 
+{
+ "frame_id":25, 
+ "filename":"C:\AI\darknet_better\data\test_after\03fd2612-8584-44c6-92ac-9565784080c6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.614753, "center_y":0.748699, "width":0.494236, "height":0.422992}, "confidence":0.969881}
+ ] 
+}, 
+{
+ "frame_id":26, 
+ "filename":"C:\AI\darknet_better\data\test_after\04d6f686-697b-453f-834e-164ae34ac203.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.401712, "center_y":0.441237, "width":0.332243, "height":0.696517}, "confidence":0.549288}
+ ] 
+}, 
+{
+ "frame_id":27, 
+ "filename":"C:\AI\darknet_better\data\test_after\05236dd4-187f-45e6-9c56-c3b92d446443.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.588460, "center_y":0.795320, "width":0.528599, "height":0.394119}, "confidence":0.736808}
+ ] 
+}, 
+{
+ "frame_id":28, 
+ "filename":"C:\AI\darknet_better\data\test_after\0533148d-ff81-4808-833b-ea1e89581be2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.497480, "center_y":0.699731, "width":0.439398, "height":0.393713}, "confidence":0.897355}
+ ] 
+}, 
+{
+ "frame_id":29, 
+ "filename":"C:\AI\darknet_better\data\test_after\0548c1d6-5459-4c51-88d4-1070b95751e9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.480453, "center_y":0.618902, "width":0.404195, "height":0.289858}, "confidence":0.610189}
+ ] 
+}, 
+{
+ "frame_id":30, 
+ "filename":"C:\AI\darknet_better\data\test_after\057bf282-e819-48ec-b9be-76ca829fcac9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.545192, "center_y":0.661665, "width":0.471176, "height":0.412931}, "confidence":0.954227}
+ ] 
+}, 
+{
+ "frame_id":31, 
+ "filename":"C:\AI\darknet_better\data\test_after\0587eda7-7ffa-4982-917e-a19667caa3d7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.616554, "center_y":0.539895, "width":0.813498, "height":0.343124}, "confidence":0.833616}
+ ] 
+}, 
+{
+ "frame_id":32, 
+ "filename":"C:\AI\darknet_better\data\test_after\05e2c43a-03e5-437c-bf6e-e4c1141bd5eb.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.544370, "center_y":0.777627, "width":0.424477, "height":0.370922}, "confidence":0.492630}
+ ] 
+}, 
+{
+ "frame_id":33, 
+ "filename":"C:\AI\darknet_better\data\test_after\063ff852-adb8-493f-ad26-5874911fc5b9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.655204, "center_y":0.592051, "width":0.564878, "height":0.678833}, "confidence":0.684880}
+ ] 
+}, 
+{
+ "frame_id":34, 
+ "filename":"C:\AI\darknet_better\data\test_after\069bc19d-83f7-4533-b904-15d164579db1.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.361457, "center_y":0.587541, "width":0.278646, "height":0.248768}, "confidence":0.837931}
+ ] 
+}, 
+{
+ "frame_id":35, 
+ "filename":"C:\AI\darknet_better\data\test_after\06ddfa6d-711d-4235-978d-b8aba9999c75.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.532397, "center_y":0.779769, "width":0.452555, "height":0.266847}, "confidence":0.642129}
+ ] 
+}, 
+{
+ "frame_id":36, 
+ "filename":"C:\AI\darknet_better\data\test_after\07250024-4036-4c12-8272-80a545f0f4d8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.593656, "center_y":0.611755, "width":0.767149, "height":0.520590}, "confidence":0.722436}
+ ] 
+}, 
+{
+ "frame_id":37, 
+ "filename":"C:\AI\darknet_better\data\test_after\072b37e9-c23a-40d4-a042-2345f3f359e4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.496118, "center_y":0.599509, "width":0.608845, "height":0.267230}, "confidence":0.977728}
+ ] 
+}, 
+{
+ "frame_id":38, 
+ "filename":"C:\AI\darknet_better\data\test_after\074cb710-a76c-4a10-8416-3cd94118b466.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.426888, "center_y":0.654508, "width":0.534446, "height":0.507886}, "confidence":0.873184}
+ ] 
+}, 
+{
+ "frame_id":39, 
+ "filename":"C:\AI\darknet_better\data\test_after\07c05d7e-37ae-4d56-972c-ce24015f337d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.598442, "center_y":0.616660, "width":0.364468, "height":0.317467}, "confidence":0.491354}
+ ] 
+}, 
+{
+ "frame_id":40, 
+ "filename":"C:\AI\darknet_better\data\test_after\07f93094-c239-452e-a884-4442f8ecd816.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.484458, "center_y":0.534018, "width":0.351365, "height":0.281536}, "confidence":0.289800}
+ ] 
+}, 
+{
+ "frame_id":41, 
+ "filename":"C:\AI\darknet_better\data\test_after\086ad284-1cf5-4443-bbf7-50afbda65be8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.306673, "center_y":0.643744, "width":0.261770, "height":0.341211}, "confidence":0.739085}
+ ] 
+}, 
+{
+ "frame_id":42, 
+ "filename":"C:\AI\darknet_better\data\test_after\0899abcf-d0a4-416b-9166-894fad749524.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.465033, "center_y":0.668102, "width":0.854059, "height":0.299441}, "confidence":0.676751}
+ ] 
+}, 
+{
+ "frame_id":43, 
+ "filename":"C:\AI\darknet_better\data\test_after\08a08908-b899-4b20-b055-40f695c63edf.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.504133, "center_y":0.586343, "width":0.324438, "height":0.323705}, "confidence":0.713134}
+ ] 
+}, 
+{
+ "frame_id":44, 
+ "filename":"C:\AI\darknet_better\data\test_after\08a7a9b0-d856-44cd-9228-7b7aa8c0e117.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.551737, "center_y":0.617657, "width":0.825756, "height":0.355703}, "confidence":0.911833}
+ ] 
+}, 
+{
+ "frame_id":45, 
+ "filename":"C:\AI\darknet_better\data\test_after\08f2e803-27a9-406d-b804-9910d7259c84.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491639, "center_y":0.663701, "width":0.625915, "height":0.334590}, "confidence":0.945340}
+ ] 
+}, 
+{
+ "frame_id":46, 
+ "filename":"C:\AI\darknet_better\data\test_after\09061e6f-f6f9-4ef8-aa87-2b433e0f6c39.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.538024, "center_y":0.673173, "width":0.401009, "height":0.205853}, "confidence":0.808515}
+ ] 
+}, 
+{
+ "frame_id":47, 
+ "filename":"C:\AI\darknet_better\data\test_after\094d3fa2-ad75-4a49-bf57-8d4d38a1b59e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.515866, "center_y":0.774621, "width":0.812800, "height":0.354599}, "confidence":0.750207}
+ ] 
+}, 
+{
+ "frame_id":48, 
+ "filename":"C:\AI\darknet_better\data\test_after\0971a849-58f9-4400-b590-84f17d233e19.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.513577, "center_y":0.663471, "width":0.898589, "height":0.502858}, "confidence":0.812441}
+ ] 
+}, 
+{
+ "frame_id":49, 
+ "filename":"C:\AI\darknet_better\data\test_after\099bdb00-3b3f-443b-929c-850c02b0c9fd.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.647714, "center_y":0.556660, "width":0.249691, "height":0.546002}, "confidence":0.433331}
+ ] 
+}, 
+{
+ "frame_id":50, 
+ "filename":"C:\AI\darknet_better\data\test_after\09ac7746-58ac-44ea-87e4-8fefbc110632.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.545694, "center_y":0.624008, "width":0.568480, "height":0.223863}, "confidence":0.674761}
+ ] 
+}, 
+{
+ "frame_id":51, 
+ "filename":"C:\AI\darknet_better\data\test_after\09c11fec-0e13-41c8-9262-8bad44750a68.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491341, "center_y":0.610535, "width":0.743463, "height":0.394708}, "confidence":0.947786}
+ ] 
+}, 
+{
+ "frame_id":52, 
+ "filename":"C:\AI\darknet_better\data\test_after\0a333ad3-ff18-4129-ac6b-6db804278801.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.516794, "center_y":0.572624, "width":0.377331, "height":0.323384}, "confidence":0.638275}
+ ] 
+}, 
+{
+ "frame_id":53, 
+ "filename":"C:\AI\darknet_better\data\test_after\0a65fb6f-4e39-43e1-a639-ea21fa19b584.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.382652, "center_y":0.678149, "width":0.626079, "height":0.288394}, "confidence":0.429006}
+ ] 
+}, 
+{
+ "frame_id":54, 
+ "filename":"C:\AI\darknet_better\data\test_after\0a75538a-ef3f-4e72-8d76-6628263568c2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.501494, "center_y":0.692767, "width":0.478692, "height":0.515208}, "confidence":0.888036}
+ ] 
+}, 
+{
+ "frame_id":55, 
+ "filename":"C:\AI\darknet_better\data\test_after\0a7872ce-1e3a-4d0f-80e8-1c1093286960.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.509642, "center_y":0.463740, "width":0.446210, "height":0.117314}, "confidence":0.676081}
+ ] 
+}, 
+{
+ "frame_id":56, 
+ "filename":"C:\AI\darknet_better\data\test_after\0b0e3bba-16ab-4475-ae39-02c4f3d40cf7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.664708, "center_y":0.624992, "width":0.370408, "height":0.299061}, "confidence":0.706693}
+ ] 
+}, 
+{
+ "frame_id":57, 
+ "filename":"C:\AI\darknet_better\data\test_after\0b28a9a3-a9da-4552-a937-9b8ac8358628.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.543907, "center_y":0.677675, "width":0.799233, "height":0.392744}, "confidence":0.580329}
+ ] 
+}, 
+{
+ "frame_id":58, 
+ "filename":"C:\AI\darknet_better\data\test_after\0b28be44-a412-4612-8825-26b9358e16b6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.471043, "center_y":0.599558, "width":0.255049, "height":0.234602}, "confidence":0.621984}
+ ] 
+}, 
+{
+ "frame_id":59, 
+ "filename":"C:\AI\darknet_better\data\test_after\0b3e6563-33a8-4724-83a6-32036df3fc62.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.485949, "center_y":0.559914, "width":0.558463, "height":0.398493}, "confidence":0.751471}
+ ] 
+}, 
+{
+ "frame_id":60, 
+ "filename":"C:\AI\darknet_better\data\test_after\0bbb9d32-38ab-44cc-b988-32f8cb4baa8f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.565230, "center_y":0.584606, "width":0.651370, "height":0.252142}, "confidence":0.559137}
+ ] 
+}, 
+{
+ "frame_id":61, 
+ "filename":"C:\AI\darknet_better\data\test_after\0c4c1824-50c9-417f-9fae-d12b7ea4dc35.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.293873, "center_y":0.467480, "width":0.419444, "height":0.223664}, "confidence":0.759300}
+ ] 
+}, 
+{
+ "frame_id":62, 
+ "filename":"C:\AI\darknet_better\data\test_after\0c9edecc-a43c-416d-9334-2fbc653c09d0.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.461441, "center_y":0.571685, "width":0.656376, "height":0.336863}, "confidence":0.579962}
+ ] 
+}, 
+{
+ "frame_id":63, 
+ "filename":"C:\AI\darknet_better\data\test_after\0d88ceed-85ed-4c52-858a-f4415f37ab8e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.481872, "center_y":0.726350, "width":0.420303, "height":0.355477}, "confidence":0.386194}
+ ] 
+}, 
+{
+ "frame_id":64, 
+ "filename":"C:\AI\darknet_better\data\test_after\0dbd566c-d536-4d11-b51a-34e46b49eeae.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.461159, "center_y":0.689089, "width":0.729173, "height":0.358107}, "confidence":0.705391}
+ ] 
+}, 
+{
+ "frame_id":65, 
+ "filename":"C:\AI\darknet_better\data\test_after\0e48e701-70ea-434b-9b71-7b7afcd1b162.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.454114, "center_y":0.659998, "width":0.490237, "height":0.534487}, "confidence":0.705934}
+ ] 
+}, 
+{
+ "frame_id":66, 
+ "filename":"C:\AI\darknet_better\data\test_after\0e974823-9822-40e3-8f23-2452effc5e59.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.555394, "center_y":0.670459, "width":0.466751, "height":0.400662}, "confidence":0.922727}
+ ] 
+}, 
+{
+ "frame_id":67, 
+ "filename":"C:\AI\darknet_better\data\test_after\0eed4eb4-65e2-4e02-8186-49712543e173.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.446814, "center_y":0.601869, "width":0.380289, "height":0.275913}, "confidence":0.968635}
+ ] 
+}, 
+{
+ "frame_id":68, 
+ "filename":"C:\AI\darknet_better\data\test_after\0ef73fa9-e415-4cee-bc27-f0ddb9d76d85.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491392, "center_y":0.510979, "width":0.898724, "height":0.437312}, "confidence":0.938751}
+ ] 
+}, 
+{
+ "frame_id":69, 
+ "filename":"C:\AI\darknet_better\data\test_after\0f4dd6f9-520b-433e-82dc-2f96162d480c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.519966, "center_y":0.642759, "width":0.436280, "height":0.411141}, "confidence":0.375000}
+ ] 
+}, 
+{
+ "frame_id":70, 
+ "filename":"C:\AI\darknet_better\data\test_after\0f945aa7-5c61-4749-9545-79631561a2f3.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.509330, "center_y":0.702078, "width":0.464400, "height":0.357280}, "confidence":0.816837}
+ ] 
+}, 
+{
+ "frame_id":71, 
+ "filename":"C:\AI\darknet_better\data\test_after\0faefbfc-27a1-47b7-8124-32ced89b2718.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":72, 
+ "filename":"C:\AI\darknet_better\data\test_after\0fb3b07e-822f-42c7-93fe-9e7fbe4b6afb.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.501929, "center_y":0.714612, "width":0.722794, "height":0.304009}, "confidence":0.950582}
+ ] 
+}, 
+{
+ "frame_id":73, 
+ "filename":"C:\AI\darknet_better\data\test_after\0febc63a-7f86-4502-a2e5-2cf01607143c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.693888, "center_y":0.668287, "width":0.587845, "height":0.611659}, "confidence":0.795332}
+ ] 
+}, 
+{
+ "frame_id":74, 
+ "filename":"C:\AI\darknet_better\data\test_after\0v3hbrad8b301.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.671049, "center_y":0.654777, "width":0.547737, "height":0.495302}, "confidence":0.771089}
+ ] 
+}, 
+{
+ "frame_id":75, 
+ "filename":"C:\AI\darknet_better\data\test_after\1029d0d1-4f0f-4a45-9624-45ef7f9e0d40.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.607874, "center_y":0.721149, "width":0.581112, "height":0.553817}, "confidence":0.902186}
+ ] 
+}, 
+{
+ "frame_id":76, 
+ "filename":"C:\AI\darknet_better\data\test_after\1030928f-abd5-4fd1-9cd5-bf5c92a076a8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.407402, "center_y":0.605918, "width":0.720173, "height":0.421649}, "confidence":0.918263}
+ ] 
+}, 
+{
+ "frame_id":77, 
+ "filename":"C:\AI\darknet_better\data\test_after\106ae847-741f-4439-9b2e-709627e62f92.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.510138, "center_y":0.766286, "width":0.429369, "height":0.382997}, "confidence":0.881789}
+ ] 
+}, 
+{
+ "frame_id":78, 
+ "filename":"C:\AI\darknet_better\data\test_after\107503d3-5e2e-46fa-9c93-dc8870b04049.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.407717, "center_y":0.596102, "width":0.318776, "height":0.316253}, "confidence":0.950638}
+ ] 
+}, 
+{
+ "frame_id":79, 
+ "filename":"C:\AI\darknet_better\data\test_after\10aaec87-9721-42d4-aedd-413d60f8cabe.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.486272, "center_y":0.486907, "width":0.431789, "height":0.316231}, "confidence":0.833148}
+ ] 
+}, 
+{
+ "frame_id":80, 
+ "filename":"C:\AI\darknet_better\data\test_after\1169d90a-7ad2-4d83-a102-71b1fb539203.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.486845, "center_y":0.782523, "width":0.852871, "height":0.394820}, "confidence":0.749859}
+ ] 
+}, 
+{
+ "frame_id":81, 
+ "filename":"C:\AI\darknet_better\data\test_after\11944d6e-a32b-4a10-bacf-08bce41caf0d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.462598, "center_y":0.666546, "width":0.917790, "height":0.494456}, "confidence":0.747801}
+ ] 
+}, 
+{
+ "frame_id":82, 
+ "filename":"C:\AI\darknet_better\data\test_after\119f4282-9698-4d0e-968c-7043e056ff24.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.499246, "center_y":0.664102, "width":0.549984, "height":0.386525}, "confidence":0.935101}
+ ] 
+}, 
+{
+ "frame_id":83, 
+ "filename":"C:\AI\darknet_better\data\test_after\11ab9a5b-9a99-4f42-85f1-40497f482b83.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.499401, "center_y":0.728598, "width":0.625701, "height":0.432291}, "confidence":0.851346}
+ ] 
+}, 
+{
+ "frame_id":84, 
+ "filename":"C:\AI\darknet_better\data\test_after\11b2ed54-25a2-499b-9cc5-378add0e7a98.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.436453, "center_y":0.765804, "width":0.347631, "height":0.291305}, "confidence":0.937234}
+ ] 
+}, 
+{
+ "frame_id":85, 
+ "filename":"C:\AI\darknet_better\data\test_after\11b7433e-5ada-479c-bce0-f4e0a815ad76.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.493836, "center_y":0.510741, "width":0.673644, "height":0.687237}, "confidence":0.284296}
+ ] 
+}, 
+{
+ "frame_id":86, 
+ "filename":"C:\AI\darknet_better\data\test_after\11ceac09-1343-4d00-a696-98b34c23e489.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.480786, "center_y":0.519939, "width":0.301697, "height":0.176699}, "confidence":0.378239}
+ ] 
+}, 
+{
+ "frame_id":87, 
+ "filename":"C:\AI\darknet_better\data\test_after\11faad93-2d53-4e94-8642-3a883e37b77a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.376935, "center_y":0.709454, "width":0.638576, "height":0.286454}, "confidence":0.925985}
+ ] 
+}, 
+{
+ "frame_id":88, 
+ "filename":"C:\AI\darknet_better\data\test_after\12418270-db85-43e5-b843-eeb5aec98e82.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":89, 
+ "filename":"C:\AI\darknet_better\data\test_after\12b6d4a8-851a-4be8-be06-e75ee1515778.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491163, "center_y":0.848549, "width":0.650946, "height":0.311684}, "confidence":0.697847}
+ ] 
+}, 
+{
+ "frame_id":90, 
+ "filename":"C:\AI\darknet_better\data\test_after\12b8c705-ff2c-4a83-8a92-ed7f10914e00.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.468085, "center_y":0.743238, "width":0.462165, "height":0.380876}, "confidence":0.350322}
+ ] 
+}, 
+{
+ "frame_id":91, 
+ "filename":"C:\AI\darknet_better\data\test_after\12f18787-4716-473d-ba76-8a592a567698.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.539216, "center_y":0.674680, "width":0.403420, "height":0.337324}, "confidence":0.702378}
+ ] 
+}, 
+{
+ "frame_id":92, 
+ "filename":"C:\AI\darknet_better\data\test_after\130ea560-a3a3-441f-973b-a547b6253025.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.520383, "center_y":0.763606, "width":0.415570, "height":0.409948}, "confidence":0.685719}
+ ] 
+}, 
+{
+ "frame_id":93, 
+ "filename":"C:\AI\darknet_better\data\test_after\136db241-cec2-49ae-907c-3dce38984cae.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.585266, "center_y":0.719978, "width":0.454398, "height":0.435331}, "confidence":0.753335}
+ ] 
+}, 
+{
+ "frame_id":94, 
+ "filename":"C:\AI\darknet_better\data\test_after\137837b1-768e-480c-9afd-6f715d44d7ca.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.358072, "center_y":0.655482, "width":0.285306, "height":0.153789}, "confidence":0.464310}
+ ] 
+}, 
+{
+ "frame_id":95, 
+ "filename":"C:\AI\darknet_better\data\test_after\13f9a5fe-a633-4f8c-89a8-38d61cfe6fdb.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.464247, "center_y":0.412754, "width":0.610091, "height":0.510168}, "confidence":0.610712}
+ ] 
+}, 
+{
+ "frame_id":96, 
+ "filename":"C:\AI\darknet_better\data\test_after\140bvl3wp8o01.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.496758, "center_y":0.646529, "width":0.568126, "height":0.236789}, "confidence":0.910735}
+ ] 
+}, 
+{
+ "frame_id":97, 
+ "filename":"C:\AI\darknet_better\data\test_after\153862f0-ad45-4060-8711-080d312a2400.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.591395, "center_y":0.728339, "width":0.464728, "height":0.302923}, "confidence":0.338252}
+ ] 
+}, 
+{
+ "frame_id":98, 
+ "filename":"C:\AI\darknet_better\data\test_after\15a7567e-9f6e-463e-8de1-48652efe02ab.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.348174, "center_y":0.349605, "width":0.113895, "height":0.230895}, "confidence":0.972448}
+ ] 
+}, 
+{
+ "frame_id":99, 
+ "filename":"C:\AI\darknet_better\data\test_after\15b6e2ef-93ed-44f2-92a6-3ec709091e5f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.500091, "center_y":0.800014, "width":0.388393, "height":0.203436}, "confidence":0.917552}
+ ] 
+}, 
+{
+ "frame_id":100, 
+ "filename":"C:\AI\darknet_better\data\test_after\15cf5a1b-62fc-4f4f-adfa-3eeb715809d8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.588355, "center_y":0.446322, "width":0.668756, "height":0.271392}, "confidence":0.482983}
+ ] 
+}, 
+{
+ "frame_id":101, 
+ "filename":"C:\AI\darknet_better\data\test_after\15fc675c-5c80-4ad1-98bc-8ff2e3427e58.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.412465, "center_y":0.572432, "width":0.229851, "height":0.093358}, "confidence":0.876283}
+ ] 
+}, 
+{
+ "frame_id":102, 
+ "filename":"C:\AI\darknet_better\data\test_after\161286a8-68bc-47c9-a9ee-2615065b736a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.517700, "center_y":0.769835, "width":0.479052, "height":0.386361}, "confidence":0.913727}
+ ] 
+}, 
+{
+ "frame_id":103, 
+ "filename":"C:\AI\darknet_better\data\test_after\1645114f-9c08-48a8-a332-4780d5400fca.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.496801, "center_y":0.780691, "width":0.654306, "height":0.383663}, "confidence":0.683399}
+ ] 
+}, 
+{
+ "frame_id":104, 
+ "filename":"C:\AI\darknet_better\data\test_after\169918c0-de85-443d-820d-2c48dfb333a8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.417683, "center_y":0.554256, "width":0.376386, "height":0.294772}, "confidence":0.858012}
+ ] 
+}, 
+{
+ "frame_id":105, 
+ "filename":"C:\AI\darknet_better\data\test_after\16b861d7-a72e-48f5-8f45-47fae06fe053.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491517, "center_y":0.641055, "width":0.555973, "height":0.405555}, "confidence":0.733640}
+ ] 
+}, 
+{
+ "frame_id":106, 
+ "filename":"C:\AI\darknet_better\data\test_after\17120992-f7ca-4d04-a77b-0605992d4153.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.338359, "center_y":0.766194, "width":0.436840, "height":0.467448}, "confidence":0.857393}
+ ] 
+}, 
+{
+ "frame_id":107, 
+ "filename":"C:\AI\darknet_better\data\test_after\1745f69c-a4c0-40f7-8dfe-d9b57e7879c5.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.751168, "center_y":0.462927, "width":0.575078, "height":0.314704}, "confidence":0.479709}
+ ] 
+}, 
+{
+ "frame_id":108, 
+ "filename":"C:\AI\darknet_better\data\test_after\1770fc19-344b-4be9-bad3-9c2c34d717c8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.548190, "center_y":0.714052, "width":0.850144, "height":0.428643}, "confidence":0.959323}
+ ] 
+}, 
+{
+ "frame_id":109, 
+ "filename":"C:\AI\darknet_better\data\test_after\17789b66-4607-41d5-b497-92193883bed1.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.401990, "center_y":0.518060, "width":0.727064, "height":0.363620}, "confidence":0.690519}
+ ] 
+}, 
+{
+ "frame_id":110, 
+ "filename":"C:\AI\darknet_better\data\test_after\179e8e0a-ca5d-4a31-8717-29fea360162c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.461274, "center_y":0.700628, "width":0.471977, "height":0.576362}, "confidence":0.463872}
+ ] 
+}, 
+{
+ "frame_id":111, 
+ "filename":"C:\AI\darknet_better\data\test_after\17a13282-fd24-49e2-bd4b-567331aa7685.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.438726, "center_y":0.720060, "width":0.774601, "height":0.431583}, "confidence":0.922705}
+ ] 
+}, 
+{
+ "frame_id":112, 
+ "filename":"C:\AI\darknet_better\data\test_after\17a23a58-dd02-4bc4-ad77-1b0203088b7d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491025, "center_y":0.674393, "width":0.461107, "height":0.401568}, "confidence":0.905016}
+ ] 
+}, 
+{
+ "frame_id":113, 
+ "filename":"C:\AI\darknet_better\data\test_after\17b4ad16-dab1-46fb-9ff5-d1e3a898b9db.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.432677, "center_y":0.608282, "width":0.438923, "height":0.416683}, "confidence":0.890000}
+ ] 
+}, 
+{
+ "frame_id":114, 
+ "filename":"C:\AI\darknet_better\data\test_after\17bee498-a04c-4ce7-96de-18fff1545131.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.607901, "center_y":0.750093, "width":0.712695, "height":0.359502}, "confidence":0.961330}
+ ] 
+}, 
+{
+ "frame_id":115, 
+ "filename":"C:\AI\darknet_better\data\test_after\18072b94-4972-4aec-a7d8-916633569709.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.494628, "center_y":0.706549, "width":0.558440, "height":0.253452}, "confidence":0.852004}
+ ] 
+}, 
+{
+ "frame_id":116, 
+ "filename":"C:\AI\darknet_better\data\test_after\182bd1be-9609-494c-89c7-58e7710770b5.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.410564, "center_y":0.646694, "width":0.466918, "height":0.496341}, "confidence":0.831232}
+ ] 
+}, 
+{
+ "frame_id":117, 
+ "filename":"C:\AI\darknet_better\data\test_after\1830de37-aa44-4982-bbbb-3fb6fc9a7e78.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.619836, "center_y":0.615290, "width":0.384135, "height":0.311861}, "confidence":0.941653}
+ ] 
+}, 
+{
+ "frame_id":118, 
+ "filename":"C:\AI\darknet_better\data\test_after\18a84fe3-ec56-4f65-af6f-821162e3b51b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.492420, "center_y":0.708732, "width":0.294318, "height":0.200134}, "confidence":0.919540}
+ ] 
+}, 
+{
+ "frame_id":119, 
+ "filename":"C:\AI\darknet_better\data\test_after\18b890a2-6fc5-486c-be9a-43b6aa475cc4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.517901, "center_y":0.544713, "width":0.286445, "height":0.280574}, "confidence":0.844887}
+ ] 
+}, 
+{
+ "frame_id":120, 
+ "filename":"C:\AI\darknet_better\data\test_after\1907e8d1-505b-40ca-834d-42ecbe6e9f7a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.497088, "center_y":0.725720, "width":0.459688, "height":0.405296}, "confidence":0.427225}
+ ] 
+}, 
+{
+ "frame_id":121, 
+ "filename":"C:\AI\darknet_better\data\test_after\1912e854-1231-455b-a8c2-79739241e5b9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.454725, "center_y":0.762584, "width":0.647189, "height":0.323748}, "confidence":0.963621}
+ ] 
+}, 
+{
+ "frame_id":122, 
+ "filename":"C:\AI\darknet_better\data\test_after\198b92c8-0137-4df1-9d2a-54bad01ddd9c.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":123, 
+ "filename":"C:\AI\darknet_better\data\test_after\198bd15b-2357-459b-92bf-5efe65551395.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.555530, "center_y":0.547319, "width":0.544080, "height":0.487513}, "confidence":0.970538}
+ ] 
+}, 
+{
+ "frame_id":124, 
+ "filename":"C:\AI\darknet_better\data\test_after\19b3c607-b068-422d-bb1e-1e2983faf9fe.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.538363, "center_y":0.721664, "width":0.580571, "height":0.342121}, "confidence":0.872537}
+ ] 
+}, 
+{
+ "frame_id":125, 
+ "filename":"C:\AI\darknet_better\data\test_after\1a10139a-5c63-48cd-935f-a5becdb29c4b.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":126, 
+ "filename":"C:\AI\darknet_better\data\test_after\1a9af148-70fc-437b-8042-5b40b9d6961a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.661089, "center_y":0.678661, "width":0.622075, "height":0.348029}, "confidence":0.768028}
+ ] 
+}, 
+{
+ "frame_id":127, 
+ "filename":"C:\AI\darknet_better\data\test_after\1aab319e-d5a7-4c01-bec4-bcebfa64a2b9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.430027, "center_y":0.755833, "width":0.909655, "height":0.296353}, "confidence":0.878588}
+ ] 
+}, 
+{
+ "frame_id":128, 
+ "filename":"C:\AI\darknet_better\data\test_after\1aaf11b7-984f-4a59-8422-da63dea99428.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":129, 
+ "filename":"C:\AI\darknet_better\data\test_after\1ab369ce-667e-479a-b26a-a62c8246da81.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.507764, "center_y":0.587473, "width":0.516202, "height":0.343966}, "confidence":0.319041}
+ ] 
+}, 
+{
+ "frame_id":130, 
+ "filename":"C:\AI\darknet_better\data\test_after\1b032d52-042a-4f45-b63a-c735155d6d16.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.462341, "center_y":0.511661, "width":0.536984, "height":0.151871}, "confidence":0.775607}
+ ] 
+}, 
+{
+ "frame_id":131, 
+ "filename":"C:\AI\darknet_better\data\test_after\1b2fc77e-e394-4483-9da8-f3335ba33dfe.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.542789, "center_y":0.588480, "width":0.542002, "height":0.587171}, "confidence":0.767906}
+ ] 
+}, 
+{
+ "frame_id":132, 
+ "filename":"C:\AI\darknet_better\data\test_after\1b5b7240-65da-444f-a11b-c80232de28e0.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.520600, "center_y":0.717785, "width":0.638478, "height":0.492731}, "confidence":0.539166}
+ ] 
+}, 
+{
+ "frame_id":133, 
+ "filename":"C:\AI\darknet_better\data\test_after\1b82b9fa-c4fd-43db-bb12-28bd1e7ff88a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.545483, "center_y":0.666713, "width":0.645788, "height":0.630741}, "confidence":0.812778}
+ ] 
+}, 
+{
+ "frame_id":134, 
+ "filename":"C:\AI\darknet_better\data\test_after\1c1b146b-b20a-4a09-97bc-d70622c1f94f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.454296, "center_y":0.704184, "width":0.876898, "height":0.434041}, "confidence":0.891711}
+ ] 
+}, 
+{
+ "frame_id":135, 
+ "filename":"C:\AI\darknet_better\data\test_after\1cb94e6f-e307-45a1-9434-3b7e4204251b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.433354, "center_y":0.620686, "width":0.432166, "height":0.330893}, "confidence":0.735431}
+ ] 
+}, 
+{
+ "frame_id":136, 
+ "filename":"C:\AI\darknet_better\data\test_after\1cc04f88-1c8e-4db9-bda4-0e8355b19c11.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.754396, "center_y":0.495115, "width":0.520243, "height":0.468820}, "confidence":0.761076}
+ ] 
+}, 
+{
+ "frame_id":137, 
+ "filename":"C:\AI\darknet_better\data\test_after\1d3c83f9-c398-4aa8-8be7-a35e2516f1df.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.711171, "center_y":0.761311, "width":0.464027, "height":0.242511}, "confidence":0.905458}
+ ] 
+}, 
+{
+ "frame_id":138, 
+ "filename":"C:\AI\darknet_better\data\test_after\1d7761fe-1d54-469f-b040-202f1613ad15.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.519769, "center_y":0.678161, "width":0.515861, "height":0.283017}, "confidence":0.318265}
+ ] 
+}, 
+{
+ "frame_id":139, 
+ "filename":"C:\AI\darknet_better\data\test_after\1e1a4042-170a-4dbf-94fb-a176fcc82c24.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.765642, "center_y":0.512724, "width":0.546063, "height":0.274408}, "confidence":0.898413}
+ ] 
+}, 
+{
+ "frame_id":140, 
+ "filename":"C:\AI\darknet_better\data\test_after\1e6d73c0-3fec-4832-8d7d-e0ff8e1c3870.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.463973, "center_y":0.783456, "width":0.606213, "height":0.305117}, "confidence":0.557198}
+ ] 
+}, 
+{
+ "frame_id":141, 
+ "filename":"C:\AI\darknet_better\data\test_after\1e959c40-3194-4e7d-ac7d-357c55c4c580.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.351382, "center_y":0.565069, "width":0.704820, "height":0.703276}, "confidence":0.460475}
+ ] 
+}, 
+{
+ "frame_id":142, 
+ "filename":"C:\AI\darknet_better\data\test_after\1ea8e518-983d-4ea4-871e-ce1143aee5fe.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.513943, "center_y":0.725979, "width":0.917010, "height":0.480532}, "confidence":0.603100}
+ ] 
+}, 
+{
+ "frame_id":143, 
+ "filename":"C:\AI\darknet_better\data\test_after\1eb5af74-aa6a-4d6f-a338-37608c4c3d78.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.505159, "center_y":0.650700, "width":0.691346, "height":0.233759}, "confidence":0.944545}
+ ] 
+}, 
+{
+ "frame_id":144, 
+ "filename":"C:\AI\darknet_better\data\test_after\1ee06657-8a7f-4680-b505-2eb0c8ab0d27.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.511115, "center_y":0.711618, "width":0.481845, "height":0.391314}, "confidence":0.963145}
+ ] 
+}, 
+{
+ "frame_id":145, 
+ "filename":"C:\AI\darknet_better\data\test_after\1f59cacc-20ce-4336-951f-7c52458aae78.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.502690, "center_y":0.667185, "width":0.747898, "height":0.296484}, "confidence":0.943598}
+ ] 
+}, 
+{
+ "frame_id":146, 
+ "filename":"C:\AI\darknet_better\data\test_after\1f5b1f92-d51a-485e-bd2d-465cffd23e06.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.460698, "center_y":0.719816, "width":0.461796, "height":0.373847}, "confidence":0.916318}
+ ] 
+}, 
+{
+ "frame_id":147, 
+ "filename":"C:\AI\darknet_better\data\test_after\1fb0ed35-1198-4821-8961-65bbf97ed43e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.503415, "center_y":0.466308, "width":0.312440, "height":0.278443}, "confidence":0.282694}
+ ] 
+}, 
+{
+ "frame_id":148, 
+ "filename":"C:\AI\darknet_better\data\test_after\202c5e7d-f9d7-48b8-8baa-c560b513c2fc.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.601418, "center_y":0.659780, "width":0.530085, "height":0.439721}, "confidence":0.955115}
+ ] 
+}, 
+{
+ "frame_id":149, 
+ "filename":"C:\AI\darknet_better\data\test_after\20bebfe5-87d5-4f1c-bf05-9d32c0ca4935.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.615907, "center_y":0.499434, "width":0.578999, "height":0.138649}, "confidence":0.695856}
+ ] 
+}, 
+{
+ "frame_id":150, 
+ "filename":"C:\AI\darknet_better\data\test_after\20c4b7a8-1ed5-4dae-ad63-7aa51e41b07e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.459779, "center_y":0.617261, "width":0.857540, "height":0.535702}, "confidence":0.371138}
+ ] 
+}, 
+{
+ "frame_id":151, 
+ "filename":"C:\AI\darknet_better\data\test_after\20e3c2fc-0183-42ca-8483-9d613b788fdd.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.486587, "center_y":0.703508, "width":0.816792, "height":0.500516}, "confidence":0.818227}
+ ] 
+}, 
+{
+ "frame_id":152, 
+ "filename":"C:\AI\darknet_better\data\test_after\217949c4-88fd-46d5-9d9c-853a3f206383.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.409580, "center_y":0.614547, "width":0.531083, "height":0.291098}, "confidence":0.939305}
+ ] 
+}, 
+{
+ "frame_id":153, 
+ "filename":"C:\AI\darknet_better\data\test_after\2265ac3a-7a0c-4a9f-8457-27121ff7d928.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.517411, "center_y":0.584613, "width":0.275843, "height":0.292080}, "confidence":0.513238}
+ ] 
+}, 
+{
+ "frame_id":154, 
+ "filename":"C:\AI\darknet_better\data\test_after\22672ab3-95ba-46dc-b1ca-c8d44bc3e677.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.447942, "center_y":0.697112, "width":0.525211, "height":0.200264}, "confidence":0.948433}
+ ] 
+}, 
+{
+ "frame_id":155, 
+ "filename":"C:\AI\darknet_better\data\test_after\2273c288-2de9-49da-ae1d-e46e62a0f597.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.556480, "center_y":0.717717, "width":0.566125, "height":0.624988}, "confidence":0.426618}
+ ] 
+}, 
+{
+ "frame_id":156, 
+ "filename":"C:\AI\darknet_better\data\test_after\227c29d9-5dbd-4527-a346-180fde72ff0a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.568983, "center_y":0.751261, "width":0.766012, "height":0.339549}, "confidence":0.875618}
+ ] 
+}, 
+{
+ "frame_id":157, 
+ "filename":"C:\AI\darknet_better\data\test_after\22dccc84-df76-4925-91ff-741b42a3ec5a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491753, "center_y":0.356517, "width":0.375143, "height":0.113640}, "confidence":0.900273}
+ ] 
+}, 
+{
+ "frame_id":158, 
+ "filename":"C:\AI\darknet_better\data\test_after\22fa6d3c-a2f7-4566-ba79-aca48b4f7226.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":159, 
+ "filename":"C:\AI\darknet_better\data\test_after\23f06a4a-2f18-4fbb-a6ec-d5e897536465.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.503053, "center_y":0.509903, "width":0.401514, "height":0.550304}, "confidence":0.656494}
+ ] 
+}, 
+{
+ "frame_id":160, 
+ "filename":"C:\AI\darknet_better\data\test_after\23f66ab4-ffc2-4afc-8e9f-3ea80de390ec.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.346494, "center_y":0.442780, "width":0.335553, "height":0.290227}, "confidence":0.967387}
+ ] 
+}, 
+{
+ "frame_id":161, 
+ "filename":"C:\AI\darknet_better\data\test_after\2407357d-7c18-49fa-b97d-b8c0e132c5c6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.487312, "center_y":0.746271, "width":0.515372, "height":0.449109}, "confidence":0.903235}
+ ] 
+}, 
+{
+ "frame_id":162, 
+ "filename":"C:\AI\darknet_better\data\test_after\24295640-04cf-4917-b195-706899c567ba.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.549949, "center_y":0.726542, "width":0.604552, "height":0.541380}, "confidence":0.805037}
+ ] 
+}, 
+{
+ "frame_id":163, 
+ "filename":"C:\AI\darknet_better\data\test_after\24fbecda-3901-4a3e-b1b7-8100d01342d7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.461431, "center_y":0.705256, "width":0.466459, "height":0.384292}, "confidence":0.778106}
+ ] 
+}, 
+{
+ "frame_id":164, 
+ "filename":"C:\AI\darknet_better\data\test_after\24fca0ad-6c75-48f3-a2b7-a9886ba1fb86.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.494657, "center_y":0.702804, "width":0.864410, "height":0.356398}, "confidence":0.460179}
+ ] 
+}, 
+{
+ "frame_id":165, 
+ "filename":"C:\AI\darknet_better\data\test_after\2541fa6c-1ead-4d5b-ad21-6304c3c6ee7d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.504800, "center_y":0.748812, "width":0.481588, "height":0.414416}, "confidence":0.905998}
+ ] 
+}, 
+{
+ "frame_id":166, 
+ "filename":"C:\AI\darknet_better\data\test_after\25fe98f3-871e-4c29-8602-eff6ed80d723.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.493216, "center_y":0.783380, "width":0.609254, "height":0.333447}, "confidence":0.721769}
+ ] 
+}, 
+{
+ "frame_id":167, 
+ "filename":"C:\AI\darknet_better\data\test_after\2615e548-1d64-48ec-9389-2978e7d23c76.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.595450, "center_y":0.691721, "width":0.749534, "height":0.478359}, "confidence":0.825111}
+ ] 
+}, 
+{
+ "frame_id":168, 
+ "filename":"C:\AI\darknet_better\data\test_after\262c1bf4-0a75-47eb-8781-3ffa66a7abf7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.360751, "center_y":0.724360, "width":0.584241, "height":0.561384}, "confidence":0.703971}
+ ] 
+}, 
+{
+ "frame_id":169, 
+ "filename":"C:\AI\darknet_better\data\test_after\2684a293-b214-40cc-bb5e-c8271c679a1b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.297551, "center_y":0.467548, "width":0.453742, "height":0.221952}, "confidence":0.684558}
+ ] 
+}, 
+{
+ "frame_id":170, 
+ "filename":"C:\AI\darknet_better\data\test_after\26a9a353-9152-4647-9120-dd6a67a875b3.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.511657, "center_y":0.702490, "width":0.554725, "height":0.265295}, "confidence":0.944532}
+ ] 
+}, 
+{
+ "frame_id":171, 
+ "filename":"C:\AI\darknet_better\data\test_after\26caf4e8-ac1c-4444-8619-1d3d5a8ce7f5.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.454046, "center_y":0.798969, "width":0.571294, "height":0.236050}, "confidence":0.495036}
+ ] 
+}, 
+{
+ "frame_id":172, 
+ "filename":"C:\AI\darknet_better\data\test_after\26f3bb1a-548e-4dcf-943a-9bd5bad343f4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.431502, "center_y":0.603220, "width":0.732897, "height":0.468161}, "confidence":0.659278}
+ ] 
+}, 
+{
+ "frame_id":173, 
+ "filename":"C:\AI\darknet_better\data\test_after\27514f0b-e7f8-47e2-9293-0e9bffeedbd4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.532551, "center_y":0.600350, "width":0.529352, "height":0.557326}, "confidence":0.769788}
+ ] 
+}, 
+{
+ "frame_id":174, 
+ "filename":"C:\AI\darknet_better\data\test_after\27935319-a46e-4d48-ac33-17a8ef788954.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.570113, "center_y":0.810879, "width":0.435564, "height":0.241139}, "confidence":0.411265}
+ ] 
+}, 
+{
+ "frame_id":175, 
+ "filename":"C:\AI\darknet_better\data\test_after\28082eb9-29c7-46db-823c-b473d220c400.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.511537, "center_y":0.462021, "width":0.516292, "height":0.120129}, "confidence":0.650848}
+ ] 
+}, 
+{
+ "frame_id":176, 
+ "filename":"C:\AI\darknet_better\data\test_after\282ed8bc-4942-40df-a08e-b04caa7ae4bb.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.521276, "center_y":0.606003, "width":0.555103, "height":0.301557}, "confidence":0.763185}
+ ] 
+}, 
+{
+ "frame_id":177, 
+ "filename":"C:\AI\darknet_better\data\test_after\2885d762-fe5f-48ac-a613-1ed01dc21a90.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.506449, "center_y":0.688245, "width":0.557497, "height":0.457101}, "confidence":0.706863}
+ ] 
+}, 
+{
+ "frame_id":178, 
+ "filename":"C:\AI\darknet_better\data\test_after\2885e803-7102-4858-aca7-b511813a5482.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.556186, "center_y":0.674462, "width":0.417924, "height":0.345641}, "confidence":0.799426}
+ ] 
+}, 
+{
+ "frame_id":179, 
+ "filename":"C:\AI\darknet_better\data\test_after\28c0bec1-f8c9-41fa-981f-b8626e786fb8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.589704, "center_y":0.779294, "width":0.555581, "height":0.315838}, "confidence":0.474085}
+ ] 
+}, 
+{
+ "frame_id":180, 
+ "filename":"C:\AI\darknet_better\data\test_after\28db5fd6-6242-4d5f-909d-9c327e909455.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.464670, "center_y":0.618500, "width":0.573149, "height":0.422534}, "confidence":0.784627}
+ ] 
+}, 
+{
+ "frame_id":181, 
+ "filename":"C:\AI\darknet_better\data\test_after\292ff296-e89f-4eed-a249-2ff236d9406c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.550632, "center_y":0.362280, "width":0.405756, "height":0.219293}, "confidence":0.749491}
+ ] 
+}, 
+{
+ "frame_id":182, 
+ "filename":"C:\AI\darknet_better\data\test_after\299b98a8-0f96-4a2d-a9bc-7e10d3bab47e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.451004, "center_y":0.719131, "width":0.785141, "height":0.441054}, "confidence":0.942748}
+ ] 
+}, 
+{
+ "frame_id":183, 
+ "filename":"C:\AI\darknet_better\data\test_after\2ace8692-9db5-4488-8c40-92c96f8d37f9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.550624, "center_y":0.752834, "width":0.433842, "height":0.397689}, "confidence":0.945116}
+ ] 
+}, 
+{
+ "frame_id":184, 
+ "filename":"C:\AI\darknet_better\data\test_after\2b21dc76-8ee0-447d-8be2-16816e9417b9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.483505, "center_y":0.698927, "width":0.583275, "height":0.360923}, "confidence":0.952712}
+ ] 
+}, 
+{
+ "frame_id":185, 
+ "filename":"C:\AI\darknet_better\data\test_after\2b2935d8-de53-4a9a-94b5-2d3eae19621b.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":186, 
+ "filename":"C:\AI\darknet_better\data\test_after\2b417ddd-4571-4c5a-a691-de364539ab93.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.511020, "center_y":0.755311, "width":0.394155, "height":0.369641}, "confidence":0.788570}
+ ] 
+}, 
+{
+ "frame_id":187, 
+ "filename":"C:\AI\darknet_better\data\test_after\2b9e4bd7-a47a-4cc0-b7ec-207f9d3159ff.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":188, 
+ "filename":"C:\AI\darknet_better\data\test_after\2ba2d2c3-3638-4d2f-9c70-08cd483c8f57.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.506903, "center_y":0.692123, "width":0.534232, "height":0.535456}, "confidence":0.924599}
+ ] 
+}, 
+{
+ "frame_id":189, 
+ "filename":"C:\AI\darknet_better\data\test_after\2be189d0-e411-4310-8910-421ca410bbd6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.439465, "center_y":0.612004, "width":0.596357, "height":0.558359}, "confidence":0.887507}
+ ] 
+}, 
+{
+ "frame_id":190, 
+ "filename":"C:\AI\darknet_better\data\test_after\2c062abc-46e8-4246-b391-212e101d2720.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.429652, "center_y":0.658032, "width":0.328517, "height":0.315894}, "confidence":0.798518}
+ ] 
+}, 
+{
+ "frame_id":191, 
+ "filename":"C:\AI\darknet_better\data\test_after\2c685c12-597b-4e6e-8c5c-b15b5b2697f2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.615730, "center_y":0.757107, "width":0.596106, "height":0.464385}, "confidence":0.871168}
+ ] 
+}, 
+{
+ "frame_id":192, 
+ "filename":"C:\AI\darknet_better\data\test_after\2d4f252f-b570-461b-bbe6-396ce3fd8f62.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.675700, "center_y":0.661143, "width":0.565246, "height":0.382810}, "confidence":0.884717}, 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.763372, "center_y":0.275762, "width":0.276007, "height":0.170453}, "confidence":0.286983}
+ ] 
+}, 
+{
+ "frame_id":193, 
+ "filename":"C:\AI\darknet_better\data\test_after\2e51d4f0-70bc-44c8-82ac-0c79d74f7a1e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.346172, "center_y":0.508154, "width":0.404617, "height":0.352193}, "confidence":0.566276}
+ ] 
+}, 
+{
+ "frame_id":194, 
+ "filename":"C:\AI\darknet_better\data\test_after\2ea5a86d-c930-4d63-9689-cd33063dd9a8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.542476, "center_y":0.706543, "width":0.473812, "height":0.411287}, "confidence":0.950123}
+ ] 
+}, 
+{
+ "frame_id":195, 
+ "filename":"C:\AI\darknet_better\data\test_after\2ee0c2db-c40b-45a0-8944-58318b6b4390.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.516819, "center_y":0.549655, "width":0.760837, "height":0.394942}, "confidence":0.806603}
+ ] 
+}, 
+{
+ "frame_id":196, 
+ "filename":"C:\AI\darknet_better\data\test_after\2f1a00ae-034e-4342-a45e-3db910c6d297.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.509991, "center_y":0.718107, "width":0.773887, "height":0.475684}, "confidence":0.877629}
+ ] 
+}, 
+{
+ "frame_id":197, 
+ "filename":"C:\AI\darknet_better\data\test_after\2wvnhagnuj311.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.284233, "center_y":0.482259, "width":0.574747, "height":0.105034}, "confidence":0.631895}
+ ] 
+}, 
+{
+ "frame_id":198, 
+ "filename":"C:\AI\darknet_better\data\test_after\2xx3jd73cds11.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.508471, "center_y":0.724729, "width":0.631552, "height":0.400770}, "confidence":0.878919}
+ ] 
+}, 
+{
+ "frame_id":199, 
+ "filename":"C:\AI\darknet_better\data\test_after\30315b06-6f5a-477d-8596-06706026db31.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":200, 
+ "filename":"C:\AI\darknet_better\data\test_after\3031dda8e73dfba6bf8abc7968b7a816--time-on-roasts.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.572136, "center_y":0.673362, "width":0.857531, "height":0.377547}, "confidence":0.648756}
+ ] 
+}, 
+{
+ "frame_id":201, 
+ "filename":"C:\AI\darknet_better\data\test_after\3072b4ed-b3fc-4565-aa17-1f5ccf1bade6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.456846, "center_y":0.553158, "width":0.746443, "height":0.375099}, "confidence":0.961128}
+ ] 
+}, 
+{
+ "frame_id":202, 
+ "filename":"C:\AI\darknet_better\data\test_after\3076516d-ca88-4afb-8f87-970b36ef5b53.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.518803, "center_y":0.513912, "width":0.502541, "height":0.241115}, "confidence":0.631899}
+ ] 
+}, 
+{
+ "frame_id":203, 
+ "filename":"C:\AI\darknet_better\data\test_after\30d595df-183d-4b5d-a3b2-a98a771adfed.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.451086, "center_y":0.625377, "width":0.437221, "height":0.297534}, "confidence":0.800456}
+ ] 
+}, 
+{
+ "frame_id":204, 
+ "filename":"C:\AI\darknet_better\data\test_after\31d1e42e-319f-4a29-a046-9c1376706f3d.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":205, 
+ "filename":"C:\AI\darknet_better\data\test_after\31ff7676-f309-4279-add9-7f7d61c7c449.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.540410, "center_y":0.725147, "width":0.862088, "height":0.460486}, "confidence":0.902657}
+ ] 
+}, 
+{
+ "frame_id":206, 
+ "filename":"C:\AI\darknet_better\data\test_after\32a46129-5215-4341-b09b-e1775a435aed.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.329825, "center_y":0.514896, "width":0.530432, "height":0.403200}, "confidence":0.425277}
+ ] 
+}, 
+{
+ "frame_id":207, 
+ "filename":"C:\AI\darknet_better\data\test_after\32eb37db-1994-4716-ac83-1a573418eef7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.495886, "center_y":0.602088, "width":0.400902, "height":0.163915}, "confidence":0.785287}
+ ] 
+}, 
+{
+ "frame_id":208, 
+ "filename":"C:\AI\darknet_better\data\test_after\3387a7d6-39d7-4170-8be8-43b53a6af217.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.490004, "center_y":0.461253, "width":0.568119, "height":0.319203}, "confidence":0.928531}
+ ] 
+}, 
+{
+ "frame_id":209, 
+ "filename":"C:\AI\darknet_better\data\test_after\33ea83e4-6365-4f11-b6b4-44d8ba4d369b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.536832, "center_y":0.670973, "width":0.383558, "height":0.193776}, "confidence":0.865767}
+ ] 
+}, 
+{
+ "frame_id":210, 
+ "filename":"C:\AI\darknet_better\data\test_after\34591c28-cbc2-455a-ab64-cb16afcdc99f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.544174, "center_y":0.646734, "width":0.475936, "height":0.399380}, "confidence":0.969363}
+ ] 
+}, 
+{
+ "frame_id":211, 
+ "filename":"C:\AI\darknet_better\data\test_after\350dbeb7-8b50-496d-b533-5e01e339e35f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.486490, "center_y":0.624662, "width":0.833304, "height":0.502381}, "confidence":0.626456}
+ ] 
+}, 
+{
+ "frame_id":212, 
+ "filename":"C:\AI\darknet_better\data\test_after\355d1628-281f-4b7d-a08e-049ef83114b0.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.501890, "center_y":0.691388, "width":0.799505, "height":0.436257}, "confidence":0.925165}
+ ] 
+}, 
+{
+ "frame_id":213, 
+ "filename":"C:\AI\darknet_better\data\test_after\386c0f3b-5889-4536-9aab-3798168cf3f2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.364733, "center_y":0.388016, "width":0.323597, "height":0.258882}, "confidence":0.679727}
+ ] 
+}, 
+{
+ "frame_id":214, 
+ "filename":"C:\AI\darknet_better\data\test_after\38887d5f-abf8-44cc-84ae-c21871dd075f.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":215, 
+ "filename":"C:\AI\darknet_better\data\test_after\38fac339-2788-4a91-a736-d879c6514b91.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.481081, "center_y":0.604249, "width":0.325504, "height":0.301625}, "confidence":0.865208}
+ ] 
+}, 
+{
+ "frame_id":216, 
+ "filename":"C:\AI\darknet_better\data\test_after\38fd5158-9a4c-47e4-93da-1c23ab773bf7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.493391, "center_y":0.393452, "width":0.426053, "height":0.211591}, "confidence":0.961207}
+ ] 
+}, 
+{
+ "frame_id":217, 
+ "filename":"C:\AI\darknet_better\data\test_after\3a8aff5f-1f32-4c87-8ef4-19b94525e485.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.556785, "center_y":0.761932, "width":0.594091, "height":0.296541}, "confidence":0.978132}
+ ] 
+}, 
+{
+ "frame_id":218, 
+ "filename":"C:\AI\darknet_better\data\test_after\3b00df57-a87b-4af9-92a7-40e51beb1605.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.544114, "center_y":0.696059, "width":0.583938, "height":0.392965}, "confidence":0.880684}
+ ] 
+}, 
+{
+ "frame_id":219, 
+ "filename":"C:\AI\darknet_better\data\test_after\3b2fef0c-582f-43c7-b3de-fc1a3977ff89.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.483826, "center_y":0.509656, "width":0.725636, "height":0.407983}, "confidence":0.835443}
+ ] 
+}, 
+{
+ "frame_id":220, 
+ "filename":"C:\AI\darknet_better\data\test_after\3b389541-1bed-4f81-8a61-4b26437d2ab3.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.600253, "center_y":0.638265, "width":0.556101, "height":0.582891}, "confidence":0.867469}
+ ] 
+}, 
+{
+ "frame_id":221, 
+ "filename":"C:\AI\darknet_better\data\test_after\3b997230-4720-486b-9bee-a9b16965c914.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.517670, "center_y":0.693442, "width":0.539130, "height":0.392755}, "confidence":0.794903}
+ ] 
+}, 
+{
+ "frame_id":222, 
+ "filename":"C:\AI\darknet_better\data\test_after\3btoqultxxt01.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.502587, "center_y":0.669055, "width":0.530076, "height":0.142980}, "confidence":0.807322}
+ ] 
+}, 
+{
+ "frame_id":223, 
+ "filename":"C:\AI\darknet_better\data\test_after\3c9cc9c4-91b4-4c01-ada7-6085a3f2ee50.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.485280, "center_y":0.717718, "width":0.914908, "height":0.410831}, "confidence":0.929769}
+ ] 
+}, 
+{
+ "frame_id":224, 
+ "filename":"C:\AI\darknet_better\data\test_after\3e59ddc3-91e1-42b5-be14-3e8c201bd2d6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.411487, "center_y":0.694649, "width":0.595121, "height":0.528810}, "confidence":0.938067}
+ ] 
+}, 
+{
+ "frame_id":225, 
+ "filename":"C:\AI\darknet_better\data\test_after\3ea6f116-11fa-4040-a915-9d830992fbea.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.516740, "center_y":0.710339, "width":0.476202, "height":0.459548}, "confidence":0.871170}
+ ] 
+}, 
+{
+ "frame_id":226, 
+ "filename":"C:\AI\darknet_better\data\test_after\3eb5f896-eb28-4365-a870-06999dd65dd2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.485084, "center_y":0.648768, "width":0.594501, "height":0.427010}, "confidence":0.722468}
+ ] 
+}, 
+{
+ "frame_id":227, 
+ "filename":"C:\AI\darknet_better\data\test_after\3f8755fe-f3d0-481b-9682-e08dc18781c5.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.403159, "center_y":0.617190, "width":0.791649, "height":0.500167}, "confidence":0.315805}
+ ] 
+}, 
+{
+ "frame_id":228, 
+ "filename":"C:\AI\darknet_better\data\test_after\3f8d83da-a90f-408c-8b55-2581e3f8c5e2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.773664, "center_y":0.692527, "width":0.291702, "height":0.232980}, "confidence":0.780778}
+ ] 
+}, 
+{
+ "frame_id":229, 
+ "filename":"C:\AI\darknet_better\data\test_after\3fd903ae-802a-4061-b4c2-31f7137742a8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.540244, "center_y":0.593569, "width":0.535447, "height":0.710025}, "confidence":0.508572}
+ ] 
+}, 
+{
+ "frame_id":230, 
+ "filename":"C:\AI\darknet_better\data\test_after\3fdd02fd-4aad-4493-9895-2f249566f97b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.440812, "center_y":0.519341, "width":0.446485, "height":0.144659}, "confidence":0.270808}
+ ] 
+}, 
+{
+ "frame_id":231, 
+ "filename":"C:\AI\darknet_better\data\test_after\4070843d-e753-42ac-b9c8-8777347d44c4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.710223, "center_y":0.190092, "width":0.492541, "height":0.341365}, "confidence":0.563435}
+ ] 
+}, 
+{
+ "frame_id":232, 
+ "filename":"C:\AI\darknet_better\data\test_after\40a527c4-e342-4044-87b8-b279574143da.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.458074, "center_y":0.690279, "width":0.521480, "height":0.276482}, "confidence":0.459232}
+ ] 
+}, 
+{
+ "frame_id":233, 
+ "filename":"C:\AI\darknet_better\data\test_after\42613de6-34e8-443e-bae7-a43d411e943a.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.608274, "center_y":0.645705, "width":0.582310, "height":0.687423}, "confidence":0.467200}
+ ] 
+}, 
+{
+ "frame_id":234, 
+ "filename":"C:\AI\darknet_better\data\test_after\427d1148-4754-4559-b1d3-bce0ff268a73.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.471871, "center_y":0.619734, "width":0.442638, "height":0.214784}, "confidence":0.752334}
+ ] 
+}, 
+{
+ "frame_id":235, 
+ "filename":"C:\AI\darknet_better\data\test_after\42bdbcae-3f29-491f-87c1-a4c0d618fd67.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.483474, "center_y":0.660976, "width":0.886084, "height":0.391779}, "confidence":0.746908}
+ ] 
+}, 
+{
+ "frame_id":236, 
+ "filename":"C:\AI\darknet_better\data\test_after\42c3a05d-d5b4-4a52-9a00-910a64428fb5.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.599914, "center_y":0.638354, "width":0.587383, "height":0.441688}, "confidence":0.659533}
+ ] 
+}, 
+{
+ "frame_id":237, 
+ "filename":"C:\AI\darknet_better\data\test_after\43c92ebf-92af-4396-8910-29114c25f14d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.566567, "center_y":0.712160, "width":0.556192, "height":0.355229}, "confidence":0.902438}
+ ] 
+}, 
+{
+ "frame_id":238, 
+ "filename":"C:\AI\darknet_better\data\test_after\443f0775-e9a4-4ce0-9b52-148ba45b471c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.495968, "center_y":0.445515, "width":0.595500, "height":0.617985}, "confidence":0.923630}
+ ] 
+}, 
+{
+ "frame_id":239, 
+ "filename":"C:\AI\darknet_better\data\test_after\44d3a0d1-8ac4-42d5-80cb-e77fc8310ac5.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.365778, "center_y":0.385834, "width":0.296307, "height":0.274141}, "confidence":0.677733}
+ ] 
+}, 
+{
+ "frame_id":240, 
+ "filename":"C:\AI\darknet_better\data\test_after\4555e646-2cf8-450f-8215-3690957df688.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.513074, "center_y":0.688410, "width":0.471925, "height":0.459553}, "confidence":0.640115}
+ ] 
+}, 
+{
+ "frame_id":241, 
+ "filename":"C:\AI\darknet_better\data\test_after\46771f08-63c2-403f-b6f0-ae4c3de08d70.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.591372, "center_y":0.624470, "width":0.858065, "height":0.465413}, "confidence":0.606430}
+ ] 
+}, 
+{
+ "frame_id":242, 
+ "filename":"C:\AI\darknet_better\data\test_after\46b9085a-ff19-430d-aac7-477afb40c6d1.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.446863, "center_y":0.721198, "width":0.719866, "height":0.411316}, "confidence":0.920137}
+ ] 
+}, 
+{
+ "frame_id":243, 
+ "filename":"C:\AI\darknet_better\data\test_after\48d56c82-3bd1-4be0-a655-fe75c4153cf1.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.533282, "center_y":0.709661, "width":0.513996, "height":0.407062}, "confidence":0.804756}
+ ] 
+}, 
+{
+ "frame_id":244, 
+ "filename":"C:\AI\darknet_better\data\test_after\49145f5b-6715-401e-bd30-e3c5296ac51d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.517216, "center_y":0.546442, "width":0.302610, "height":0.577503}, "confidence":0.366186}
+ ] 
+}, 
+{
+ "frame_id":245, 
+ "filename":"C:\AI\darknet_better\data\test_after\49d72bb6-4720-41ea-b3c7-8e496614dc0f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.485202, "center_y":0.653852, "width":0.657003, "height":0.310287}, "confidence":0.903690}
+ ] 
+}, 
+{
+ "frame_id":246, 
+ "filename":"C:\AI\darknet_better\data\test_after\4a04c6ff-7051-43a3-a8fd-3520eddf6128.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.393878, "center_y":0.688434, "width":0.620201, "height":0.358324}, "confidence":0.730468}
+ ] 
+}, 
+{
+ "frame_id":247, 
+ "filename":"C:\AI\darknet_better\data\test_after\4df54001-d488-4979-a374-85e689a06d01.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.620506, "center_y":0.563240, "width":0.717563, "height":0.385583}, "confidence":0.818412}
+ ] 
+}, 
+{
+ "frame_id":248, 
+ "filename":"C:\AI\darknet_better\data\test_after\4f4fd642-d3d1-4fee-9b9f-08d9c2c539ed.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.334698, "center_y":0.350662, "width":0.291548, "height":0.324562}, "confidence":0.582099}
+ ] 
+}, 
+{
+ "frame_id":249, 
+ "filename":"C:\AI\darknet_better\data\test_after\4jd8mzkziqi21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.493148, "center_y":0.697267, "width":0.451618, "height":0.155404}, "confidence":0.852043}
+ ] 
+}, 
+{
+ "frame_id":250, 
+ "filename":"C:\AI\darknet_better\data\test_after\4v2prr3lhuoz.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.467682, "center_y":0.639887, "width":0.535309, "height":0.262138}, "confidence":0.314106}
+ ] 
+}, 
+{
+ "frame_id":251, 
+ "filename":"C:\AI\darknet_better\data\test_after\518b44d0-7596-47dd-825c-14d7393e6174.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.324980, "center_y":0.453848, "width":0.326408, "height":0.264815}, "confidence":0.869591}
+ ] 
+}, 
+{
+ "frame_id":252, 
+ "filename":"C:\AI\darknet_better\data\test_after\5200174c-e595-4830-97cd-a0289c228968.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.545198, "center_y":0.608620, "width":0.615270, "height":0.318488}, "confidence":0.919923}
+ ] 
+}, 
+{
+ "frame_id":253, 
+ "filename":"C:\AI\darknet_better\data\test_after\529e3f32-fc2d-4243-a555-cc7057014ac5.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.412066, "center_y":0.670582, "width":0.778093, "height":0.389355}, "confidence":0.815599}
+ ] 
+}, 
+{
+ "frame_id":254, 
+ "filename":"C:\AI\darknet_better\data\test_after\53d61d00-7824-4f97-8905-7bd92295e276.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.503013, "center_y":0.514918, "width":1.008262, "height":0.444357}, "confidence":0.575162}
+ ] 
+}, 
+{
+ "frame_id":255, 
+ "filename":"C:\AI\darknet_better\data\test_after\54806f1c-d085-4542-b5f0-d7c2961776b0.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.491439, "center_y":0.611949, "width":0.566519, "height":0.284841}, "confidence":0.961650}
+ ] 
+}, 
+{
+ "frame_id":256, 
+ "filename":"C:\AI\darknet_better\data\test_after\5515ac96-d556-4a6d-8dd1-6d99b84f4a2d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.447923, "center_y":0.697501, "width":0.455305, "height":0.270541}, "confidence":0.374271}
+ ] 
+}, 
+{
+ "frame_id":257, 
+ "filename":"C:\AI\darknet_better\data\test_after\5527db60-bfa3-4683-861e-e5a3c43d7622.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.467379, "center_y":0.780158, "width":0.575670, "height":0.345669}, "confidence":0.385852}
+ ] 
+}, 
+{
+ "frame_id":258, 
+ "filename":"C:\AI\darknet_better\data\test_after\5543b9aa-f3e4-4b57-82a7-55ae82c51117.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.543151, "center_y":0.677397, "width":0.426977, "height":0.378660}, "confidence":0.414743}
+ ] 
+}, 
+{
+ "frame_id":259, 
+ "filename":"C:\AI\darknet_better\data\test_after\55e44c61-36a2-4cae-9155-e55871c11910.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.537350, "center_y":0.598130, "width":0.526134, "height":0.799284}, "confidence":0.481509}
+ ] 
+}, 
+{
+ "frame_id":260, 
+ "filename":"C:\AI\darknet_better\data\test_after\55s3ebv9y9yx.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.503265, "center_y":0.689631, "width":0.709249, "height":0.286935}, "confidence":0.767613}
+ ] 
+}, 
+{
+ "frame_id":261, 
+ "filename":"C:\AI\darknet_better\data\test_after\570ee6a0-fabd-4315-a116-6b4dd2cbb8e9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.463643, "center_y":0.754706, "width":0.872542, "height":0.391049}, "confidence":0.792928}
+ ] 
+}, 
+{
+ "frame_id":262, 
+ "filename":"C:\AI\darknet_better\data\test_after\5726a418-14eb-41c5-a6b1-bc0dd804dd46.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.452230, "center_y":0.717757, "width":0.769571, "height":0.414286}, "confidence":0.951743}
+ ] 
+}, 
+{
+ "frame_id":263, 
+ "filename":"C:\AI\darknet_better\data\test_after\57b09341-1012-4ae3-9fe2-2ca33819e940.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.511875, "center_y":0.615343, "width":0.620144, "height":0.540521}, "confidence":0.898376}
+ ] 
+}, 
+{
+ "frame_id":264, 
+ "filename":"C:\AI\darknet_better\data\test_after\57e5da68-841d-45ad-84d3-58e44bd1140c.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":265, 
+ "filename":"C:\AI\darknet_better\data\test_after\581a89c7-4a0d-4bc4-bcaa-289949434140.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.490240, "center_y":0.747837, "width":0.719964, "height":0.358023}, "confidence":0.888657}
+ ] 
+}, 
+{
+ "frame_id":266, 
+ "filename":"C:\AI\darknet_better\data\test_after\58f3671f-364b-4177-abf3-e3d0672022fc.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.569091, "center_y":0.697125, "width":0.520148, "height":0.618384}, "confidence":0.376387}
+ ] 
+}, 
+{
+ "frame_id":267, 
+ "filename":"C:\AI\darknet_better\data\test_after\59bc7f25-2879-4ff2-b1e3-baefda3401ac.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.586543, "center_y":0.808378, "width":0.422754, "height":0.324241}, "confidence":0.586955}
+ ] 
+}, 
+{
+ "frame_id":268, 
+ "filename":"C:\AI\darknet_better\data\test_after\5a5ca73d-c0b7-46d5-a16a-cad4f6e21b4c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.665930, "center_y":0.725142, "width":0.685246, "height":0.253158}, "confidence":0.914632}
+ ] 
+}, 
+{
+ "frame_id":269, 
+ "filename":"C:\AI\darknet_better\data\test_after\5ef4b4a3-d116-4702-b87e-58ea349b29b4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.405240, "center_y":0.652494, "width":0.443589, "height":0.216889}, "confidence":0.887348}
+ ] 
+}, 
+{
+ "frame_id":270, 
+ "filename":"C:\AI\darknet_better\data\test_after\5ffbe1d5-b161-40fb-9f0a-38b9a3c5e7d2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.354693, "center_y":0.496511, "width":0.671284, "height":0.272257}, "confidence":0.907481}
+ ] 
+}, 
+{
+ "frame_id":271, 
+ "filename":"C:\AI\darknet_better\data\test_after\5ihbpd18n1m01.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.430596, "center_y":0.802585, "width":0.547626, "height":0.393985}, "confidence":0.853907}
+ ] 
+}, 
+{
+ "frame_id":272, 
+ "filename":"C:\AI\darknet_better\data\test_after\5sinwkkp6v521.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.588529, "center_y":0.674478, "width":0.334432, "height":0.139301}, "confidence":0.615378}
+ ] 
+}, 
+{
+ "frame_id":273, 
+ "filename":"C:\AI\darknet_better\data\test_after\60cb0c06-ae17-445e-89d7-9d5bd01b3002.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.540626, "center_y":0.753340, "width":0.340146, "height":0.356920}, "confidence":0.887857}
+ ] 
+}, 
+{
+ "frame_id":274, 
+ "filename":"C:\AI\darknet_better\data\test_after\60d1ad67-8ca8-47a1-adab-70e2eb04dd4f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.640051, "center_y":0.554168, "width":0.511164, "height":0.603977}, "confidence":0.735204}
+ ] 
+}, 
+{
+ "frame_id":275, 
+ "filename":"C:\AI\darknet_better\data\test_after\61db2a3e-8db1-4645-a922-2562c5850a3b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.499763, "center_y":0.694228, "width":0.518240, "height":0.237114}, "confidence":0.708049}
+ ] 
+}, 
+{
+ "frame_id":276, 
+ "filename":"C:\AI\darknet_better\data\test_after\63579195-1d7b-440b-91dc-7f7a676ad226.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.487480, "center_y":0.803109, "width":0.829160, "height":0.261305}, "confidence":0.907594}
+ ] 
+}, 
+{
+ "frame_id":277, 
+ "filename":"C:\AI\darknet_better\data\test_after\63bb3f6b-61b7-4727-9567-91f0d85fa23f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.518375, "center_y":0.534821, "width":0.503975, "height":0.670691}, "confidence":0.318645}
+ ] 
+}, 
+{
+ "frame_id":278, 
+ "filename":"C:\AI\darknet_better\data\test_after\64543823-249a-4cae-9a4f-256ade543d18.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.312755, "center_y":0.556281, "width":0.293485, "height":0.289134}, "confidence":0.850582}
+ ] 
+}, 
+{
+ "frame_id":279, 
+ "filename":"C:\AI\darknet_better\data\test_after\65393228-f46a-440c-8432-38cdadc2b962.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.520243, "center_y":0.651948, "width":0.617628, "height":0.422065}, "confidence":0.695259}
+ ] 
+}, 
+{
+ "frame_id":280, 
+ "filename":"C:\AI\darknet_better\data\test_after\66fb77ca-0e09-4292-a295-8bec16d7fd27.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.460490, "center_y":0.464685, "width":0.208643, "height":0.137876}, "confidence":0.933520}
+ ] 
+}, 
+{
+ "frame_id":281, 
+ "filename":"C:\AI\darknet_better\data\test_after\67614150-37a9-43c8-b19a-346f9d677689.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.506416, "center_y":0.658695, "width":0.599216, "height":0.378731}, "confidence":0.954574}
+ ] 
+}, 
+{
+ "frame_id":282, 
+ "filename":"C:\AI\darknet_better\data\test_after\6839f147-63d6-42c2-85d3-eaed469c8481.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.499501, "center_y":0.487364, "width":0.546140, "height":0.498155}, "confidence":0.960413}
+ ] 
+}, 
+{
+ "frame_id":283, 
+ "filename":"C:\AI\darknet_better\data\test_after\68c1a559-3a90-4ef1-8f68-6e65e0714041.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.608203, "center_y":0.599916, "width":0.558945, "height":0.559319}, "confidence":0.954939}
+ ] 
+}, 
+{
+ "frame_id":284, 
+ "filename":"C:\AI\darknet_better\data\test_after\69bfd5b5-debc-41ea-a5b2-27d311dd1919.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.344383, "center_y":0.648434, "width":0.574659, "height":0.354710}, "confidence":0.943042}
+ ] 
+}, 
+{
+ "frame_id":285, 
+ "filename":"C:\AI\darknet_better\data\test_after\6e72511d-3430-455a-8ca1-2016e138d644.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.459557, "center_y":0.641139, "width":0.730324, "height":0.402956}, "confidence":0.859463}
+ ] 
+}, 
+{
+ "frame_id":286, 
+ "filename":"C:\AI\darknet_better\data\test_after\6wqf258ent111.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.435429, "center_y":0.663786, "width":0.519744, "height":0.299603}, "confidence":0.564103}
+ ] 
+}, 
+{
+ "frame_id":287, 
+ "filename":"C:\AI\darknet_better\data\test_after\707e0cfa-1f84-4f92-b324-fe7575de79f8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.381658, "center_y":0.619366, "width":0.575355, "height":0.309128}, "confidence":0.868363}
+ ] 
+}, 
+{
+ "frame_id":288, 
+ "filename":"C:\AI\darknet_better\data\test_after\70f0525e-e227-4ce5-9dab-3c4f709585f8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.547632, "center_y":0.587537, "width":0.264299, "height":0.267575}, "confidence":0.302715}
+ ] 
+}, 
+{
+ "frame_id":289, 
+ "filename":"C:\AI\darknet_better\data\test_after\72c1b5eb-db7a-4b4f-a414-9fe8890fcd02.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.497150, "center_y":0.561736, "width":0.722110, "height":0.401831}, "confidence":0.955284}
+ ] 
+}, 
+{
+ "frame_id":290, 
+ "filename":"C:\AI\darknet_better\data\test_after\731cwi9139a01.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.562566, "center_y":0.824421, "width":0.711584, "height":0.341927}, "confidence":0.921242}
+ ] 
+}, 
+{
+ "frame_id":291, 
+ "filename":"C:\AI\darknet_better\data\test_after\7467942b-1130-4b5f-80a5-8e99d9be5366.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.505371, "center_y":0.673591, "width":0.353858, "height":0.229931}, "confidence":0.948688}
+ ] 
+}, 
+{
+ "frame_id":292, 
+ "filename":"C:\AI\darknet_better\data\test_after\74b9199c-8247-40ca-8c4e-cbf13bfc4e6b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.506697, "center_y":0.548004, "width":0.307795, "height":0.218279}, "confidence":0.968768}
+ ] 
+}, 
+{
+ "frame_id":293, 
+ "filename":"C:\AI\darknet_better\data\test_after\75ec3951-a57a-44b0-b882-d816e0a0300a.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":294, 
+ "filename":"C:\AI\darknet_better\data\test_after\768497fc-b148-4ac4-933f-939cfa16c16d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.538228, "center_y":0.597220, "width":0.545142, "height":0.754431}, "confidence":0.556181}
+ ] 
+}, 
+{
+ "frame_id":295, 
+ "filename":"C:\AI\darknet_better\data\test_after\77c460d3-bdce-4996-bcee-3d8496f9efa7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.753446, "center_y":0.761895, "width":0.371172, "height":0.360860}, "confidence":0.880225}
+ ] 
+}, 
+{
+ "frame_id":296, 
+ "filename":"C:\AI\darknet_better\data\test_after\77c6f941-ca6c-43c6-8c73-0c8c207d9116.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.467405, "center_y":0.675691, "width":0.518374, "height":0.423132}, "confidence":0.723051}
+ ] 
+}, 
+{
+ "frame_id":297, 
+ "filename":"C:\AI\darknet_better\data\test_after\793867f5-7833-4265-936e-b71ee576363c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.440657, "center_y":0.771776, "width":0.473555, "height":0.117291}, "confidence":0.859812}
+ ] 
+}, 
+{
+ "frame_id":298, 
+ "filename":"C:\AI\darknet_better\data\test_after\7ab1e0f6-6c56-4252-baee-38e3aaf8e8be.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.591109, "center_y":0.653340, "width":0.259512, "height":0.230015}, "confidence":0.827802}
+ ] 
+}, 
+{
+ "frame_id":299, 
+ "filename":"C:\AI\darknet_better\data\test_after\7d3c1326-d12b-4b48-b03b-b467cf243310.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.563034, "center_y":0.388308, "width":0.376453, "height":0.366788}, "confidence":0.954617}
+ ] 
+}, 
+{
+ "frame_id":300, 
+ "filename":"C:\AI\darknet_better\data\test_after\7d8740dc-e9b2-4693-99e4-9b67ef2d7a55.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.467609, "center_y":0.494762, "width":0.836178, "height":0.315054}, "confidence":0.650474}
+ ] 
+}, 
+{
+ "frame_id":301, 
+ "filename":"C:\AI\darknet_better\data\test_after\7e3beae9-713a-431e-9897-467913cc3ee6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.291545, "center_y":0.661674, "width":0.408402, "height":0.348743}, "confidence":0.679111}
+ ] 
+}, 
+{
+ "frame_id":302, 
+ "filename":"C:\AI\darknet_better\data\test_after\8045815a-3aa3-4ad5-abdc-829488ec4318.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.495890, "center_y":0.568742, "width":0.341504, "height":0.274766}, "confidence":0.840088}
+ ] 
+}, 
+{
+ "frame_id":303, 
+ "filename":"C:\AI\darknet_better\data\test_after\82d614a8-d1b8-41f8-a0c1-406e5f0ca0d2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.659999, "center_y":0.658023, "width":0.494082, "height":0.510597}, "confidence":0.688804}
+ ] 
+}, 
+{
+ "frame_id":304, 
+ "filename":"C:\AI\darknet_better\data\test_after\82db898c0abbded51863d7dc70658a75.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.492837, "center_y":0.783174, "width":0.600046, "height":0.329310}, "confidence":0.692054}
+ ] 
+}, 
+{
+ "frame_id":305, 
+ "filename":"C:\AI\darknet_better\data\test_after\84833736.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.437687, "center_y":0.509035, "width":0.334423, "height":0.170676}, "confidence":0.912781}
+ ] 
+}, 
+{
+ "frame_id":306, 
+ "filename":"C:\AI\darknet_better\data\test_after\85807861.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.489018, "center_y":0.757837, "width":0.778775, "height":0.177971}, "confidence":0.850989}
+ ] 
+}, 
+{
+ "frame_id":307, 
+ "filename":"C:\AI\darknet_better\data\test_after\87e02cc8-f9d6-46ed-a652-e04fca62ef6e.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.520765, "center_y":0.706094, "width":0.371250, "height":0.331484}, "confidence":0.880622}
+ ] 
+}, 
+{
+ "frame_id":308, 
+ "filename":"C:\AI\darknet_better\data\test_after\880969f8-102c-4bd6-9e1a-f7211c4d2770.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.298760, "center_y":0.377816, "width":0.271813, "height":0.293833}, "confidence":0.852351}
+ ] 
+}, 
+{
+ "frame_id":309, 
+ "filename":"C:\AI\darknet_better\data\test_after\8a46233a-2f38-4a03-bbaa-eaf55653ccc7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.505450, "center_y":0.540659, "width":0.302271, "height":0.296501}, "confidence":0.854208}
+ ] 
+}, 
+{
+ "frame_id":310, 
+ "filename":"C:\AI\darknet_better\data\test_after\8a71f77f-755a-451f-adce-eb32747daaf4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.451568, "center_y":0.703579, "width":0.580474, "height":0.374419}, "confidence":0.965729}
+ ] 
+}, 
+{
+ "frame_id":311, 
+ "filename":"C:\AI\darknet_better\data\test_after\8c0fcb3b-cd05-4ef1-8387-5527837cff8d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.543046, "center_y":0.707459, "width":0.330002, "height":0.257847}, "confidence":0.949168}
+ ] 
+}, 
+{
+ "frame_id":312, 
+ "filename":"C:\AI\darknet_better\data\test_after\8cd5f0f7-1779-476f-968a-1e6869066ee3.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.518504, "center_y":0.619395, "width":0.449785, "height":0.310727}, "confidence":0.838500}
+ ] 
+}, 
+{
+ "frame_id":313, 
+ "filename":"C:\AI\darknet_better\data\test_after\8db0e079-adde-4c38-b5cf-973163f438e0.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.486718, "center_y":0.481824, "width":0.604807, "height":0.236860}, "confidence":0.547489}
+ ] 
+}, 
+{
+ "frame_id":314, 
+ "filename":"C:\AI\darknet_better\data\test_after\8e0dac2d-c628-4127-a009-d88095f31d44.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":315, 
+ "filename":"C:\AI\darknet_better\data\test_after\8e1863bd-1c23-4de2-81cd-e62177eb83d3.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.649450, "center_y":0.774882, "width":0.473422, "height":0.436542}, "confidence":0.901592}
+ ] 
+}, 
+{
+ "frame_id":316, 
+ "filename":"C:\AI\darknet_better\data\test_after\8e4ba7e5-60f2-4ffb-b5d4-09ca3d25c2b6.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.448892, "center_y":0.749387, "width":0.672316, "height":0.406385}, "confidence":0.894453}
+ ] 
+}, 
+{
+ "frame_id":317, 
+ "filename":"C:\AI\darknet_better\data\test_after\8ed2d090-c4e1-4042-8ba6-4be098250494.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.607540, "center_y":0.725145, "width":0.578132, "height":0.333641}, "confidence":0.914950}
+ ] 
+}, 
+{
+ "frame_id":318, 
+ "filename":"C:\AI\darknet_better\data\test_after\8f520b91-a291-4bbd-8a22-464bdbe570fd.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.568727, "center_y":0.718358, "width":0.460382, "height":0.324377}, "confidence":0.925738}
+ ] 
+}, 
+{
+ "frame_id":319, 
+ "filename":"C:\AI\darknet_better\data\test_after\900a1a3d-1349-4eb1-ae2e-44c55b7a4a75.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.542847, "center_y":0.695046, "width":0.430762, "height":0.245212}, "confidence":0.423052}
+ ] 
+}, 
+{
+ "frame_id":320, 
+ "filename":"C:\AI\darknet_better\data\test_after\95449d7c-f4aa-41c4-b14f-b678ebf00bda.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":321, 
+ "filename":"C:\AI\darknet_better\data\test_after\9a8d5036-1cec-41b9-8935-18a57fe56add.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.450312, "center_y":0.831375, "width":0.370195, "height":0.150904}, "confidence":0.594426}
+ ] 
+}, 
+{
+ "frame_id":322, 
+ "filename":"C:\AI\darknet_better\data\test_after\9b10e5e0-a3e1-4807-b00a-7f058247bfd3.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.626659, "center_y":0.622229, "width":0.577115, "height":0.574715}, "confidence":0.434278}
+ ] 
+}, 
+{
+ "frame_id":323, 
+ "filename":"C:\AI\darknet_better\data\test_after\9bbee351-01e6-4083-a2aa-2cbc0cfc6fbc.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.510079, "center_y":0.639933, "width":0.759007, "height":0.343308}, "confidence":0.898850}
+ ] 
+}, 
+{
+ "frame_id":324, 
+ "filename":"C:\AI\darknet_better\data\test_after\9c9f5d6b-20b0-499f-841b-34242b3cd3cd.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":325, 
+ "filename":"C:\AI\darknet_better\data\test_after\9fa48170-fe1f-4ccb-99e4-17a059c06d7b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.497628, "center_y":0.713457, "width":0.556588, "height":0.229452}, "confidence":0.727933}
+ ] 
+}, 
+{
+ "frame_id":326, 
+ "filename":"C:\AI\darknet_better\data\test_after\9fed0862-5b07-48a1-9960-89a46b396101.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.544590, "center_y":0.426816, "width":0.387141, "height":0.234283}, "confidence":0.412304}
+ ] 
+}, 
+{
+ "frame_id":327, 
+ "filename":"C:\AI\darknet_better\data\test_after\9pu1xls958921.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.443826, "center_y":0.723165, "width":0.313500, "height":0.279648}, "confidence":0.919506}
+ ] 
+}, 
+{
+ "frame_id":328, 
+ "filename":"C:\AI\darknet_better\data\test_after\CLPuFxE.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.507456, "center_y":0.780048, "width":0.499097, "height":0.197560}, "confidence":0.691824}
+ ] 
+}, 
+{
+ "frame_id":329, 
+ "filename":"C:\AI\darknet_better\data\test_after\CXcXGRCUEAIkvKE.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.591003, "center_y":0.728596, "width":0.534752, "height":0.250846}, "confidence":0.550750}
+ ] 
+}, 
+{
+ "frame_id":330, 
+ "filename":"C:\AI\darknet_better\data\test_after\WhDmCpX.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.403299, "center_y":0.770686, "width":0.671218, "height":0.358651}, "confidence":0.807615}
+ ] 
+}, 
+{
+ "frame_id":331, 
+ "filename":"C:\AI\darknet_better\data\test_after\YLpDjTk.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.640951, "center_y":0.543930, "width":0.509229, "height":0.109511}, "confidence":0.304173}
+ ] 
+}, 
+{
+ "frame_id":332, 
+ "filename":"C:\AI\darknet_better\data\test_after\ZIgZ1q9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.463717, "center_y":0.691726, "width":0.882185, "height":0.510724}, "confidence":0.474907}
+ ] 
+}, 
+{
+ "frame_id":333, 
+ "filename":"C:\AI\darknet_better\data\test_after\_472ef7_6078674.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.504707, "center_y":0.609088, "width":0.734945, "height":0.218546}, "confidence":0.782129}
+ ] 
+}, 
+{
+ "frame_id":334, 
+ "filename":"C:\AI\darknet_better\data\test_after\a406d748-b42b-4912-955b-2418d988b3cd.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.429445, "center_y":0.470018, "width":0.163502, "height":0.077776}, "confidence":0.336671}
+ ] 
+}, 
+{
+ "frame_id":335, 
+ "filename":"C:\AI\darknet_better\data\test_after\a5f577a9-0c44-48a1-b961-6fd22513a484.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.542268, "center_y":0.488150, "width":1.030647, "height":0.618409}, "confidence":0.438409}
+ ] 
+}, 
+{
+ "frame_id":336, 
+ "filename":"C:\AI\darknet_better\data\test_after\a5zp1rah01921.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.546473, "center_y":0.748391, "width":0.720120, "height":0.428564}, "confidence":0.690838}
+ ] 
+}, 
+{
+ "frame_id":337, 
+ "filename":"C:\AI\darknet_better\data\test_after\a9ec7e89-8fac-4be7-8469-484e4d9e7a65.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.637997, "center_y":0.620300, "width":0.575692, "height":0.348765}, "confidence":0.364034}
+ ] 
+}, 
+{
+ "frame_id":338, 
+ "filename":"C:\AI\darknet_better\data\test_after\afde3wz2eqix.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.554156, "center_y":0.746006, "width":0.725163, "height":0.348142}, "confidence":0.802499}
+ ] 
+}, 
+{
+ "frame_id":339, 
+ "filename":"C:\AI\darknet_better\data\test_after\agd4gf4kx2721.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.514425, "center_y":0.671175, "width":0.478577, "height":0.177447}, "confidence":0.755538}
+ ] 
+}, 
+{
+ "frame_id":340, 
+ "filename":"C:\AI\darknet_better\data\test_after\av9bmc56u3t41.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.392933, "center_y":0.653922, "width":0.802078, "height":0.274036}, "confidence":0.928115}
+ ] 
+}, 
+{
+ "frame_id":341, 
+ "filename":"C:\AI\darknet_better\data\test_after\b86fa19c-2726-46b7-a947-c9d4719a3217.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.295562, "center_y":0.514281, "width":0.241243, "height":0.250963}, "confidence":0.599068}
+ ] 
+}, 
+{
+ "frame_id":342, 
+ "filename":"C:\AI\darknet_better\data\test_after\b8758220-cf99-42e4-b0b2-e311950549e1.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.718153, "center_y":0.675790, "width":0.317436, "height":0.219648}, "confidence":0.889611}
+ ] 
+}, 
+{
+ "frame_id":343, 
+ "filename":"C:\AI\darknet_better\data\test_after\b8986439-80c1-4600-a8d3-ce9a7d7b3388.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.701382, "center_y":0.554385, "width":0.647224, "height":0.500013}, "confidence":0.648623}
+ ] 
+}, 
+{
+ "frame_id":344, 
+ "filename":"C:\AI\darknet_better\data\test_after\bXuheoG.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.436860, "center_y":0.589277, "width":0.438477, "height":0.367249}, "confidence":0.515219}
+ ] 
+}, 
+{
+ "frame_id":345, 
+ "filename":"C:\AI\darknet_better\data\test_after\bec43ee0db9ecd0e45a00d6635923847.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.481314, "center_y":0.712413, "width":0.437822, "height":0.191785}, "confidence":0.747234}
+ ] 
+}, 
+{
+ "frame_id":346, 
+ "filename":"C:\AI\darknet_better\data\test_after\c26562dd-36e5-4fea-b269-b2f5c3617bd8.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.463542, "center_y":0.725817, "width":0.948522, "height":0.293816}, "confidence":0.547366}
+ ] 
+}, 
+{
+ "frame_id":347, 
+ "filename":"C:\AI\darknet_better\data\test_after\c665f737-d153-460c-822a-941b841b9d0d.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.552634, "center_y":0.731568, "width":0.399474, "height":0.259625}, "confidence":0.760998}
+ ] 
+}, 
+{
+ "frame_id":348, 
+ "filename":"C:\AI\darknet_better\data\test_after\cIEeSPy.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.494577, "center_y":0.810430, "width":0.631329, "height":0.359676}, "confidence":0.936707}
+ ] 
+}, 
+{
+ "frame_id":349, 
+ "filename":"C:\AI\darknet_better\data\test_after\cug6serwxak21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.348486, "center_y":0.764988, "width":0.641074, "height":0.383760}, "confidence":0.962514}
+ ] 
+}, 
+{
+ "frame_id":350, 
+ "filename":"C:\AI\darknet_better\data\test_after\d83d1cbe-9539-40f1-9a02-874357c9c323.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.669411, "center_y":0.547405, "width":0.584692, "height":0.205221}, "confidence":0.736403}
+ ] 
+}, 
+{
+ "frame_id":351, 
+ "filename":"C:\AI\darknet_better\data\test_after\d9a3b826b2a4e4af2da24aa9a083c844.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.543164, "center_y":0.658776, "width":0.430718, "height":0.219859}, "confidence":0.967395}
+ ] 
+}, 
+{
+ "frame_id":352, 
+ "filename":"C:\AI\darknet_better\data\test_after\de9b6d96-569a-40cd-872f-156d209eb66f.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.458239, "center_y":0.709270, "width":0.774457, "height":0.532805}, "confidence":0.870351}
+ ] 
+}, 
+{
+ "frame_id":353, 
+ "filename":"C:\AI\darknet_better\data\test_after\e122a79b-bd99-40e3-922b-a314bbf929d9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.455005, "center_y":0.759666, "width":0.782120, "height":0.260504}, "confidence":0.923615}
+ ] 
+}, 
+{
+ "frame_id":354, 
+ "filename":"C:\AI\darknet_better\data\test_after\e2mlfv3fqs101.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.510479, "center_y":0.825961, "width":0.615439, "height":0.312832}, "confidence":0.948146}
+ ] 
+}, 
+{
+ "frame_id":355, 
+ "filename":"C:\AI\darknet_better\data\test_after\e8bd69aa-f64d-4166-a190-48f6262f47a9.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.701107, "center_y":0.585123, "width":0.558448, "height":0.355244}, "confidence":0.801023}
+ ] 
+}, 
+{
+ "frame_id":356, 
+ "filename":"C:\AI\darknet_better\data\test_after\edd19r0633111.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.532856, "center_y":0.669910, "width":0.478361, "height":0.261288}, "confidence":0.691379}
+ ] 
+}, 
+{
+ "frame_id":357, 
+ "filename":"C:\AI\darknet_better\data\test_after\ei9z785q8q221.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.461253, "center_y":0.706722, "width":0.605350, "height":0.380603}, "confidence":0.931909}
+ ] 
+}, 
+{
+ "frame_id":358, 
+ "filename":"C:\AI\darknet_better\data\test_after\f296cbfb-f434-4148-90bf-6c723806ccd7.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.492709, "center_y":0.719669, "width":0.660961, "height":0.408039}, "confidence":0.891835}
+ ] 
+}, 
+{
+ "frame_id":359, 
+ "filename":"C:\AI\darknet_better\data\test_after\f48fdec4-ab7f-4684-94de-7d8b17322a8c.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.463643, "center_y":0.754706, "width":0.872542, "height":0.391049}, "confidence":0.792928}
+ ] 
+}, 
+{
+ "frame_id":360, 
+ "filename":"C:\AI\darknet_better\data\test_after\f57244d5a8959f83a2814b4f9be212a63f311dac_hq.jpg", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":361, 
+ "filename":"C:\AI\darknet_better\data\test_after\f7e3d59d-b183-40f8-9106-32b64ed20aa4.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.660749, "center_y":0.564219, "width":0.246958, "height":0.112821}, "confidence":0.978856}
+ ] 
+}, 
+{
+ "frame_id":362, 
+ "filename":"C:\AI\darknet_better\data\test_after\fRTxred.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.667780, "center_y":0.716984, "width":0.537800, "height":0.407450}, "confidence":0.579053}
+ ] 
+}, 
+{
+ "frame_id":363, 
+ "filename":"C:\AI\darknet_better\data\test_after\fa7940f1-5991-4310-b4ca-e8521a03f94b.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.618321, "center_y":0.455857, "width":0.576828, "height":0.331786}, "confidence":0.779821}
+ ] 
+}, 
+{
+ "frame_id":364, 
+ "filename":"C:\AI\darknet_better\data\test_after\fo2znbmmg9oz.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.467556, "center_y":0.596361, "width":0.557295, "height":0.274684}, "confidence":0.732802}
+ ] 
+}, 
+{
+ "frame_id":365, 
+ "filename":"C:\AI\darknet_better\data\test_after\funny-pics-of-reddit-roast-me-mom-face-e1466480364370.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.255433, "center_y":0.537271, "width":0.312650, "height":0.232115}, "confidence":0.675382}
+ ] 
+}, 
+{
+ "frame_id":366, 
+ "filename":"C:\AI\darknet_better\data\test_after\g6bmea8jqga11.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.450209, "center_y":0.771807, "width":0.578931, "height":0.218209}, "confidence":0.605996}
+ ] 
+}, 
+{
+ "frame_id":367, 
+ "filename":"C:\AI\darknet_better\data\test_after\g81myhgio43z.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.509521, "center_y":0.702717, "width":0.479439, "height":0.225712}, "confidence":0.891266}
+ ] 
+}, 
+{
+ "frame_id":368, 
+ "filename":"C:\AI\darknet_better\data\test_after\hk300ra49pa11.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.596823, "center_y":0.823137, "width":0.593860, "height":0.333298}, "confidence":0.942675}
+ ] 
+}, 
+{
+ "frame_id":369, 
+ "filename":"C:\AI\darknet_better\data\test_after\jockey.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.408396, "center_y":0.653859, "width":0.380760, "height":0.252557}, "confidence":0.963069}
+ ] 
+}, 
+{
+ "frame_id":370, 
+ "filename":"C:\AI\darknet_better\data\test_after\km0e56leq0yz.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.456176, "center_y":0.503131, "width":0.374845, "height":0.174242}, "confidence":0.838153}
+ ] 
+}, 
+{
+ "frame_id":371, 
+ "filename":"C:\AI\darknet_better\data\test_after\lcvku5wwuz221.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.376255, "center_y":0.622346, "width":0.442444, "height":0.214587}, "confidence":0.537007}
+ ] 
+}, 
+{
+ "frame_id":372, 
+ "filename":"C:\AI\darknet_better\data\test_after\ld84f2o9ba121.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.498628, "center_y":0.672342, "width":0.735012, "height":0.554982}, "confidence":0.708424}
+ ] 
+}, 
+{
+ "frame_id":373, 
+ "filename":"C:\AI\darknet_better\data\test_after\mei6l6uvteg01.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.376510, "center_y":0.551560, "width":0.602035, "height":0.219863}, "confidence":0.338571}
+ ] 
+}, 
+{
+ "frame_id":374, 
+ "filename":"C:\AI\darknet_better\data\test_after\npkp2e2go9vz.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.458140, "center_y":0.746305, "width":0.462752, "height":0.288319}, "confidence":0.545225}
+ ] 
+}, 
+{
+ "frame_id":375, 
+ "filename":"C:\AI\darknet_better\data\test_after\o5pk92mu3vx11.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.495650, "center_y":0.756894, "width":0.418594, "height":0.254566}, "confidence":0.865386}
+ ] 
+}, 
+{
+ "frame_id":376, 
+ "filename":"C:\AI\darknet_better\data\test_after\o5tIjmv.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.801480, "center_y":0.558404, "width":0.363579, "height":0.344611}, "confidence":0.670416}
+ ] 
+}, 
+{
+ "frame_id":377, 
+ "filename":"C:\AI\darknet_better\data\test_after\pqz9311atu0z.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.584825, "center_y":0.644064, "width":0.537320, "height":0.358777}, "confidence":0.836725}
+ ] 
+}, 
+{
+ "frame_id":378, 
+ "filename":"C:\AI\darknet_better\data\test_after\qs6jvw66o1ty.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.484501, "center_y":0.663497, "width":0.474468, "height":0.211656}, "confidence":0.793613}
+ ] 
+}, 
+{
+ "frame_id":379, 
+ "filename":"C:\AI\darknet_better\data\test_after\r9avpa059qxy.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.399342, "center_y":0.766771, "width":0.624542, "height":0.451224}, "confidence":0.919107}
+ ] 
+}, 
+{
+ "frame_id":380, 
+ "filename":"C:\AI\darknet_better\data\test_after\roast-me-pics-from-reddit-that-are-hilarious-and-cruel-2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.305301, "center_y":0.755152, "width":0.325798, "height":0.394855}, "confidence":0.901567}
+ ] 
+}, 
+{
+ "frame_id":381, 
+ "filename":"C:\AI\darknet_better\data\test_after\rwvjdqbzxgx01.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.535985, "center_y":0.604459, "width":0.577652, "height":0.202860}, "confidence":0.662792}
+ ] 
+}, 
+{
+ "frame_id":382, 
+ "filename":"C:\AI\darknet_better\data\test_after\vczugkob5nz21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.464153, "center_y":0.750526, "width":0.515028, "height":0.292172}, "confidence":0.853939}
+ ] 
+}, 
+{
+ "frame_id":383, 
+ "filename":"C:\AI\darknet_better\data\test_after\vr9ubitx55yy.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.512240, "center_y":0.645559, "width":0.652568, "height":0.221031}, "confidence":0.508045}
+ ] 
+}, 
+{
+ "frame_id":384, 
+ "filename":"C:\AI\darknet_better\data\test_after\vrljxzr09g101.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.707084, "center_y":0.726996, "width":0.518322, "height":0.259445}, "confidence":0.735578}
+ ] 
+}, 
+{
+ "frame_id":385, 
+ "filename":"C:\AI\darknet_better\data\test_after\w90b8wvxtiq21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.489044, "center_y":0.708552, "width":0.554027, "height":0.290813}, "confidence":0.589886}
+ ] 
+}, 
+{
+ "frame_id":386, 
+ "filename":"C:\AI\darknet_better\data\test_after\wuq50uk2w8sz.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.498866, "center_y":0.694288, "width":0.614951, "height":0.409178}, "confidence":0.904610}
+ ] 
+}, 
+{
+ "frame_id":387, 
+ "filename":"C:\AI\darknet_better\data\test_after\x3miy9qlq9zx.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.508854, "center_y":0.724448, "width":0.780269, "height":0.409837}, "confidence":0.875088}
+ ] 
+}, 
+{
+ "frame_id":388, 
+ "filename":"C:\AI\darknet_better\data\test_after\xzhhh1bnpwo21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.487313, "center_y":0.823481, "width":0.539779, "height":0.301578}, "confidence":0.542824}
+ ] 
+}, 
+{
+ "frame_id":389, 
+ "filename":"C:\AI\darknet_better\data\test_after\y5epzencwc721.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.563582, "center_y":0.652023, "width":0.759655, "height":0.325868}, "confidence":0.921630}
+ ] 
+}, 
+{
+ "frame_id":390, 
+ "filename":"C:\AI\darknet_better\data\test_after\y8nxfbkmumf21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.618296, "center_y":0.655833, "width":0.736594, "height":0.440232}, "confidence":0.849462}
+ ] 
+}, 
+{
+ "frame_id":391, 
+ "filename":"C:\AI\darknet_better\data\test_after\you-could-take-off-and-become-less-disgusting-free-hugs-cand-maybe-a-kiss-if-youre-lucky-rroast-me.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.510602, "center_y":0.659468, "width":0.509324, "height":0.145817}, "confidence":0.834597}
+ ] 
+}, 
+{
+ "frame_id":392, 
+ "filename":"C:\AI\darknet_better\data\test_after\yzorodw4yfi21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.464567, "center_y":0.655427, "width":0.494486, "height":0.276796}, "confidence":0.765349}
+ ] 
+}, 
+{
+ "frame_id":393, 
+ "filename":"C:\AI\darknet_better\data\test_after\z93eusgy8pix.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.569729, "center_y":0.589043, "width":0.424606, "height":0.249720}, "confidence":0.889640}
+ ] 
+}, 
+{
+ "frame_id":394, 
+ "filename":"C:\AI\darknet_better\data\test_after\zt204lupo0q21.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"papersheet", "relative_coordinates":{"center_x":0.510439, "center_y":0.589509, "width":0.701486, "height":0.552976}, "confidence":0.401154}
+ ] 
+}
+]

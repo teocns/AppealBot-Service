@@ -235,4 +235,4 @@ class ImageGenerator:
         #     return False
 
 
-#ImageGenerator.generate('58352','Teo Constantin','adidas_foundation')
+ImageGenerator.generate('imgoodatcpa','@test','Mario Conti')
