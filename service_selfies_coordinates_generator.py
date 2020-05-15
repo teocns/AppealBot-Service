@@ -30,6 +30,7 @@ while 1:
             )
             print(darknet.performDetect('/var/appealbot/selfies/9-2000-1821-2973-1493-3293-2215-2219-2580-70.jpg'))
             # Load detector (kewl)
+    sleep(10)
                 
 
     
