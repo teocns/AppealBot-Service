@@ -65,9 +65,9 @@ def getAccurateBox(imagePath,detection):
         "p3":[detection_x1+width,detection_y1+height],
         "p4":[detection_x1,detection_y1+height]
     }
-    )
+    
     cropped =  img[detection_y1:detection_y1+detection_height,detection_x1:detection_x1+detection_width]
-    )
+    
     box =  generateCoordinates(cropped)
     print (old_box)
     old_box["p1"][0] +=  box[2][0]
