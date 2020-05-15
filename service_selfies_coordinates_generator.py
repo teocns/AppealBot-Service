@@ -33,6 +33,10 @@ while 1:
             detections = darknet.performDetect(save_location)
             if len(detections) < 1:
                 print ("Not found")
+                req('set_selfies_coordinates_generator',{
+                    'selfie_id': selfie['id'],
+                    'coordinates': None
+                });
             else:
                 # Get detection with highest confidence ( bruh )
                 detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
@@ -44,7 +48,14 @@ while 1:
                     "width":detection[2][2],
                     "height":detection[2][3]
                 })
-                print(realBoxCoordinates)
+                coordStr = ""
+                for c in realBoxCoordinates:
+                    coordStr = coordStr + c[0] + "-" +c[1]
+                coordStr = coordStr[0:-(len(coordStr)-1)]
+                req('set_selfies_coordinates_generator',{
+                    'selfie_id': selfie['id'],
+                    'coordinates': coordStr
+                });
                 
                 
     sleep(10)
