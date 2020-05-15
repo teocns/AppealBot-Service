@@ -30,7 +30,7 @@ while 1:
                 save_location
             )
             print ('[DETECTOR] Performing for '+selfie['filename'])
-            detections = darknet.performDetect('/var/appealbot/selfies/9-2000-1821-2973-1493-3293-2215-2219-2580-70.jpg')
+            detections = darknet.performDetect(save_location)
             if len(detections) < 1:
                 print ("Not found")
             else:
