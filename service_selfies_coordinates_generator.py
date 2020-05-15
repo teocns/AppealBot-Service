@@ -4,8 +4,9 @@ import time
 import sys
 from tempfile import TemporaryDirectory
 import urllib
-
 from time import sleep
+sys.path.insert(0, '/var/AI/papersheet-detection/')
+from post_detection import getAccurateBox
 
 SLASH = str( '\\' if os.name == 'nt' else '/' )
 
@@ -28,8 +29,24 @@ while 1:
                 download_url,
                 save_location
             )
-            print(darknet.performDetect('/var/appealbot/selfies/9-2000-1821-2973-1493-3293-2215-2219-2580-70.jpg'))
-            # Load detector (kewl)
+            print ('[DETECTOR] Performing for '+selfie['filename'])
+            detections = darknet.performDetect('/var/appealbot/selfies/9-2000-1821-2973-1493-3293-2215-2219-2580-70.jpg')
+            if len(detections) < 1:
+                print ("Not found")
+            else:
+                # Get detection with highest confidence ( bruh )
+                detection = sorted(detections,lambda x: x[1], revere = True)[0]
+                confidence = str(int(detection[1])) + "%"
+                print (f"Found with confidence: {confidence}")
+                realBoxCoordinates = getAccurateBox({
+                    "center_x":detection[2][0],
+                    "center_y":detection[2][1],
+                    "width":detection[2][2],
+                    "height":detection[2][3]
+                })
+                print(realBoxCoordinates)
+                
+                
     sleep(10)
                 
 
