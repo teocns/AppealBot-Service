@@ -5,7 +5,7 @@ import sys
 from tempfile import TemporaryDirectory
 import urllib
 from time import sleep
-sys.path.insert(0, '/var/AI/papersheet-detection/')
+sys.path.insert(0, '/var/appealbot/papersheet-detection/')
 from post_detection import getAccurateBox
 
 SLASH = str( '\\' if os.name == 'nt' else '/' )
