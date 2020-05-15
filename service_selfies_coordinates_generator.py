@@ -50,7 +50,7 @@ while 1:
                 })
                 coordStr = ""
                 for c in realBoxCoordinates:
-                    coordStr = coordStr + c[0] + "-" +c[1]
+                    coordStr = coordStr + str(c[0]) + "-" + str(c[1])
                 coordStr = coordStr[0:-(len(coordStr)-1)]
                 req('set_selfies_coordinates_generator',{
                     'selfie_id': selfie['id'],
