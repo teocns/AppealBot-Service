@@ -41,7 +41,7 @@ with TemporaryDirectory() as tmpdir:
                 # Get detection with highest confidence ( bruh )
                 
                 detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
-                
+                print(detection)
                 confidence = str(int(detection[1]*100)) + "%"
                 
                 c = getAccurateBox(save_location,{
