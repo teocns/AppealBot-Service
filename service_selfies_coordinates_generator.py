@@ -22,7 +22,7 @@ with TemporaryDirectory() as tmpdir:
         if selfie:    
             # Download selfie
             download_url = "https://cdn.appealbot.net/"+selfie['filename']
-            tmpdirStr = str(tmpdir)
+            tmpdirStr = str(tmpdir.name)
             save_location = tmpdirStr+SLASH+selfie['filename']
             urllib.request.urlretrieve(
                 download_url,
