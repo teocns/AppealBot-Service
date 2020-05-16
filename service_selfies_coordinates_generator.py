@@ -16,11 +16,12 @@ SLASH = str( '\\' if os.name == 'nt' else '/' )
 sys.path.insert(0, '/var/AI/darknet/')
 import darknet
 darknet.performDetect(initOnly=True)
-with TemporaryDirectory() as tmpdir:
-    while 1:
-        selfie = req('get_service_selfies_coordinates_generator')
-        if selfie:    
-            # Download selfie
+
+while 1:
+    selfie = req('get_service_selfies_coordinates_generator')
+    if selfie:    
+        # Download selfie
+        with TemporaryDirectory() as tmpdir:
             download_url = "https://cdn.appealbot.net/"+selfie['filename']
             tmpdirStr = str(tmpdir.name)
             save_location = tmpdirStr+SLASH+selfie['filename']
@@ -67,8 +68,7 @@ with TemporaryDirectory() as tmpdir:
                     'selfie_id': selfie['id'],
                     'coordinates': coordStr
                 })
-        
                     
-        sleep(10)
+    sleep(10)
                     
 
