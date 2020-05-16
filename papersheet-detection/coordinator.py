@@ -24,7 +24,6 @@ OUTPUT_FOLDER = r"C:\\Users\\Teo\\Documents\\GitHub\\AppealBot-Service\\papershe
 
 
 def generateCoordinates(image,draw = False):
-    time.sleep(123)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     # ----------------------------------
     # Calculate average and median color
