@@ -61,7 +61,7 @@ while 1:
                 x3 = c['p3'][0]
                 y3 = c['p3'][1]
                 x4 = c['p4'][0]
-                y5 = c['p4'][1]
+                y4 = c['p4'][1]
                 
                 coordStr = f"{x1}-{y1}-{x2}-{y2}-{x3}-{y3}-{x4}-{y4}"
                 print (f"Found with confidence: {confidence}; Coords: {coordStr}")
