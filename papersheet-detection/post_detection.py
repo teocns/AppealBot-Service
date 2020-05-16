@@ -54,10 +54,10 @@ def getAccurateBox(imagePath,detection):
     img = cv2.imread(imagePath)
     height,width,_ = img.shape
     
-    detection_width = int( detection['width'] )
-    detection_height = int( detection['height'] )
-    detection_x1 =   int( detection['center_x'] ) - int(detection_width/2)
-    detection_y1 =   int( detection['center_y'] ) - int(detection_height/2)
+    detection_width = max(0,int( detection['width'] ))
+    detection_height = max(0,int( detection['height'] ))
+    detection_x1 =   max(0,int( detection['center_x'] ) - int(detection_width/2))
+    detection_y1 =   max(0,int( detection['center_y'] ) - int(detection_height/2))
     
     old_box = {
         "p1":[detection_x1,detection_y1],
