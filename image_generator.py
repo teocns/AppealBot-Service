@@ -209,18 +209,19 @@ def generate(code, fullname, username,coordinates, filename):
     selfie.paste(newhandwriting, (0, 0), newhandwriting)
 
     # Generate random filename
-    filename = str(randrange(123567,999999))+"_"+str(randrange(123567,999999))+"_"+str(randrange(123567,999999))+".jpg"
+    #filename = str(randrange(123567,999999))+"_"+str(randrange(123567,999999))+"_"+str(randrange(123567,999999))+".jpg"
     
     buffered = BytesIO()
-    selfie.save(buffered, quality=100, format="PNG")
-    img_str = base64.b64encode(buffered.getvalue())
+    selfie.save(buffered, quality=75, format="JPEG")
+    #selfie.save("C:\\Users\\Teo\\Documents\\GitHub\\AppealBot-Service\\TESTS\\"+str(time.time())+".jpeg", quality=75, format="JPEG")
+    return base64.b64encode(buffered.getvalue())
     #selfie.show()
-    return img_str
+    #return img_str
     # Save image
-    selfie.save(filename, quality=100)
+    #selfie.save(filename, quality=100)
     # Move saved file to directory
-    os.rename(filename,r'generated/'+filename)
-    return r'generated/'+filename
+    #os.rename(filename,r'generated/'+filename)
+    #return r'generated/'+filename
     
     # TODO cur.execute("UPDATE emails SET file_path = %(file)s WHERE inbox = %(inbox)s", { 'file':outFile, 'inbox':rqig_inbox })
 
