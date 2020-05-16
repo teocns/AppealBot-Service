@@ -39,8 +39,9 @@ while 1:
                 });
             else:
                 # Get detection with highest confidence ( bruh )
-                exit(detection)
+                
                 detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
+                exit(detection)
                 confidence = str(int(detection[1]*100)) + "%"
                 
                 realBoxCoordinates = getAccurateBox(save_location,{
