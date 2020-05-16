@@ -5,6 +5,7 @@ import sys
 from tempfile import TemporaryDirectory
 import urllib
 from time import sleep
+#sys.path.insert(0, 'C:\\Users\\Teo\\Documents\\GitHub\\AppealBot-Service\\papersheet-detection')
 sys.path.insert(0, '/var/appealbot/papersheet-detection/')
 from post_detection import getAccurateBox
 
@@ -30,7 +31,8 @@ while 1:
                 save_location
             )
             print ('[DETECTOR] Performing for '+selfie['filename'])
-            detections = darknet.performDetect(save_location)
+            #detections = darknet.performDetect(save_location)
+            detections = [('papersheet', 0.9260228872299194, (586.1337890625, 1471.395751953125, 992.4650268554688, 593.9584350585938))]
             if len(detections) < 1:
                 print ("Not found")
                 req('set_service_selfies_coordinates_generator',{
@@ -41,7 +43,7 @@ while 1:
                 # Get detection with highest confidence ( bruh )
                 
                 detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
-                exit(detection)
+                
                 confidence = str(int(detection[1]*100)) + "%"
                 
                 realBoxCoordinates = getAccurateBox(save_location,{

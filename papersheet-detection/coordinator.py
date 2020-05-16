@@ -34,7 +34,7 @@ def generateCoordinates(image,draw = False):
 
     ret,  gray= cv2.threshold(
         gray,
-        median * 0.875,
+        median * 0.95,
         255,
         cv2.THRESH_BINARY,
     )
@@ -47,12 +47,16 @@ def generateCoordinates(image,draw = False):
     # Get with the largest area
 
     c = cnts[0]
-    #cv2.drawContours(crop_img, [c], 0, (0, 128, 0), 2)
+    
+    
+    
     peri = cv2.arcLength(c, True)
     approx = cv2.approxPolyDP(c, 0.02 * peri, True)
     rect = cv2.minAreaRect(approx)
     box = cv2.boxPoints(rect)
     box = np.int0(box)
+    # cv2.drawContours(asd, [box], 0, (0, 128, 0), 2)
+    # cv2.imwrite('test\\detection.jpg',asd)
     if draw:
         cv2.drawContours(image, [box], 0, (0, 128, 0), 2)
     return box
