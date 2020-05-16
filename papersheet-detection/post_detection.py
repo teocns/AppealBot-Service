@@ -81,7 +81,7 @@ def getAccurateBox(imagePath,detection):
 	box = [addDiff(p) for p in box]
 	print(f"TESTT: {str(box)}")
 	new_box = old_box
- 	print(f"TESTT: {str(new_box)}")
+	print(f"TESTT: {str(new_box)}")
 	new_box["p1"][0] =  box[2][0]
 	new_box["p1"][1] =  box[2][1]
 	new_box["p2"][0] =  box[3][0]
