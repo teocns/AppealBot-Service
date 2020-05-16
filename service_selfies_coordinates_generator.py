@@ -39,6 +39,7 @@ while 1:
                 });
             else:
                 # Get detection with highest confidence ( bruh )
+                exit(detection)
                 detection = sorted(detections,key= lambda x: x[1], reverse = True)[0]
                 confidence = str(int(detection[1]*100)) + "%"
                 
