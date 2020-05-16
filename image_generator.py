@@ -104,15 +104,19 @@ def generate(code, fullname, username,coordinates, filename):
 
     response = requests.get(
         "https://api.handwriting.io/render/png?"+url, auth=HTTPBasicAuth(key1, key2), stream=True)
-    with open('save.png', 'wb') as out_file:
-        shutil.copyfileobj(response.raw, out_file)
+    
+    
+    buffer_save_png = BytesIO()
+    shutil.copyfileobj(response.raw, buffer_save_png)
+    # with open('save.png', 'wb') as out_file:
+    #     shutil.copyfileobj(response.raw, out_file)
 
     """url_auth = "https://"+key1+":"+key2+"@api.handwriting.io/render/png?"+url
     print(url_auth)
     urlretrieve (url_auth, 'save.png')"""
-
+    
     # Separate RGB arrays
-    im = Image.open('save.png')
+    im = Image.open(buffer_save_png)
     R, G, B, A = im.convert('RGBA').split()
     r = R.load()
     g = G.load()
@@ -132,12 +136,12 @@ def generate(code, fullname, username,coordinates, filename):
 
     # Merge just the R channel as all channels
     im = Image.merge('RGBA', (R, G, B, A))
-    im.save("black_and_white.png")
+    #im.save("black_and_white.png")
 
-    image = Image.open('black_and_white.png')
-    ready = autocrop_image(image)
+    #image = Image.open('black_and_white.png')
+    ready = autocrop_image(im)
 
-    ready.save("black_and_white-fixed.png")
+    #ready.save("black_and_white-fixed.png")
 
 
     print("using file: "+filename)
@@ -190,7 +194,7 @@ def generate(code, fullname, username,coordinates, filename):
     selfie = Image.open(filename)
 
     
-    handwriting = Image.open('black_and_white-fixed.png')
+    handwriting = ready
     handwriting = handwriting.filter(
         ImageFilter.GaussianBlur(radius=2)
     )
