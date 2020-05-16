@@ -78,7 +78,8 @@ def getAccurateBox(imagePath,detection):
 		p[0] += DiffX
 		p[1] += DiffY
 	
-	box = map(addDiff,box[0])
+	box = [addDiff(p) for p in box]
+	new_box = old_box
 	new_box["p1"][0] =  box[2][0]
 	new_box["p1"][1] =  box[2][1]
 	new_box["p2"][0] =  box[3][0]
