@@ -46,25 +46,31 @@ while 1:
                 
                 confidence = str(int(detection[1]*100)) + "%"
                 
-                realBoxCoordinates = getAccurateBox(save_location,{
+                c = getAccurateBox(save_location,{
                     "center_x":detection[2][0],
                     "center_y":detection[2][1],
                     "width":detection[2][2],
                     "height":detection[2][3]
                 })
                 
-                coordStr = ""
-                for c in realBoxCoordinates:
-                    coordStr = coordStr + str(c[0]) + "-" + str(c[1]) + "-"
-                coordStr = coordStr[0:(len(coordStr)-1)]
+                
+                x1 = c['p1'][0]
+                y1 = c['p1'][1]
+                x2 = c['p2'][0]
+                y2 = c['p2'][1]
+                x3 = c['p3'][0]
+                y3 = c['p3'][1]
+                x4 = c['p4'][0]
+                y5 = c['p4'][1]
+                
+                coordStr = f"{x1}-{y1}-{x2}-{y2}-{x3}-{y3}-{x4}-{y4}"
                 print (f"Found with confidence: {confidence}; Coords: {coordStr}")
                 req('set_service_selfies_coordinates_generator',{
                     'selfie_id': selfie['id'],
                     'coordinates': coordStr
-                });
+                })
                 
                 
     sleep(10)
                 
 
-    
