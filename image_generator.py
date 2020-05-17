@@ -164,6 +164,7 @@ def generate(code, fullname, username,coordinates, filename):
     # print("scaling factor: "+str(scalingFactor))
 
     # extract coords and multiple by scalingFactor
+    print(arr)
     x1 = int(float(arr[0]))
     y1 = int(float(arr[1]))
     x2 = int(float(arr[2]))
