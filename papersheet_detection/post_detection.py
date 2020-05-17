@@ -1,6 +1,8 @@
 from operator import mul
+from scipy.spatial import distance as dist
 from collections import namedtuple
 import time
+import distutils
 import numpy as np
 import argparse
 import cv2
