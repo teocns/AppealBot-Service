@@ -22,9 +22,8 @@ while 1:
     if selfie:    
         # Download selfie
         with TemporaryDirectory() as tmpdir:
-            exit(tmpdir)
             download_url = "https://cdn.appealbot.net/"+selfie['filename']
-            tmpdirStr = str(tmpdir.name)
+            tmpdirStr = str(tmpdir.name) if os.name == 'nt' else str(tmpdir)
             save_location = tmpdirStr+SLASH+selfie['filename']
             urllib.request.urlretrieve(
                 download_url,
