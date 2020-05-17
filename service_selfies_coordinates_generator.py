@@ -1,25 +1,25 @@
-import os
-from api import req
-import time
 import sys
-from tempfile import TemporaryDirectory
-import urllib
-from time import sleep
 #sys.path.insert(0, 'C:\\Users\\Teo\\Documents\\GitHub\\AppealBot-Service\\papersheet-detection')
-
 
 # Load darknet 
 sys.path.insert(0, '/var/AI/darknet/')
-
-
-
-
 import darknet
 darknet.performDetect(initOnly=True)
+
+
+import os
+from api import req
+import time
+from tempfile import TemporaryDirectory
+import urllib
+from time import sleep
+
 print('Importing CV2 papersheet-detection library')
 sys.path.insert(1, '/var/appealbot/papersheet-detection/')
 from post_detection import getAccurateBox
+
 SLASH = str( '\\' if os.name == 'nt' else '/' )
+
 print('Beginning API query loop')
 while True:
     print('Requesting selfie..')
