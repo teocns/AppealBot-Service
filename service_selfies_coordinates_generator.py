@@ -16,8 +16,9 @@ SLASH = str( '\\' if os.name == 'nt' else '/' )
 sys.path.insert(0, '/var/AI/darknet/')
 import darknet
 darknet.performDetect(initOnly=True)
-
-while 1:
+print('Beginning API query loop')
+while True:
+    print('Requesting selfie..')
     selfie = req('get_service_selfies_coordinates_generator')
     if selfie:    
         # Download selfie
