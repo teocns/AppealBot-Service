@@ -11,14 +11,15 @@ from time import sleep
 # Load darknet 
 sys.path.insert(0, '/var/AI/darknet/')
 
-sys.path.insert(1, '/var/appealbot/papersheet-detection/')
-from post_detection import getAccurateBox
 
-SLASH = str( '\\' if os.name == 'nt' else '/' )
 
 
 import darknet
 darknet.performDetect(initOnly=True)
+print('Importing CV2 papersheet-detection library')
+sys.path.insert(1, '/var/appealbot/papersheet-detection/')
+from post_detection import getAccurateBox
+SLASH = str( '\\' if os.name == 'nt' else '/' )
 print('Beginning API query loop')
 while True:
     print('Requesting selfie..')
