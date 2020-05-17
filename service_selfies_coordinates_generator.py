@@ -1,7 +1,6 @@
 import sys
-
 # Load darknet 
-sys.path.insert(1, '/var/AI/darknet/')
+sys.path.append('/var/AI/darknet/')
 import darknet
 darknet.performDetect(initOnly=True)
 
@@ -15,8 +14,8 @@ import urllib
 from time import sleep
 
 print('Importing CV2 papersheet-detection library')
-sys.path.insert(2, '/var/appealbot/papersheet-detection/')
-from post_detection import getAccurateBox
+
+from papersheet_detection import post_detection
 
 SLASH = str( '\\' if os.name == 'nt' else '/' )
 
@@ -52,7 +51,7 @@ while True:
                     print(detection)
                     confidence = str(int(detection[1]*100)) + "%"
                     
-                    c = getAccurateBox(save_location,{
+                    c = post_detection.getAccurateBox(save_location,{
                         "center_x":detection[2][0],
                         "center_y":detection[2][1],
                         "width":detection[2][2],
