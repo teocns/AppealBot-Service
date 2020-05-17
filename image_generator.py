@@ -164,14 +164,14 @@ def generate(code, fullname, username,coordinates, filename):
     # print("scaling factor: "+str(scalingFactor))
 
     # extract coords and multiple by scalingFactor
-    x1 = int(arr[0])
-    y1 = int(arr[1])
-    x2 = int(arr[2])
-    y2 = int(arr[3])
-    x3 = int(arr[4])
-    y3 = int(arr[5])
-    x4 = int(arr[6])
-    y4 = int(arr[7])
+    x1 = int(float(arr[0]))
+    y1 = int(float(arr[1]))
+    x2 = int(float(arr[2]))
+    y2 = int(float(arr[3]))
+    x3 = int(float(arr[4]))
+    y3 = int(float(arr[5]))
+    x4 = int(float(arr[6]))
+    y4 = int(float(arr[7]))
 
     # tmpTuple = [x1, y1, x4, y4, x3, y3, x2, y2]
 
