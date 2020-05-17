@@ -5,10 +5,11 @@ sys.path.insert(1, '/var/AI/darknet/')
 import darknet
 darknet.performDetect(initOnly=True)
 
-exit('done')
+print('Loaded darknet')
 import os
 from api import req
 import time
+print('Loading tempfile')
 from tempfile import TemporaryDirectory
 import urllib
 from time import sleep
