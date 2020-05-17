@@ -72,7 +72,8 @@ while 1:
             'selfie_id': selfie['id'],
             'coordinates': coordStr
         })
-                    
-    sleep(10)
+    else:
+        print ('Server returned no selfie. Sleeping 30 seconds.')              
+        sleep(30)
                     
 
