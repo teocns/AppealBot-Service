@@ -158,7 +158,7 @@ def generate(code, fullname, username,coordinates, filename):
     arrn = arr[-1]
     arrn = arrn.split('.')
     
-    scalingFactor = 60
+    scalingFactor = 70
     # scalingFactor = 0.9 # scalingFactor / 100.0 # 100 w/o .0 will result in 0
     scalingFactor = scalingFactor / 100.0
     # print("scaling factor: "+str(scalingFactor))
