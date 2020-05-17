@@ -12,8 +12,7 @@ from post_detection import getAccurateBox
 SLASH = str( '\\' if os.name == 'nt' else '/' )
 
 # Load darknet 
-
-sys.path.insert(0, '/var/AI/darknet/')
+sys.path.insert(1, '/var/AI/darknet/')
 import darknet
 darknet.performDetect(initOnly=True)
 print('Beginning API query loop')
