@@ -46,7 +46,32 @@ from coordinator import generateCoordinates
         
         
     
-        
+def order_points(pts):
+    # sort the points based on their x-coordinates
+    xSorted = pts[np.argsort(pts[:, 0]), :]
+
+    # grab the left-most and right-most points from the sorted
+    # x-roodinate points
+    leftMost = xSorted[:2, :]
+    rightMost = xSorted[2:, :]
+
+    # now, sort the left-most coordinates according to their
+    # y-coordinates so we can grab the top-left and bottom-left
+    # points, respectively
+    leftMost = leftMost[np.argsort(leftMost[:, 1]), :]
+    (tl, bl) = leftMost
+
+    # now that we have the top-left coordinate, use it as an
+    # anchor to calculate the Euclidean distance between the
+    # top-left and right-most points; by the Pythagorean
+    # theorem, the point with the largest distance will be
+    # our bottom-right point
+    D = dist.cdist(tl[np.newaxis], rightMost, "euclidean")[0]
+    (br, tr) = rightMost[np.argsort(D)[::-1], :]
+
+    # return the coordinates in top-left, top-right,
+    # bottom-right, and bottom-left order
+    return np.array([tl, tr, br, bl], dtype="float32")
         
 # Otherwise it has no detection
     
@@ -70,13 +95,16 @@ def getAccurateBox(imagePath,detection):
     cropped =  img[detection_y1:detection_y1+detection_height,detection_x1:detection_x1+detection_width]
     
     
-    try:
-        box =  generateCoordinates(cropped)
-    except:
-        exit(cropped)
+    
+    box =  generateCoordinates(cropped)
+    
+    
+    box = order_points(box)
     
     DiffX = detection_x1
     DiffY = detection_y1
+    
+    
     
     def addDiff(p):
         p[0] += DiffX
@@ -90,13 +118,13 @@ def getAccurateBox(imagePath,detection):
     
     new_box = old_box
     
-    new_box["p1"][0] =  box[2][0]
-    new_box["p1"][1] =  box[2][1]
-    new_box["p2"][0] =  box[3][0]
-    new_box["p2"][1] =  box[3][1]
-    new_box["p3"][0] =  box[0][0]
-    new_box["p3"][1] =  box[0][1]
-    new_box["p4"][0] =  box[1][0]
-    new_box["p4"][1] =  box[1][1]
+    new_box["p1"][0] =  box[0][0]
+    new_box["p1"][1] =  box[0][1]
+    new_box["p2"][0] =  box[1][0]
+    new_box["p2"][1] =  box[1][1]
+    new_box["p3"][0] =  box[2][0]
+    new_box["p3"][1] =  box[2][1]
+    new_box["p4"][0] =  box[3][0]
+    new_box["p4"][1] =  box[3][1]
     
     return new_box
