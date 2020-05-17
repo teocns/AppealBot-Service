@@ -35,5 +35,5 @@ while True:
             print('Found no selfies to generate samples for. Sleeping 30 seconds.')
             time.sleep(30) 
     except Exception as ex:
-        print(ex)
+        raise ex
     
