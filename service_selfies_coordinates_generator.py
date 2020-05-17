@@ -22,6 +22,7 @@ while 1:
     if selfie:    
         # Download selfie
         with TemporaryDirectory() as tmpdir:
+            exit(tmpdir)
             download_url = "https://cdn.appealbot.net/"+selfie['filename']
             tmpdirStr = str(tmpdir.name)
             save_location = tmpdirStr+SLASH+selfie['filename']
