@@ -1,12 +1,11 @@
 import sys
-#sys.path.insert(0, 'C:\\Users\\Teo\\Documents\\GitHub\\AppealBot-Service\\papersheet-detection')
 
 # Load darknet 
-sys.path.insert(0, '/var/AI/darknet/')
+sys.path.insert(1, '/var/AI/darknet/')
 import darknet
 darknet.performDetect(initOnly=True)
 
-
+exit('done')
 import os
 from api import req
 import time
@@ -15,7 +14,7 @@ import urllib
 from time import sleep
 
 print('Importing CV2 papersheet-detection library')
-sys.path.insert(1, '/var/appealbot/papersheet-detection/')
+sys.path.insert(2, '/var/appealbot/papersheet-detection/')
 from post_detection import getAccurateBox
 
 SLASH = str( '\\' if os.name == 'nt' else '/' )
