@@ -48,7 +48,7 @@ while True:
     
     if data:
         try:
-            print(f"[{prttime()}] Verifying"+data['email'])
+            print(f"[{prttime()}] Verifying "+data['email'])
             pwd = data['password']
             pop_server = data['pop_server']
             pop3handler(data['email'], pwd, pop_server)
@@ -56,9 +56,11 @@ while True:
                     'email_id': data['id'],
                     'resolved': True
 			})
-        except:
+            print('OK')
+        except Exception as ex:
             req('email_verification_feedback',{
                     'email_id': data['id'],
                     'resolved': False
 			})
+            print (ex)
     sleep(10)

@@ -1,6 +1,7 @@
 import time
 from time import sleep
 from form_one import FormOne
+from form_two import FormTwo
 from constants import Constants
 
 from api import req
@@ -9,13 +10,13 @@ from helpers import prttime
 
 # Recap Background Service
 proxyHandler = ProxyHandler()
-print('[{prttime()}] Starting FORM_SUBMIT_SERVICE. Total proxies = {}'.format(proxyHandler.total_proxies))
-exit()
+print('[{}] Starting FORM_SUBMIT_SERVICE. Total proxies = {}'.format(prttime(),proxyHandler.total_proxies))
+
 while True:
 	# Start by Fetching Instagram Accounts
-	appeal_info = req('form_submit_service_fetch')
+	appeal_info = req('get_form_submit_service')
 
-	exit(appeal_info)
+	
 	if not appeal_info:
 		print(f"[{prttime()}] No appeal info found, sleeping 10 seconds")
 		sleep(10)
@@ -27,12 +28,22 @@ while True:
 		else:
 			print(f"[{appeal_info['ig_account_username']}] Submitting appeal without proxy...")
 		# Send FORM ONE
-		result = FormOne().submit(
-			appeal_info['ig_account_username'], 
-   			appeal_info['full_name'],
-	  		appeal_info['email'],
-			proxy
-		)
+  
+		result = None
+		if True:
+			result = FormTwo().submit(
+				appeal_info['ig_account_username'], 
+				appeal_info['full_name'],
+				appeal_info['email'],
+				proxy
+			)
+		else:
+			result = FormOne().submit(
+				appeal_info['ig_account_username'], 
+				appeal_info['full_name'],
+				appeal_info['email'],
+				proxy
+			)
 		# result = 'is_active'
 		if result == True:
 			# Form has been submitted, give feedback to the server

@@ -2,8 +2,8 @@ import requests
 import json
 from random import randrange
 from typing import Optional
-API_KEY = '67202033cd-69b1987d91-076395fe8a'
-GET_PROXIES_ENDPOINT = f'https://proxy6.net/api/{API_KEY}/getproxy/'
+
+
         
 class Proxy:
     ip = None
@@ -19,12 +19,14 @@ class Proxy:
         
 
 class ProxyHandler:
+    GET_PROXIES_ENDPOINT = f'https://proxy6.net/api/67202033cd-69b1987d91-076395fe8a/getproxy/'
     last_proxy_index_used = None
     proxies = []
     total_proxies = 0
     def __init__(self):
         try:
-            response = requests.get(GET_PROXIES_ENDPOINT)
+            response = requests.get(self.GET_PROXIES_ENDPOINT)
+            
             data = json.loads(response.text)
             for proxy_id in data['list']:
                 raw_data = data['list'][proxy_id]
