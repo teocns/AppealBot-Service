@@ -59,14 +59,14 @@ while True:
                     })
                     
                     
-                    x1 = int(c['p1'][0])
-                    y1 = int(c['p1'][1])
-                    x2 = int(c['p2'][0])
-                    y2 = int(c['p3'][1])
-                    x3 = int(c['p2'][0])
-                    y3 = int(c['p3'][1])
-                    x4 = int(c['p4'][0])
-                    y4 = int(c['p4'][1])
+                    x1 = str(int(c['p1'][0]))
+                    y1 = str(int(c['p1'][1]))
+                    x2 = str(int(c['p2'][0]))
+                    y2 = str(int(c['p3'][1]))
+                    x3 = str(int(c['p2'][0]))
+                    y3 = str(int(c['p3'][1]))
+                    x4 = str(int(c['p4'][0]))
+                    y4 = str(int(c['p4'][1]))
                     
                     coordStr = '-'.join([x1,y1,x2,y2,x3,y3,x4,y4])
                     print (f"Found with confidence: {confidence}; Coords: {coordStr}")
