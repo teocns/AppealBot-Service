@@ -117,7 +117,6 @@ def generate(code, fullname, username,coordinates, filename):
     
     # Separate RGB arrays
     im = Image.open(buffer_save_png)
-    print('Splitting RGBA colors')
     R, G, B, A = im.convert('RGBA').split()
     r = R.load()
     g = G.load()
@@ -153,7 +152,7 @@ def generate(code, fullname, username,coordinates, filename):
     
     # ig_id = arr0[1]
 
-    
+    # extract scalingFactor
     
     
     scalingFactor = 60
@@ -163,6 +162,7 @@ def generate(code, fullname, username,coordinates, filename):
 
     # extract coords and multiple by scalingFactor
     print(arr)
+    arr = [x for x in arr if x]
     x1 = int(float(arr[0]))
     y1 = int(float(arr[1]))
     x2 = int(float(arr[2]))
