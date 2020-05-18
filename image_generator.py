@@ -149,14 +149,11 @@ def generate(code, fullname, username,coordinates, filename):
     arr = coordinates.split('-')
 
     # extract idId
-    arr0 = arr[0]
-    arr0.replace('\\', '/')
-    arr0 = arr0.split('/')
+    
     # ig_id = arr0[1]
 
-    # extract scalingFactor
-    arrn = arr[-1]
-    arrn = arrn.split('.')
+    
+    
     
     scalingFactor = 60
     # scalingFactor = 0.9 # scalingFactor / 100.0 # 100 w/o .0 will result in 0
