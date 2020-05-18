@@ -117,6 +117,7 @@ def generate(code, fullname, username,coordinates, filename):
     
     # Separate RGB arrays
     im = Image.open(buffer_save_png)
+    print('Splitting RGBA colors')
     R, G, B, A = im.convert('RGBA').split()
     r = R.load()
     g = G.load()
