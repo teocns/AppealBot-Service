@@ -59,11 +59,11 @@ while True:
                     })
                     
                     
-                    y1 = int(c['p1'][1])
-                    x1 = int(c['p1'][0])
+                    y1 = int(c['p1'][0])
+                    x1 = int(c['p1'][1])
                     x2 = int(c['p2'][0])
-                    x3 = int(c['p3'][0])
-                    y2 = int(c['p2'][1])
+                    x3 = int(c['p3'][1])
+                    y2 = int(c['p2'][0])
                     y3 = int(c['p3'][1])
                     x4 = int(c['p4'][0])
                     y4 = int(c['p4'][1])
