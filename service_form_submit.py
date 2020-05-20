@@ -8,7 +8,7 @@ from api import req
 from proxy_handler import Proxy,ProxyHandler
 from helpers import prttime
 
-# Recap Background Service
+
 proxyHandler = ProxyHandler()
 print('[{}] Starting FORM_SUBMIT_SERVICE. Total proxies = {}'.format(prttime(),proxyHandler.total_proxies))
 

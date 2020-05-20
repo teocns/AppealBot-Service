@@ -24,21 +24,20 @@ class ProxyHandler:
     proxies = []
     total_proxies = 0
     def __init__(self):
-        try:
-            response = requests.get(self.GET_PROXIES_ENDPOINT)
-            
-            data = json.loads(response.text)
-            for proxy_id in data['list']:
-                raw_data = data['list'][proxy_id]
-                self.proxies.append(Proxy(
-                    ip=raw_data['ip'],
-                    port=raw_data['port'],
-                    user=raw_data['user'],
-                    password= raw_data['pass']
-                ))
-                self.total_proxies= self.total_proxies + 1
-        except:
-            pass
+        response = requests.get(self.GET_PROXIES_ENDPOINT)
+        data = json.loads(response.text)
+        for proxy_id in data['list']:
+            raw_data = data['list'][proxy_id]
+            if not 'http' in raw_data['type']:
+                continue
+            self.proxies.append(Proxy(
+                ip=raw_data['ip'],
+                port=raw_data['port'],
+                user=raw_data['user'],
+                password= raw_data['pass']
+            ))
+            self.total_proxies= self.total_proxies + 1
+
                 
     def getProxy(self):
         # We get proxies by cycling them (not random, not same everytime)
