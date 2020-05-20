@@ -58,7 +58,7 @@ while True:
             # Calculate smtp server based on pop server
             pop_serv = afs['pop_server']
             smtp_serv = "smtp."+".".join(str(pop_serv).split('.')[1:])
-            EmailHandler.submitEmail(
+            result = EmailHandler.submitEmail(
                 smtp_serv,
                 afs['email'],
                 afs['email_password'],
@@ -69,6 +69,12 @@ while True:
                 selfie_processed_base64_binary,
                 afs['selfie_cdn_resource_filename'] if selfie_processed_base64_binary is not None else None
             )
+            if result == False:
+                print('Email error')
+                result = req('handle_email_login_error', data = {
+                    'email_id':afs['email_id']
+                })
+                continue
             req('register_sent_email', data={
                 'appeal_process_id': afs['id'],
                 'reply_to': afs['message_id'],
@@ -87,6 +93,5 @@ while True:
                 'body':afs['message_to_send']
             })
         # delete generated image
-
         print(
             f"[{prttime()}] Email Submitted ({afs['ig_account_username']}) for AppealID {afs['id']}")

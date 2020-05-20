@@ -50,7 +50,7 @@ while True:
         ## end handleFbEmailFound()  
         def handleLoginErrorCallback():
             result = req('handle_email_login_error', data = {
-                'appeal_process_id':data['id']
+                'email_id':data['email_id']
             })
             
         pop3handler(data['pop_server'],data['email'],data['email_password'],handleFbEmailFound,loginErrorCallback=handleLoginErrorCallback)

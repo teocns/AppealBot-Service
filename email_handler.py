@@ -49,11 +49,12 @@ class EmailHandler:
 
         text = msg.as_string()
 
-        connection = smtplib.SMTP_SSL(smtp_server,465)
-
-        
-        connection.login(email_sender, password)
-        asd = connection.sendmail(email_sender, msg['To'], text)
+        try:
+            connection = smtplib.SMTP_SSL(smtp_server,465)
+            connection.login(email_sender, password)
+            asd = connection.sendmail(email_sender, msg['To'], text)
+        except:
+            return False
         connection.quit()
-
+        return False;
 
