@@ -18,20 +18,18 @@ from email.mime.multipart import MIMEMultipart
 
 class pop3handler:
 	
-	def __init__(self, server, email, password, handleEmail):
+	def __init__(self, server, email_origin, password, handleEmail):
 	
 		SRV = server
 		PORT = 995
 
-		USER = email
+		USER = email_origin
 		PASSWORD = password
 
 		mail_box = poplib.POP3_SSL(SRV, PORT)
 		
 		mail_box.user(USER)
 		mail_box.pass_(PASSWORD)
-		num_messages = None
-
 		num_messages = None
 
 		num_messages = len(mail_box.list()[1])
@@ -68,7 +66,6 @@ class pop3handler:
 				else:
 					from_output = e_from[0][0]
 			except Exception as ex:
-				print('Failed decoding email. Skipping:')
 				print(ex)
 				continue
 			if not 'facebook' in from_output:
