@@ -18,12 +18,12 @@ from email.mime.multipart import MIMEMultipart
 
 class pop3handler:
 	
-	def __init__(self, email_ru, password, handleEmail):
+	def __init__(self, server, email, password, handleEmail):
 	
-		SRV = "pop.mail.ru"
+		SRV = server
 		PORT = 995
 
-		USER = email_ru
+		USER = email
 		PASSWORD = password
 
 		mail_box = poplib.POP3_SSL(SRV, PORT)
@@ -67,12 +67,13 @@ class pop3handler:
 					from_output = e_from[0][0].decode(e_from[0][1])
 				else:
 					from_output = e_from[0][0]
-			except:
-				print('Failed decoding email. Skipping')
+			except Exception as ex:
+				print('Failed decoding email. Skipping:')
+				print(ex)
 				continue
 			if not 'facebook' in from_output:
 				#print ('Deleting non-facebook email')
-				mail_box.dele(i+1)
+				#mail_box.dele(i+1)
 				continue
 
 			# print(e_date[0][0])
@@ -98,6 +99,7 @@ class pop3handler:
 			exit = 0
 			code = None
 			email_response_status = 0
+			
 			for key, value in Constants.EMAIL_RESPONSE_STATUSES.items():
 				for n in value:
 					if n in e_body:

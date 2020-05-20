@@ -21,7 +21,7 @@ from urllib.request import urlopen, urlretrieve
 
 
 
-def generate(code, fullname, username,coordinates, filename):
+def generate(code, fullname, username,coordinates, PIL_boilerplate_image):
     # try:
 
     jobs = []
@@ -144,7 +144,7 @@ def generate(code, fullname, username,coordinates, filename):
     #ready.save("black_and_white-fixed.png")
 
 
-    print("using file: "+filename)
+    
 
     arr = coordinates.split('-')
 
@@ -161,7 +161,7 @@ def generate(code, fullname, username,coordinates, filename):
     # print("scaling factor: "+str(scalingFactor))
 
     # extract coords and multiple by scalingFactor
-    print(arr)
+    
     arr = [x for x in arr if x]
     x1 = int(float(arr[0]))
     y1 = int(float(arr[1]))
@@ -190,7 +190,7 @@ def generate(code, fullname, username,coordinates, filename):
 
     # print(x1,y1,x2,y2,x3,y3,x4,y4)
 
-    selfie = Image.open(filename)
+    selfie = PIL_boilerplate_image
 
     
     handwriting = ready

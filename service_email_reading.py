@@ -15,7 +15,7 @@ from helpers import prttime
 while True:
     try:
         data = req('get_for_reading_service')
-        #print(data)
+        
         try:
             a = data['email']
         except:
@@ -46,11 +46,14 @@ while True:
             result = req('register_email_received',data = current_email_data)
             if result['delete_email']:
                 print (result['message'])
-                mail_box.dele(email['index']+1)
+                #mail_box.dele(email['index']+1)
         ## end handleFbEmailFound()  
-        pop3handler(data['email'],data['email_password'],handleFbEmailFound)
-    except:
+        
+        pop3handler(data['pop_server'],data['email'],data['email_password'],handleFbEmailFound)
+    except Exception as ex:
         print(f'[{prttime()}] Exception occured - Skipping')
+        raise ex
+        
 
 
     sleep(10)

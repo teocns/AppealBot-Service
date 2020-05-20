@@ -7,7 +7,7 @@ import time
 import datetime
 import calendar
 
-
+import urllib
 
 from email.header import decode_header
 from constants import Constants
@@ -17,44 +17,43 @@ from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-
+import os
+SLASH = str( '\\' if os.name == 'nt' else '/' )
 class EmailHandler:
-	@staticmethod
-	def submitEmail(email_from, password, email_received_subject, email_to, in_reply_to, text=None, filepath=None):
-		
-		email_sender = email_from
-		email_receiver =  email_to.replace('>','').replace('Facebook <','')
+    @staticmethod
+    def submitEmail(smtp_server, email_from, password, email_received_subject, email_to, in_reply_to, text='', base64_binary_attachment=None, filename = None):
+        email_sender = email_from
+        email_receiver =  email_to.replace('>','').replace('Facebook <','')
 
-		msg = MIMEMultipart()
-		msg['From'] = email_sender
-		msg['To'] = email_receiver
-		#msg['To'] = email_receiver
-		msg['References'] = in_reply_to
-		msg['In-Reply-To'] = in_reply_to
-		#msg['Bcc'] = 'arthuraxton@gmail.com'
-		msg['Subject'] = 'RE: '+email_received_subject
+        msg = MIMEMultipart()
+        msg['From'] = email_sender
+        print('Sending email from :'+email_sender)
+        msg['To'] = "arthuraxton@gmail.com"
+        #msg['To'] = email_receiver
+        #msg['References'] = in_reply_to
+        #msg['In-Reply-To'] = in_reply_to
+        #msg['Bcc'] = 'arthuraxton@gmail.com'
+        msg['Subject'] = 'RE: '+email_received_subject
 
-		body = ''
-		msg.attach(MIMEText(body, 'plain'))
+        body = text
+        msg.attach(MIMEText(body, 'plain'))
 
-		if filepath:
-			filename = filepath
-			
-			attachment = open(filename, 'rb')
-			part = MIMEBase('application', 'octet_stream')
-			part.set_payload((attachment).read())
-			encoders.encode_base64(part)
-			part.add_header('Content-Disposition',
-							"attachment; filename= "+filename)
-			msg.attach(part)
+        if base64_binary_attachment:
+            filename = filename if filename else 'attachment.jpeg'
+            part = MIMEBase('image', 'jpeg')
+            part.set_payload(base64_binary_attachment.decode('utf-8'))
+            part.add_header('Content-Transfer-Encoding','base64')
+            part.add_header('Content-Disposition',
+                            "attachment; filename= "+filename)
+            msg.attach(part)
 
-		text = msg.as_string()
+        text = msg.as_string()
 
-		connection = smtplib.SMTP_SSL('smtp.mail.ru:465')
+        connection = smtplib.SMTP_SSL(smtp_server,465)
 
-		
-		connection.login(email_sender, password)
-		asd = connection.sendmail(email_sender, email_receiver, text)
-		connection.quit()
+        
+        connection.login(email_sender, password)
+        asd = connection.sendmail(email_sender, msg['To'], text)
+        connection.quit()
 
 

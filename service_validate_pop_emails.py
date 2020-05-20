@@ -44,6 +44,7 @@ class pop3handler:
 
 
 while True:
+    
     data = req('email_verification_fetch')
     
     if data:
@@ -51,6 +52,7 @@ while True:
             print(f"[{prttime()}] Verifying "+data['email'])
             pwd = data['password']
             pop_server = data['pop_server']
+            
             pop3handler(data['email'], pwd, pop_server)
             req('email_verification_feedback',{
                     'email_id': data['id'],
@@ -63,4 +65,7 @@ while True:
                     'resolved': False
 			})
             print (ex)
-    sleep(10)
+    else:
+        print ('No emails to verify found')
+        sleep(10)
+    sleep(3)
