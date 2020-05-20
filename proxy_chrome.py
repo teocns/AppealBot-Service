@@ -63,7 +63,7 @@ def proxy_chrome(PROXY_HOST,PROXY_PORT,PROXY_USER,PROXY_PASS):
             "pass": PROXY_PASS,
         }
     import os
-    SLASH = "/" if os.name !== 'nt' else "\\"
+    SLASH = "/" if os.name != 'nt' else "\\"
     pluginfile = os.getcwd()+SLASH+'extension'+SLASH+'proxy_auth_plugin.zip'
     with open(pluginfile, 'w+') as zp:
         pass
