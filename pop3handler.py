@@ -18,7 +18,7 @@ from email.mime.multipart import MIMEMultipart
 
 class pop3handler:
 	
-	def __init__(self, server, email_origin, password, handleEmail):
+	def __init__(self, server, email_origin, password, handleEmail,loginErrorCallback):
 	
 		SRV = server
 		PORT = 995
@@ -28,8 +28,12 @@ class pop3handler:
 
 		mail_box = poplib.POP3_SSL(SRV, PORT)
 		
-		mail_box.user(USER)
-		mail_box.pass_(PASSWORD)
+		try:
+			mail_box.user(USER)
+			mail_box.pass_(PASSWORD)
+		except:
+			loginErrorCallback()
+			return
 		num_messages = None
 
 		num_messages = len(mail_box.list()[1])

@@ -48,8 +48,10 @@ while True:
                 print (result['message'])
                 #mail_box.dele(email['index']+1)
         ## end handleFbEmailFound()  
-        
-        pop3handler(data['pop_server'],data['email'],data['email_password'],handleFbEmailFound)
+        def handleLoginErrorCallback():
+            result = req('handle_email_error', email_id = data['email_id'])
+            
+        pop3handler(data['pop_server'],data['email'],data['email_password'],handleFbEmailFound,loginErrorCallback=handleLoginErrorCallback)
     except Exception as ex:
         print(f'[{prttime()}] Exception occured - Skipping')
         raise ex
