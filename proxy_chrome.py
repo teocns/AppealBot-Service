@@ -62,9 +62,9 @@ def proxy_chrome(PROXY_HOST,PROXY_PORT,PROXY_USER,PROXY_PASS):
             "user": PROXY_USER,
             "pass": PROXY_PASS,
         }
-    import os
-    SLASH = "/" if os.name != 'nt' else "\\"
-    pluginfile = os.getcwd()+SLASH+'extension'+SLASH+'proxy_auth_plugin.zip'
+    import os 
+    
+    pluginfile = os.getcwd()+r'\extension\proxy_auth_plugin.zip' if os == 'nt' else '/var/appealbot/extension/proxy_auth_plugin.zip'
     with open(pluginfile, 'w+') as zp:
         pass
     with zipfile.ZipFile(pluginfile, 'w') as zp:
