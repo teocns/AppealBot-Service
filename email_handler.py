@@ -28,10 +28,11 @@ class EmailHandler:
         msg = MIMEMultipart()
         msg['From'] = email_sender
         print('Sending email from :'+email_sender)
-        msg['To'] = "arthuraxton@gmail.com"
-        #msg['To'] = email_receiver
-        #msg['References'] = in_reply_to
-        #msg['In-Reply-To'] = in_reply_to
+        print ('To:'+ email_receiver)
+        #msg['To'] = "mrkgmaster@gmail.com"
+        msg['To'] = email_receiver
+        msg['References'] = in_reply_to
+        msg['In-Reply-To'] = in_reply_to
         #msg['Bcc'] = 'arthuraxton@gmail.com'
         msg['Subject'] = 'RE: '+email_received_subject
 
@@ -48,13 +49,15 @@ class EmailHandler:
             msg.attach(part)
 
         text = msg.as_string()
-
+        result = True
         try:
             connection = smtplib.SMTP_SSL(smtp_server,465)
             connection.login(email_sender, password)
-            asd = connection.sendmail(email_sender, msg['To'], text)
-        except:
-            return False
+            asd = connection.sendmail(email_sender, email_receiver, text)
+        except Exception as ex:
+            raise ex
+            result = False
+        
         connection.quit()
-        return False;
+        return result;
 

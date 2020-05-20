@@ -46,8 +46,6 @@ while True:
             result = req('register_email_received',data = current_email_data)
             if result['delete_email']:
                 print (result['message'])
-                #mail_box.dele(email['index']+1)
-        ## end handleFbEmailFound()  
         def handleLoginErrorCallback():
             result = req('handle_email_login_error', data = {
                 'email_id':data['email_id']

@@ -58,6 +58,7 @@ while True:
             # Calculate smtp server based on pop server
             pop_serv = afs['pop_server']
             smtp_serv = "smtp."+".".join(str(pop_serv).split('.')[1:])
+            
             result = EmailHandler.submitEmail(
                 smtp_serv,
                 afs['email'],
@@ -74,14 +75,14 @@ while True:
                 result = req('handle_email_login_error', data = {
                     'email_id':afs['email_id']
                 })
-                continue
-            req('register_sent_email', data={
-                'appeal_process_id': afs['id'],
-                'reply_to': afs['message_id'],
-                'is_error': False,
-                'base64':selfie_processed_base64_binary.decode('utf-8') if selfie_processed_base64_binary else None,
-                'body':afs['message_to_send']
-            })
+            else:
+                req('register_sent_email', data={
+                    'appeal_process_id': afs['id'],
+                    'reply_to': afs['message_id'],
+                    'is_error': False,
+                    'base64':selfie_processed_base64_binary.decode('utf-8') if selfie_processed_base64_binary else None,
+                    'body':afs['message_to_send']
+                })
         except Exception as ex:
             print('[{prttime()}] -ERROR - Failed submitting email.')
             print(ex)
