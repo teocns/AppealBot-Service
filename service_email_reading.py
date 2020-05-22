@@ -54,7 +54,7 @@ while True:
         pop3handler(data['pop_server'],data['email'],data['email_password'],handleFbEmailFound,loginErrorCallback=handleLoginErrorCallback)
     except Exception as ex:
         print(f'[{prttime()}] Exception occured - Skipping')
-        
+        print(ex)
 
 
     sleep(10)
