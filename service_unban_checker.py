@@ -7,7 +7,7 @@ from time import gmtime, strftime
 
 # LOCAL LIBS
 
-from image_generator import ImageGenerator
+
 from constants import Constants
 
 from email_handler import EmailHandler
