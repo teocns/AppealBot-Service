@@ -64,7 +64,7 @@ def proxy_chrome(PROXY_HOST,PROXY_PORT,PROXY_USER,PROXY_PASS):
         }
     import os 
     
-    pluginfile = os.getcwd()+r'\extension\proxy_auth_plugin.zip' if os == 'nt' else '/var/log/python/proxy_auth_plugin.zip'
+    pluginfile = os.getcwd()+r'\extension\proxy_auth_plugin.zip' if os.name == 'nt' else '/var/log/python/proxy_auth_plugin.zip'
     with open(pluginfile, 'w+') as zp:
         pass
     with zipfile.ZipFile(pluginfile, 'w') as zp:
@@ -79,12 +79,12 @@ def proxy_chrome(PROXY_HOST,PROXY_PORT,PROXY_USER,PROXY_PASS):
     co.add_argument('--disable-infobars')
     co.add_argument('--no-sandbox')
     co.add_argument('--disable-dev-shm-usage')
-    co.add_experimental_option("excludeSwitches",["ignore-certificate-errors"])
+    co.add_experimental_option("excludeSwitches", ['enable-automation','enable-logging',"ignore-certificate-errors"])
+    co.add_experimental_option('useAutomationExtension', False)
     #location of chromedriver, please change it according to your project.
     
     co.add_extension(pluginfile)
     #co.add_argument("--window-size=%s" % "1,1")
-    co.add_experimental_option('excludeSwitches', ['enable-logging'])
     driver = webdriver.Chrome(chrome_options=co)
     #return the driver with added proxy configuration.
     return driver

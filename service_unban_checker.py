@@ -72,7 +72,7 @@ while True:
 					'ig_account_id': afs['id']
 				}
 			)
-		sleep(10)
+		sleep(1)
 	else:
 		print('Found no accounts..')
 		sleep(30)
