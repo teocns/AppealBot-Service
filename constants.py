@@ -24,24 +24,25 @@ class Constants:
 		 b'Ti preghiamo di rispondere a questa e-mail allegando una tua foto in cui reggi il codice scritto a mano riportato di seguito',
 		 b'crit sur une feuille de papier propre, suivi de votre nom',
 		 b'n duke mbajtur nj', #albanian fags
-		 b'https://help.instagram.com/contact/606967319425038/'
+		 b'until we’ve received a photo that meets'
 		 ],
 
 		'ACCOUNT_REACTIVATED':
 		[	b'Your account has been reactivated, and you should be able to access it now',
 		  b'ponovo aktiviran, pa biste mu sada trebali',
-		  b'investigated your report and it looks like this is no longer an issue',
-		b'account has been reactivated'
-    ],
+	 	  b'investigated your report and it looks like this is no longer an issue',
+			b'account has been reactivated'
+		],
 
 		'PROBLEM_LOGGING_IN':
 		[	b"It looks like you're having a problem logging in"],
 
 		'REJECTED':
-		[b"Your account has been disabled for not following the Instagram Community Guidelines and we won't be able to reactivate it",
+		[b"account has been disabled for",
 		 b'If you think your account was disabled by mistake, you can let us know from within the app',
 		 b"We disable Instagram accounts that don't follow our Terms of Use",
-		 b"determined that you're ineligible to use Instagram"
+		 b"determined that you're ineligible to use Instagram",
+		 b'https://help.instagram.com/contact/606967319425038',
    
 		],
 
