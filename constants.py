@@ -24,7 +24,7 @@ class Constants:
 		 b'Ti preghiamo di rispondere a questa e-mail allegando una tua foto in cui reggi il codice scritto a mano riportato di seguito',
 		 b'crit sur une feuille de papier propre, suivi de votre nom',
 		 b'n duke mbajtur nj', #albanian fags
-		 b'until we’ve received a photo that meets'
+		 b've received a photo that meets'
 		 ],
 
 		'ACCOUNT_REACTIVATED':
