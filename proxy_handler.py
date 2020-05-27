@@ -59,4 +59,3 @@ class ProxyHandler:
                 return self.last_proxy_index_used
             self.last_proxy_index_used = 0
             return 0
-json.dumps(ProxyHandler())
