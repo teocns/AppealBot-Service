@@ -30,6 +30,8 @@ class ProxyHandler:
             raw_data = data['list'][proxy_id]
             if not 'http' in raw_data['type']:
                 continue
+            if len(str(raw_data['ip']).split(':')) != 4:
+                continue
             self.proxies.append(Proxy(
                 ip=raw_data['ip'],
                 port=raw_data['port'],
@@ -57,3 +59,4 @@ class ProxyHandler:
                 return self.last_proxy_index_used
             self.last_proxy_index_used = 0
             return 0
+json.dumps(ProxyHandler())

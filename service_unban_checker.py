@@ -18,22 +18,22 @@ from api import req
 
 proxy_cookie_pairs = [
 	{
-		'cookie':'ig_did=FDAA567D-385E-4592-A4E6-5FC6025EDDFB; csrftoken=TaTxj65HDmuByy5ofPAI47vA25y4OJ5o; mid=XpD2WAALAAGk8UmgWqdNxytO5aBs; rur=ATN; ds_user_id=32069056468; sessionid=32069056468%3AyEpQTB7TG5a68z%3A1; urlgen="{\"196.19.178.42\": 19969}:1jN2ND:evVAvAvFVxzfYat9OhMQ8tG2eKU"',
+		'cookie':'ig_did=A56068B1-24A3-4F27-BD32-144E52F2CD1F; csrftoken=jWSmxNZQ0slNflXBYII50EDRs5ASRvBn; mid=Xp8JxAALAAFSbjpiQFEY4tlaHmjq; ds_user_id=32069056468; sessionid=32069056468%3A3F4Yb2S17Gpkuy%3A4; urlgen="{\"196.19.178.42\": 19969}:1jdnVs:dTmEOrxb5mVDbtv8IIZG33Fr96o"',
 		'proxy_ip_port':'196.19.178.42:8000',
 		'proxy_user_pass':'9WTX7a:eGuqLS'
 	},
 	{
-		'cookie':'ig_did=0006B4A0-1276-4A0C-8AB4-A8B9772B222B; csrftoken=Px3j1oDa8EgbK1B4J2JLa6cxkDOoCeXU; rur=FRC; mid=XpD3ZgALAAHKArWb4Eg9iV3Iu7ux; ds_user_id=31872466402; sessionid=31872466402%3AJNh3UnfSAqbp9R%3A1; urlgen="{\"196.19.177.247\": 19969}:1jN2Qv:GX2x-x7diCAe4t8K0NwnhNYrw-U"',
+		'cookie':'csrftoken=CpKAkAms5zTWZwUGlnyuOpSVSCKGvsdG; mid=Xs3qQgALAAF-QZ0okkNYmuDS_yhV; ig_did=32ED9DEC-7E2B-4880-A209-08147BE9C340; ds_user_id=31872466402; sessionid=31872466402%3ABUx5oVuOqa2Ie4%3A5; rur=FRC; urlgen="{\"196.19.177.247\": 19969}:1jdnXU:DkH2MKkrw_644yjUNSE2b2OCu-M"',
 		'proxy_ip_port':'196.19.177.247:8000',
 		'proxy_user_pass':'9WTX7a:eGuqLS'
 	},
 	{
-		'cookie':'ig_did=60082014-1E55-4558-A68A-E7BE517D06E6; csrftoken=epbY6w0ccG7fQLkRTCkc0Yd2MhuY6mvv; rur=FRC; mid=XpD37QALAAEKR8m5X9bmRzgUjGK2; ds_user_id=31862268157; sessionid=31862268157%3AgbeuVY3CXvXHQU%3A29; urlgen="{\"196.19.179.157\": 19969}:1jN2Sx:z6UPcbjN8R2yFGDOTkzLHJKpRmw"',
+		'cookie':'csrftoken=TiPm4NstNhVllOWV3x2h1JSPV076u8kE; rur=FRC; mid=Xs3q_wALAAH8oJbWQw7zWP7vvb8c; ig_did=89EE6022-ADAD-4D20-A5B1-91C79F603E4E; ds_user_id=31862268157; sessionid=31862268157%3A4tvYuFe9Bs28NR%3A17; urlgen="{\"196.19.179.157\": 19969}:1jdnaV:RT-rfot3N3aB6h2Nybp2OsDH9rs"',
 		'proxy_ip_port':'196.19.179.157:8000',
 		'proxy_user_pass':'9WTX7a:eGuqLS'
 	},
  	{
-		'cookie':'ig_did=BC07902C-A6F5-423E-8EE3-3B24EB1379A5; csrftoken=2BOaFjBeiuNBS0KQFPU27Df8ov04D9ct; rur=VLL; mid=XpD4pAALAAFY7yyn2qdEeyzoJfnx; ds_user_id=32224035567; sessionid=32224035567%3AuStXkxqKo9oGsD%3A12; urlgen="{\"196.19.179.154\": 19969}:1jN2WE:NMc9s7Ubtw6VWE2ReaEdzTFZYfs"',
+		'cookie':'csrftoken=1jfM909jyOrTrmEEoexPKAlLlgL8GAr1; mid=Xs3rVwALAAHtMoTr92ygutZ4-lmw; ig_did=9B9BED04-A3E6-466A-8DD6-8636306E594B; ds_user_id=32224035567; sessionid=32224035567%3AZ2UbbA479tXM3B%3A15; urlgen="{\"196.19.179.154\": 19969}:1jdnbw:6i9cjx-A-oSzXUBLHvPNz3OK42g"',
 		'proxy_ip_port':'196.19.179.154:8000',
 		'proxy_user_pass':'9WTX7a:eGuqLS'
 	}
@@ -56,6 +56,7 @@ while True:
 	  		'https' : f"https://{cur_proxy['proxy_user_pass']}@{cur_proxy['proxy_ip_port']}",
 			'http' : f"https://{cur_proxy['proxy_user_pass']}@{cur_proxy['proxy_ip_port']}",
    		} 
+		exit(f"https://www.instagram.com/{username}/?__a=1")
 		response = requests.get(
 			url=f'https://www.instagram.com/{username}/?__a=1',
 			headers={
@@ -64,6 +65,7 @@ while True:
 						'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0'
 			}
 		)
+		print(response.text)
 		if response.status_code == 200 and response.text != "{}":
 			print(f'[{username}] Is active, confirming unban')
 			req(
@@ -72,8 +74,9 @@ while True:
 					'ig_account_id': afs['id']
 				}
 			)
-		sleep(1)
+		sleep(5)
 	else:
 		print('Found no accounts..')
 		sleep(30)
+
 	

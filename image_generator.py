@@ -96,7 +96,7 @@ def generate(code, fullname, username,coordinates, PIL_boilerplate_image):
 
     charNewLine = '%0A'
     charMention = '%40'
-
+    
     url = 'handwriting_id='+rqHandwriting+'&text='+rqig_id+charNewLine+rqig_name+charNewLine+charMention+rqig_user + \
         '&handwriting_size='+rqHandwritingSize+'&handwriting_color=' + \
         rqHandwritingColor+'&width=auto&height=auto&random_seed='+rqRandomSeed
