@@ -61,7 +61,6 @@ while True:
 	  		'https' : f"https://{cur_proxy['proxy_user_pass']}@{cur_proxy['proxy_ip_port']}",
 			'http' : f"https://{cur_proxy['proxy_user_pass']}@{cur_proxy['proxy_ip_port']}",
    		} 
-		print(f"https://www.instagram.com/{username}/")
 		
 		response = requests.get(
 			url=f'https://www.instagram.com/{username}/',
@@ -73,7 +72,7 @@ while True:
 			}
 		)
 		if 'not-logged-in' in response.text:
-			print(' Not logged in!! Bad cookies. Status code :'+str(response.status_code))
+			print('Not logged in!! Bad cookies. Status code :'+str(response.status_code))
 		
 		if response.status_code == 200 and 'window._sharedData = {"' in response.text:
 			print(f'[{username}] Is active, confirming unban')
@@ -83,7 +82,7 @@ while True:
 					'ig_account_id': afs['id']
 				}
 			)
-		sleep(10)
+		sleep(30)
 	else:
 		print('Found no accounts..')
 		sleep(30)

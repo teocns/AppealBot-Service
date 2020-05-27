@@ -26,6 +26,9 @@ import json
 CHANGE_PASS_LLINK = 'https://mail.ru/'
 
 
+from multiprocessing.dummy import Pool as ThreadPool
+from multiprocessing.dummy import Manager as MultiProcessingManager
+
 class Browser:
 
     driver = None
@@ -36,6 +39,7 @@ class Browser:
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        options.headless = False
         self.driver = webdriver.Chrome(
             options=options
         )
@@ -62,14 +66,22 @@ def solveCaptcha():
     return job.get_captcha_text()
 
 
-while True:
-    email = req('reset_email_passwords')
-    if not email:
-        print('No accounts found')
-        sleep(30)
-        continue
+import os
+with open('order677242.txt','r') as f:
+    lines = f.readlines()
+    
+    
+threads = ThreadPool(1)
 
-    print(f"Logging in for {email['email']}")
+
+def task(line):
+    parts = line.split(':')
+    email = {
+        'email':parts[0].strip(),
+        'password':parts[1].strip()
+    }
+    
+    print(f"Logging in for {email}")
     if (email):
         # with Xvfb() as xvfb:
         with Browser() as browser:
@@ -130,9 +142,8 @@ while True:
                         'form.js-form button[type="submit"]').click()
                     sleep(5)
 
-                    browser.get(
-                        'https://e.mail.ru/settings/security?changepass&afterReload=1')
-                    print('done')
+                    
+                    
                     # continue
                     # sleep(5)
 
@@ -157,9 +168,12 @@ while True:
                     # browser.quit()
                 print('done')
                 
+                sleep(60)
+                
             except:
                 print('Failed changing password. Skipping')
             browser.quit()
     else:
         print('Finished!!')
-        break
+        
+threads.map(task,lines)

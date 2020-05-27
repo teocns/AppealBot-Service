@@ -26,6 +26,8 @@ class ProxyHandler:
     def __init__(self):
         response = requests.get(self.GET_PROXIES_ENDPOINT)
         data = json.loads(response.text)
+        if not 'list' in data:
+            exit('NO PROXIES AVAILABLE')
         for proxy_id in data['list']:
             raw_data = data['list'][proxy_id]
             if not 'http' in raw_data['type']:
