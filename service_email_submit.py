@@ -10,7 +10,7 @@ from image_generator import generate
 from constants import Constants
 import urllib
 from email_handler import EmailHandler
-from helpers import prttime
+from helpers import prttime, adjustJPEGRotation
 
 
 from api import req
@@ -43,7 +43,7 @@ while True:
             
             #vanilla_selfie_base64 = base64.b64encode(vanilla_selfie_buffer.getvalue())
             from PIL import Image
-            img = Image.open(vanilla_selfie_buffer)        
+            img =  adjustJPEGRotation( Image.open(vanilla_selfie_buffer) )       
             selfie_processed_base64_binary = generate(
                 afs['code'], afs['full_name'], afs['ig_account_username'], afs['selfie_coordinates'],  img)
     
