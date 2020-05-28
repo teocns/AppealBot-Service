@@ -12,7 +12,7 @@ print('Loading tempfile')
 from tempfile import TemporaryDirectory
 import urllib
 from time import sleep
-
+from helpers import adjustJPEGRotation
 print('Importing CV2 papersheet-detection library')
 
 from papersheet_detection import post_detection
@@ -35,6 +35,11 @@ while True:
                     download_url,
                     save_location
                 )
+                
+                from PIL import Image
+                
+                img = adjustJPEGRotation( Image.open(save_location) )
+                img.save(save_location,format ="JPEG")
                 print ('[DETECTOR] Performing for '+selfie['filename'])
                 detections = darknet.performDetect(save_location)
                 #detections = [('papersheet', 0.9260228872299194, (586.1337890625, 1471.395751953125, 992.4650268554688, 593.9584350585938))]
