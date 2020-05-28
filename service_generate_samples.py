@@ -27,7 +27,7 @@ while True:
             
             #vanilla_selfie_base64 = base64.b64encode(vanilla_selfie_buffer.getvalue())
             from PIL import Image, ExifTags
-            image =  adjustJPEGRotation( Image.open(vanilla_selfie_buffer) )
+            img =  adjustJPEGRotation( Image.open(vanilla_selfie_buffer) )
             
             base64 = generate('1337','@appealbot','Appeal Bot',selfie['coordinates'],img)
             after = Image.open(base64)
