@@ -30,7 +30,7 @@ while True:
             img =  adjustJPEGRotation( Image.open(vanilla_selfie_buffer) )
             
             base64 = generate('1337','@appealbot','Appeal Bot',selfie['coordinates'],img)
-            after = Image.open(base64)
+            
             
             print('Sample generated, sending feedback to backend api')
             req('set_generate_sample',{
