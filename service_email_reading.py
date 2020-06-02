@@ -57,4 +57,4 @@ while True:
         print(ex)
 
 
-    sleep(10)
+    
