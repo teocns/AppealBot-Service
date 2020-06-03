@@ -85,16 +85,17 @@ class pop3handler:
 			e_body = ''
 			if parsed_email.is_multipart():
 				pass
-				for payload in parsed_email.get_payload():
-					if payload.is_multipart(): ...
-					print('MULTIPAYLOAD ---------------')
-					print(payload.get_payload(decode=True))
-					e_body = "asdd"
+				# for payload in parsed_email.get_payload():
+				# 	if payload.is_multipart():
+				# 		print('MULTIPAYLOAD ---------------')
+				# 		print(payload.get_payload(decode=True))
 			else:
 				e_body = parsed_email.get_payload(decode=True)
-
-			if b'\n>>' in e_body:
-				e_body = e_body.split(b'\n>>')[0]
+			try:
+				if b'\n>>' in e_body:
+					e_body = e_body.split(b'\n>>')[0]
+			except:
+				pass
 			# print(e_body)
 			
 			exit = 0
