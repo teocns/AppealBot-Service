@@ -97,7 +97,7 @@ while True:
             if not proxy:
                 print ('Sleeping 180 seconds because no proxy is available. Preventing eventual IP blocks.')
                 sleep(60)
-    except Exception ex:
+    except Exception as ex:
         print('Exception occured:\n'+str(ex))
 
 
