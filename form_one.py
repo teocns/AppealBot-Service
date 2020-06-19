@@ -11,8 +11,8 @@ import random
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 from proxy_chrome import proxy_chrome
 from xvfbwrapper import Xvfb
-
-
+from helpers import prttime
+import os
 
 def submit_form_one(username, fullname, email, proxy):
     options = Options()
@@ -84,6 +84,13 @@ def submit_form_one(username, fullname, email, proxy):
                             "//*[contains(text(),'s you before requesting a review')]") ) > 0:
                 result = "confirm_its_you"
         else:
+            driver.save_screenshot(
+                os.path.join(
+                    os.getcwd(),
+                    'bad_form_submits',
+                    f"{username}_{prttime()}.png"
+                )
+            )
             result = False
 
 
