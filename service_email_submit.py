@@ -19,7 +19,14 @@ SLASH = str( '\\' if os.name == 'nt' else '/' )
 while True:
 
     afs = req('get_for_email_submit_service')
-    
+    # afs = {
+    #     'selfie_cdn_resource_filename':'565c89fbaea063211a2b621efe1a887b64056526.jpeg',
+    #     'ig_account_username':'thesneakr.net',
+    #     'selfie_coordinates':'136-256-272-256-272-295-136-295',
+    #     'code':'',
+    #     'full_name':'',
+    #     'must_send_attachment':True
+    # }
     if not afs:
         print(
             f"[{prttime()}] No accounts found to send appeal email. Sleeping 60 seconds")
@@ -43,11 +50,13 @@ while True:
             
             #vanilla_selfie_base64 = base64.b64encode(vanilla_selfie_buffer.getvalue())
             from PIL import Image
-            img =  adjustJPEGRotation( Image.open(vanilla_selfie_buffer) )       
+            img =  adjustJPEGRotation( Image.open( vanilla_selfie_buffer ) )       
+            
+            
             selfie_processed_base64_binary = generate(
                 afs['code'], afs['full_name'], afs['ig_account_username'], afs['selfie_coordinates'],  img)
     
-            
+            #exit('ok')
             
             if not selfie_processed_base64_binary:
                 raise Exception('Could not generate image')

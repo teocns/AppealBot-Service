@@ -51,11 +51,16 @@ class EmailHandler:
         text = msg.as_string()
         result = True
         try:
-            connection = smtplib.SMTP_SSL(smtp_server,465)
+            parts = smtp_server.split(':')
+            connection = None
+            if len(parts) == 2:
+                connection = smtplib.SMTP_SSL(parts[0],parts[1])
+            else:
+                connection = smtplib.SMTP_SSL(smtp_server,465)
             connection.login(email_sender, password)
             asd = connection.sendmail(email_sender, email_receiver, text)
+            connection.quit()
         except Exception as ex:
-            raise ex
             result = False
         
         connection.quit()

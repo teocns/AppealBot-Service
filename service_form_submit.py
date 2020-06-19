@@ -24,10 +24,11 @@ while True:
             sleep(10)
         
         else:
-
+            if appeal_info and appeal_info['previous_status'] == 0 or appeal_info['previous_status'] == '0':
+                print("ALERT\nALERT\nALERT\nALERT")
             proxy = proxyHandler.getProxy()
             if proxy:
-                print(f"[{appeal_info['instagram_account']['username']}] Submitting {appeal_info['appeal_form']['python_name']} with proxy {proxy.ip}:{proxy.port}...")
+                print(f"[{appeal_info['instagram_account']['username']}] Submitting {appeal_info['appeal_form']['python_name']} with proxy {proxy.ip}:{proxy.port} [AP {appeal_info['id']}]")
             else:
                 print(f"[{appeal_info['instagram_account']['username']}] Submitting {appeal_info['appeal_form']['python_name']} without proxy...")
             

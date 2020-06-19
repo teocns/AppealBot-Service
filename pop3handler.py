@@ -19,9 +19,15 @@ class pop3handler:
     
     def __init__(self, server, email_origin, password, handleEmail,loginErrorCallback):
     
+    
         SRV = server
         PORT = 995
-
+        
+        parts = server.split(':')
+        if len(parts) == 2:
+            SRV = parts[0]
+            PORT = parts[1]
+        
         USER = email_origin
         PASSWORD = password
 

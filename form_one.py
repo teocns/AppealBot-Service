@@ -16,7 +16,7 @@ import os
 
 def submit_form_one(username, fullname, email, proxy):
     options = Options()
-    options.headless = True
+    options.headless = False
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-infobars')
@@ -34,7 +34,7 @@ def submit_form_one(username, fullname, email, proxy):
         driver.set_page_load_timeout(30)
 
         driver.get('https://help.instagram.com/contact/1652567838289083')
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(15)
         driver.find_elements(
             By.XPATH, "//form[@action='/ajax/help/contact/submit/page']//label")[4].click()
 
@@ -68,8 +68,8 @@ def submit_form_one(username, fullname, email, proxy):
             'form button[type="submit"]').click()
 
         time.sleep(1)
-    
-    
+
+
         result = False
         if len( driver.find_elements( By.XPATH, 
                             "//*[contains(text(),'currently have any known issues to report.')]") ) > 0:
@@ -84,13 +84,7 @@ def submit_form_one(username, fullname, email, proxy):
                             "//*[contains(text(),'s you before requesting a review')]") ) > 0:
                 result = "confirm_its_you"
         else:
-            driver.save_screenshot(
-                os.path.join(
-                    os.getcwd(),
-                    'bad_form_submits',
-                    f"{username}_{prttime()}.png"
-                )
-            )
+            input('Press to continue')
             result = False
 
 

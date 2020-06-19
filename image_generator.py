@@ -215,7 +215,8 @@ def generate(code, fullname, username,coordinates, PIL_boilerplate_image):
     #filename = str(randrange(123567,999999))+"_"+str(randrange(123567,999999))+"_"+str(randrange(123567,999999))+".jpg"
     
     buffered = BytesIO()
-    selfie.save(buffered, quality=75, format="JPEG")
+    selfie.save(buffered, quality=70, format="JPEG")
+    
     #selfie.save("C:\\Users\\Teo\\Documents\\GitHub\\AppealBot-Service\\TESTS\\"+str(time.time())+".jpeg", quality=75, format="JPEG")
     return base64.b64encode(buffered.getvalue())
     #selfie.show()

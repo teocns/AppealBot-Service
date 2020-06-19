@@ -23,10 +23,16 @@ from helpers import prttime
 
 class pop3handler:
 
-    def __init__(self, email_ru, password, pop_server):
+    def __init__(self, email_ru, password,pop_server ):
 
         SRV = pop_server
         PORT = 995
+        
+        
+        parts = pop_server.split(':')
+        if len(parts) == 2:
+            SRV = parts[0]
+            PORT = parts[1]
 
         USER = email_ru
         PASSWORD = password
@@ -42,7 +48,17 @@ class pop3handler:
         num_messages = len(mail_box.list()[1])
         mail_box.quit()
 
-
+class smtphandler:
+    def __init__(self,email_sender,password,smtp_server):
+        parts = smtp_server.split(':')
+        connection = None
+        if len(parts) == 2:
+            connection = smtplib.SMTP_SSL(parts[0],parts[1])
+        else:
+            connection = smtplib.SMTP_SSL(smtp_server,465)
+        connection.login(email_sender, password)
+        connection.quit()
+    
 while True:
     
     data = req('email_verification_fetch')
@@ -52,8 +68,10 @@ while True:
             print(f"[{prttime()}] Verifying "+data['email'])
             pwd = data['password']
             pop_server = data['pop_server']
+            smtp_server = data['smtp_server']
             
             pop3handler(data['email'], pwd, pop_server)
+            smtphandler(data['email'], pwd, smtp_server)
             req('email_verification_feedback',{
                     'email_id': data['id'],
                     'resolved': True
