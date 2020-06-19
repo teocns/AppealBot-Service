@@ -1,7 +1,7 @@
 import requests
 import json
 
-REQUEST_ENDPOINT = "https://beta.appealbot.net/api/backend"
+REQUEST_ENDPOINT = "https://appealbot.net/api/backend"
 
 def req(action,data = {}):
     
