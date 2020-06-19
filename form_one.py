@@ -84,7 +84,6 @@ def submit_form_one(username, fullname, email, proxy):
                             "//*[contains(text(),'s you before requesting a review')]") ) > 0:
                 result = "confirm_its_you"
         else:
-            input('Press to continue')
             result = False
 
 
